@@ -1,0 +1,26 @@
+.header {
+  border: 1px solid red;
+}
+
+@mixin heading {
+  font-size: 71px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+
+.header {
+  .header-img {
+    img {
+      width: 100%;
+    }
+  }
+
+  .header-text {
+    padding: 23% 0 0 0;
+
+    h4 {
+      @include heading;
+    }
+  }
+}
