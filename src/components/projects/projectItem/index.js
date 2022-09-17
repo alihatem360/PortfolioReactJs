@@ -1,20 +1,46 @@
 import React, { Fragment } from "react";
-import logo from "../../../images/header-background.png";
-function index({ project }) {
+import "./style.css";
+function index({ project, proImag }) {
   return (
     <Fragment>
       <div className="card">
         <div className="img-container">
-          <img
-            src={`../../${project.imeg}`}
-            className="card-img-top"
-            alt="vdfgd"
-          />
+          <img src={project.imeg} className="card-img-top" alt="vdfgd" />
         </div>
         <div className="card-body">
           <h5 className="card-title">{project.title}</h5>
-          <p className="card-text">{`../../${project.imeg}`}</p>
-          <h5 className="card-title">{project.imeg}</h5>
+          <div className="card-text">
+            {project.technology.map((tech) => {
+              return (
+                <h5>
+                  <span class="badge bg-secondary">{tech}</span>
+                </h5>
+              );
+            })}
+          </div>
+          <div className="card-buttons position-relative">
+            <a className="btn" href={project.github} target="_blank">
+              GitHub <i class="fa-brands fa-github"></i>
+            </a>
+
+            {project.demo ? (
+              <a
+                className="btn  position-absolute top-0 end-0"
+                href={project.demo}
+                target="_blank"
+              >
+                Demo <i class="fa-solid fa-globe"></i>
+              </a>
+            ) : (
+              <a
+                className="btn position-absolute top-0 end-0"
+                href={project.video}
+                target="_blank"
+              >
+                video <i class="fa-solid fa-play"></i>
+              </a>
+            )}
+          </div>
         </div>
       </div>
     </Fragment>

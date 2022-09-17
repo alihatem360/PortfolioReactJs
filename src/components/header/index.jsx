@@ -1,5 +1,5 @@
 import "./style.css";
-import logo from "../../images/header-background.png";
+import logo from "../../images/header-background2.jpeg";
 const Header = () => {
   return (
     <>
@@ -13,12 +13,13 @@ const Header = () => {
 
           <div class=" col-lg-6 col-md-6 col-sm-12">
             <div className="header-text">
-              <h4>clubs</h4>
+              <h4>Hi👋</h4>
+              <h2>I'm Ali Hatem</h2>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
-                consequatur ea modi quaerat at eius aut quasi libero quo harum
-                qui possimus quod aliquam iusto, soluta maxime alias veritatis
-                nulla!
+                I'm a Computer Science Student, interested in some CS branches
+                like programming and web development. I aim to Be a software
+                engineer. I have a good knowledge of HTML & CSS, JavaScript, and
+                C++.
               </p>
             </div>
           </div>
