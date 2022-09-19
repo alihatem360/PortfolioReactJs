@@ -1,85 +1,135 @@
-[
-  {
-    "id": "1",
-    "imeg": "https://i.postimg.cc/65KZdrwy/1-4.png",
-    "title": "React-Ecommerce-App",
-    "technology": ["react", "bootstrap"],
-    "demo": "",
-    "video": "",
-    "github": "https://github.com/alihatem360/React-Ecommerce-app"
-  },
-  {
-    "id": "2",
-    "imeg": "https://i.postimg.cc/wjfs8nNm/1-1.png",
-    "title": "Portfolio Website",
-    "technology": ["html", "css", "javascript", "bootstrap"],
-    "demo": "https://alihatem360.github.io/Portfolio-Template/",
-    "github": "https://github.com/alihatem360/Portfolio-Template"
-  },
-  {
-    "id": "3",
-    "imeg": "https://i.postimg.cc/ZqWvTjPD/1-3.png",
-    "title": "Js Template",
-    "technology": ["html", "css", "javascript", "bootstrap"],
-    "demo": "https://alihatem360.github.io/Js-Template/",
-    "github": "https://github.com/alihatem360/Js-Template"
-  },
-  {
-    "id": "4",
-    "imeg": "https://i.postimg.cc/SxNzPmn4/1-2.png",
-    "title": "Restaurant Website",
-    "technology": ["html", "css", "javascript", "bootstrap"],
-    "demo": "https://alihatem360.github.io/Restaurant-Template/",
-    "github": "https://github.com/alihatem360/Restaurant-Template"
-  },
-  {
-    "id": "5",
-    "imeg": "https://i.postimg.cc/G3GY8MWW/1-1.jpg",
-    "title": "IMDb Movies",
-    "technology": ["C#", "ASP.NET", "MVC", "Entity Framework", "SQL"],
-    "demo": "",
-    "video": "https://drive.google.com/file/d/1S4OMuaCi7o0vESl79d6L7I-tKYAzIttw/view",
-    "github": "https://github.com/alihatem360/IMDb"
-  },
-  {
-    "id": "6",
-    "imeg": "https://i.postimg.cc/pdRNtVw0/2-2.png",
-    "title": "SpeakersReactjs",
-    "technology": ["react", "bootstrap"],
-    "demo": "https://speakersreactjs.pages.dev/",
-    "github": "https://github.com/alihatem360/SpeakersReactjs"
-  },
-  {
-    "id": "7",
-    "imeg": "https://i.postimg.cc/q7LPBV0p/2-3.png",
-    "title": "angularECommerceGradProj",
-    "technology": ["angular", "bootstrap", "Api"],
-    "demo": "https://21dfe692.angularecommercegradproj.pages.dev/login",
-    "github": "https://github.com/alihatem360/angularECommerceGradProj"
-  },
-  {
-    "id": "8",
-    "imeg": "https://i.postimg.cc/nzSN74C5/2-4.png",
-    "title": "agrica",
-    "technology": ["html", "sass", "javascript", "bootstrap"],
-    "demo": "https://alihatem360.github.io/agrica/",
-    "github": "https://github.com/alihatem360/agrica"
-  },
-  {
-    "id": "9",
-    "imeg": "https://i.postimg.cc/76ZpfsY0/2-1.png",
-    "title": "UdacityMyReadsProject",
-    "technology": ["react", "bootstrap", "Api"],
-    "demo": "https://udacitymyreadsproject.pages.dev/",
-    "github": "https://github.com/alihatem360/UdacityMyReadsProject"
-  },
-  {
-    "id": "10",
-    "imeg": "https://camo.githubusercontent.com/4dd2fc0717c3de67a83372885c1c4571e053669cf80ac80388dd354a4e13248e/68747470733a2f2f692e706f7374696d672e63632f676a727770785a322f312e706e67",
-    "title": "NFT-Shop",
-    "technology": ["react", "bootstrap", "Api"],
-    "demo": "",
-    "video": "https://youtu.be/Fu4gvovv2Pk",
-    "github": "https://github.com/alihatem360/NFT-Shop"
-  }
-]
+{
+  "Projects": [
+    {
+      "id": "1",
+      "imeg": "https://i.postimg.cc/65KZdrwy/1-4.png",
+      "title": "React-Ecommerce-App",
+      "technology": ["react", "bootstrap"],
+      "demo": "",
+      "video": "",
+      "github": "https://github.com/alihatem360/React-Ecommerce-app"
+    },
+    {
+      "id": "2",
+      "imeg": "https://i.postimg.cc/wjfs8nNm/1-1.png",
+      "title": "Portfolio Website",
+      "technology": ["html", "css", "javascript", "bootstrap"],
+      "demo": "https://alihatem360.github.io/Portfolio-Template/",
+      "github": "https://github.com/alihatem360/Portfolio-Template"
+    },
+    {
+      "id": "3",
+      "imeg": "https://i.postimg.cc/ZqWvTjPD/1-3.png",
+      "title": "Js Template",
+      "technology": ["html", "css", "javascript", "bootstrap"],
+      "demo": "https://alihatem360.github.io/Js-Template/",
+      "github": "https://github.com/alihatem360/Js-Template"
+    },
+    {
+      "id": "4",
+      "imeg": "https://i.postimg.cc/SxNzPmn4/1-2.png",
+      "title": "Restaurant Website",
+      "technology": ["html", "css", "javascript", "bootstrap"],
+      "demo": "https://alihatem360.github.io/Restaurant-Template/",
+      "github": "https://github.com/alihatem360/Restaurant-Template"
+    },
+    {
+      "id": "5",
+      "imeg": "https://i.postimg.cc/G3GY8MWW/1-1.jpg",
+      "title": "IMDb Movies",
+      "technology": ["C#", "ASP.NET", "MVC", "Entity Framework", "SQL"],
+      "demo": "",
+      "video": "https://drive.google.com/file/d/1S4OMuaCi7o0vESl79d6L7I-tKYAzIttw/view",
+      "github": "https://github.com/alihatem360/IMDb"
+    },
+    {
+      "id": "6",
+      "imeg": "https://i.postimg.cc/pdRNtVw0/2-2.png",
+      "title": "SpeakersReactjs",
+      "technology": ["react", "bootstrap"],
+      "demo": "https://speakersreactjs.pages.dev/",
+      "github": "https://github.com/alihatem360/SpeakersReactjs"
+    },
+    {
+      "id": "7",
+      "imeg": "https://i.postimg.cc/q7LPBV0p/2-3.png",
+      "title": "angularECommerceGradProj",
+      "technology": ["angular", "bootstrap", "Api"],
+      "demo": "https://21dfe692.angularecommercegradproj.pages.dev/login",
+      "github": "https://github.com/alihatem360/angularECommerceGradProj"
+    },
+    {
+      "id": "8",
+      "imeg": "https://i.postimg.cc/nzSN74C5/2-4.png",
+      "title": "agrica",
+      "technology": ["html", "sass", "javascript", "bootstrap"],
+      "demo": "https://alihatem360.github.io/agrica/",
+      "github": "https://github.com/alihatem360/agrica"
+    },
+    {
+      "id": "9",
+      "imeg": "https://i.postimg.cc/76ZpfsY0/2-1.png",
+      "title": "UdacityMyReadsProject",
+      "technology": ["react", "bootstrap", "Api"],
+      "demo": "https://udacitymyreadsproject.pages.dev/",
+      "github": "https://github.com/alihatem360/UdacityMyReadsProject"
+    },
+    {
+      "id": "10",
+      "imeg": "https://camo.githubusercontent.com/4dd2fc0717c3de67a83372885c1c4571e053669cf80ac80388dd354a4e13248e/68747470733a2f2f692e706f7374696d672e63632f676a727770785a322f312e706e67",
+      "title": "NFT-Shop",
+      "technology": ["react", "bootstrap", "Api"],
+      "demo": "",
+      "video": "https://youtu.be/Fu4gvovv2Pk",
+      "github": "https://github.com/alihatem360/NFT-Shop"
+    }
+  ],
+
+  "socials": [
+    {
+      "id": "1",
+      "name": "facebook",
+      "link": "https://www.facebook.com/profile.php?id=100012592714147"
+    },
+    {
+      "id": "2",
+      "name": "twitter",
+      "link": "https://twitter.com/AliHate21071474"
+    },
+    {
+      "id": "3",
+      "name": "github",
+      "link": "https://github.com/alihatem360"
+    },
+    {
+      "id": "4",
+      "name": "linkedin",
+      "link": "https://www.linkedin.com/in/aliihatem-753025203/"
+    },
+    {
+      "id": "5",
+      "name": "instagram",
+      "link": "https://www.instagram.com/alihatem5496/"
+    },
+    {
+      "id": "6",
+      "name": "youtube",
+      "link": "https://www.youtube.com/channel/UCZ1Z1Z1Z1Z1Z1Z1Z1Z1Z1Z1https://www.youtube.com/channel/UC8VBtReu7uU0w7bCVgE-KVA"
+    },
+    {
+      "id": "7",
+      "name": "email",
+      "link": "alihatemramadan5@gmail.com"
+    },
+    {
+      "id": "8",
+      "name": "phone",
+      "link": "+201026159353"
+    },
+    {
+      "id": "9",
+      "name": "whatsapp",
+      "link": "https://wa.me/"
+    }
+  ]
+}

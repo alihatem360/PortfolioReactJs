@@ -8,6 +8,7 @@ const Projects = () => {
   const [projectsDta, setProjectsData] = useState([]);
   useEffect(() => {
     projects.getProjects().then((data) => {
+      console.log(" : ======" + data[0]);
       setProjectsData(data[0]);
     });
   }, []);
@@ -19,7 +20,7 @@ const Projects = () => {
           <h2>Projects 🚀</h2>
         </div>
         <div className="projects row">
-          {projectsDta.map((project, index) => {
+          {projectsDta.map((project) => {
             return (
               <div className="col-lg-4" key={project.id}>
                 <PojectItem project={project} />

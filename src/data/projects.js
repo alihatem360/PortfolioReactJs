@@ -1,7 +1,11 @@
 import ProjectsApi from "./projects.json";
 
 const getProjects = () => {
-  return Promise.resolve([ProjectsApi]);
+  return Promise.resolve([ProjectsApi.Projects]);
 };
 
-export default { getProjects };
+const getSocials = () => {
+  return Promise.resolve([ProjectsApi.socials]);
+};
+
+export default { getProjects, getSocials };
