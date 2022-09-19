@@ -16,10 +16,9 @@ const Header = () => {
               <h4>Hi👋</h4>
               <h2>I'm Ali Hatem</h2>
               <p>
-                I'm a Computer Science Student, interested in some CS branches
-                like programming and web development. I aim to Be a software
-                engineer. I have a good knowledge of HTML & CSS, JavaScript, and
-                C++.
+                I'm a Computer Science Student, interested in some CS branches like
+programming and web development. I aim to Be a software engineer.
+I have a good knowledge of HTML & CSS, JavaScript, and React.js.
               </p>
             </div>
           </div>
