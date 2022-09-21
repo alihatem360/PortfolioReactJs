@@ -1,0 +1,15 @@
+.nav__bar {
+  ul {
+    width: 100%;
+    li {
+      a {
+        color: #fff;
+
+        &:hover,
+        &:focus {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

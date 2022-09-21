@@ -1,0 +1,9 @@
+.nav__bar ul {
+  width: 100%;
+}
+.nav__bar ul li a {
+  color: #fff;
+}
+.nav__bar ul li a:hover, .nav__bar ul li a:focus {
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

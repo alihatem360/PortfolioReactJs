@@ -13,7 +13,7 @@ function index({ project, proImag }) {
             {project.technology.map((tech) => {
               return (
                 <h5>
-                  <span class="badge bg-secondary">{tech}</span>
+                  <span class="badge ">{tech}</span>
                 </h5>
               );
             })}

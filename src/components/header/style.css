@@ -8,10 +8,11 @@
   -webkit-mask-repeat: no-repeat;
 }
 .header .header-img img {
-  width: 100%;
+  width: 90%;
 }
 .header .header-text {
   padding: 23% 0 0 0;
+  color: #fff;
 }
 .header .header-text h4 {
   font-size: 45px;

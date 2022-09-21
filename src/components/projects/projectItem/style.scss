@@ -9,7 +9,7 @@ $base-color: #3d3c42;
 }
 .card {
   margin: 1px 0 37px 0;
-  background-color: #d9cab3;
+  background-color: #111722;
   border: none;
   box-shadow: 3px 4px 13px 0px #3d3c42;
   text-transform: capitalize;
@@ -17,6 +17,7 @@ $base-color: #3d3c42;
   .card-title {
     font-size: 25px;
     font-weight: 600;
+    color: #fff;
   }
 
   .card-text {
@@ -24,7 +25,7 @@ $base-color: #3d3c42;
 
     span {
       margin: 0 8px 0px 0px;
-      background-color: #2c3333;
+      background-color: rgb(217 217 217 / 11%);
       color: white;
     }
   }
@@ -32,13 +33,13 @@ $base-color: #3d3c42;
   .card-buttons {
     a {
       width: 40%;
-      background-color: $base-color;
       color: white;
       font-size: 24px;
       font-weight: 500;
       font-family: monospace;
       padding: 6px 0;
       margin: 9px 0;
+      border: 1px solid #fff;
 
       &:hover {
         background-color: white;
