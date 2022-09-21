@@ -26,4 +26,38 @@
 }
 .header .header-text h2 {
   margin: 14px 0px 5px 0;
+}
+.header .header-text .header-buttons a {
+  border: 1px solid #fff;
+  width: 94px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.header .header-text .header-buttons a:first-child {
+  margin-right: 10px;
+  background-color: #fff;
+}
+.header .header-text .header-buttons a:last-child {
+  margin-left: 10px;
+  color: #fff;
+  width: 150px;
+}
+.header .header-text .list-unstyled {
+  margin: 19px 0 0 0;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.header .header-text .list-unstyled li {
+  display: inline;
+  padding: 0 4px;
+}
+.header .header-text .list-unstyled li a {
+  color: #fff;
+  font-size: 20px;
+  margin: 0px 10px 0px 0px;
+  font-size: 27px;
+}
+.header .header-text .list-unstyled li a:hover {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

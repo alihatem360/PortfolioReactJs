@@ -3,6 +3,7 @@ import projects from "../../data/projects";
 import { useEffect, useState } from "react";
 import PojectItem from "./projectItem";
 import "./style.css";
+import Footer from "../footer";
 
 const Projects = () => {
   const [projectsDta, setProjectsData] = useState([]);
@@ -29,6 +30,7 @@ const Projects = () => {
           })}
         </div>
       </div>
+      <Footer />
     </>
   );
 };
