@@ -24,24 +24,26 @@ const Footer = () => {
                 </div>
                 <h2>ali hatem ramada</h2>
                 <h6>FRONT END DEVELOPER</h6>
-                <ul className="list-unstyled">
-                  {socialsData.map((social) => {
-                    if (mySocials.includes(social.name)) {
-                      return (
-                        <li key={social.id}>
-                          <a
-                            href={social.link}
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <i class={`fa-brands fa-${social.name}`}></i>
-                            {console.log(`fa-brands fa-${social.name}`)}
-                          </a>
-                        </li>
-                      );
-                    }
-                  })}
-                </ul>
+                <div className="footer__Sosials__icons">
+                  <ul className="list-unstyled">
+                    {socialsData.map((social) => {
+                      if (mySocials.includes(social.name)) {
+                        return (
+                          <li key={social.id}>
+                            <a
+                              href={social.link}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <i class={`fa-brands fa-${social.name}`}></i>
+                              {console.log(`fa-brands fa-${social.name}`)}
+                            </a>
+                          </li>
+                        );
+                      }
+                    })}
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

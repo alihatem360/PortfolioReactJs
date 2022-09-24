@@ -1,3 +1,9 @@
+.nav__bar {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background-color: rgba(17, 23, 34, 0.8);
+}
 .nav__bar ul {
   width: 100%;
 }

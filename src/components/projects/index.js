@@ -16,7 +16,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="container pt-5">
         <div className="project-header">
           <h2>Projects 🚀</h2>
         </div>
