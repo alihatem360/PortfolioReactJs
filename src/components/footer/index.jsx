@@ -10,7 +10,7 @@ const Footer = () => {
     });
   }, []);
 
-  const mySocials = ["github", "linkedin", "twitter", "facebook", "youtube"];
+  const mySocials = ["github", "linkedin", "facebook", "youtube","whatsapp"];
 
   return (
     <div>
