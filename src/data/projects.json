@@ -1,4 +1,14 @@
 {
+  "aboutme": [
+    {
+      "heaaderimag": "https://i.postimg.cc/Kj30BgGJ/header-background2.jpg",
+      "name": "Ali Hatem",
+      "bio": " I'm a Computer Science Student, interested in some CS branches like programming and web development. I aim to Be a software engineer. I have a good knowledge of HTML & CSS, JavaScript, and React.js.",
+      "cv": "https://www.canva.com/design/DAFJC1lPfF8/CLHOhUXfPneVNJgiCXQS8Q/view?utm_content=DAFJC1lPfF8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+      "footerImage": "https://i.postimg.cc/50bHwcfG/footer.jpg"
+    }
+  ],
+
   "Projects": [
     {
       "id": "1",

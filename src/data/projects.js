@@ -8,4 +8,8 @@ const getSocials = () => {
   return Promise.resolve([ProjectsApi.socials]);
 };
 
-export default { getProjects, getSocials };
+const getAboutme = () => {
+  return Promise.resolve([ProjectsApi.aboutme]);
+};
+
+export default { getProjects, getSocials, getAboutme };
