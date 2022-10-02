@@ -9,7 +9,7 @@ function index({ project, proImag }) {
         </div>
         <div className="card-body">
           <h5 className="card-title">{project.title}</h5>
-          <h5 className="card-title">{project.id}</h5>
+          {/* <h5 className="card-title">{project.id}</h5> */}
           <div className="card-text">
             {project.technology.map((tech) => {
               return (
