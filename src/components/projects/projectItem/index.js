@@ -9,6 +9,7 @@ function index({ project, proImag }) {
         </div>
         <div className="card-body">
           <h5 className="card-title">{project.title}</h5>
+          <h5 className="card-title">{project.id}</h5>
           <div className="card-text">
             {project.technology.map((tech) => {
               return (
@@ -19,9 +20,11 @@ function index({ project, proImag }) {
             })}
           </div>
           <div className="card-buttons position-relative">
-            <a className="btn" href={project.github} target="_blank">
-              GitHub <i class="fa-brands fa-github"></i>
-            </a>
+            <div>
+              <a className="btn" href={project.github} target="_blank">
+                GitHub <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
 
             {project.demo ? (
               <a
