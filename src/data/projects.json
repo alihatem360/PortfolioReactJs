@@ -1,19 +1,19 @@
 {
   "aboutme": [
     {
-      "heaaderimag": "https://i.postimg.cc/Kj30BgGJ/header-background2.jpg",
-      "name": "Ali Hatem",
+      "heaaderimag": "https://i.postimg.cc/TPxB9dWk/4-5766984486784864570.jpg",
+      "name": "Abdulrahman Hatem",
       "bio": " I'm a Computer Science Student, interested in some CS branches like programming and web development. I aim to Be a software engineer. I have a good knowledge of HTML & CSS, JavaScript, and React.js.",
-      "cv": "https://www.canva.com/design/DAFJC1lPfF8/CLHOhUXfPneVNJgiCXQS8Q/view?utm_content=DAFJC1lPfF8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
-      "footerImage": "https://i.postimg.cc/50bHwcfG/footer.jpg"
+      "cv": "https://drive.google.com/file/d/1o4dX2Do_z-w86cnUHC87YajtnfG6CZz6/view?usp=sharing",
+      "footerImage": "https://i.postimg.cc/NjmWm9L9/4-5766984486784864570-1.jpg"
     }
   ],
 
   "Projects": [
     {
       "id": "1",
-      "imeg": "https://i.postimg.cc/65KZdrwy/1-4.png",
-      "title": "React-Ecommerce-App",
+      "imeg": "https://i.postimg.cc/02kpsL1z/movie-app-2.png",
+      "title": "Movie App",
       "technology": ["react", "bootstrap"],
       "demo": "",
       "video": "",
