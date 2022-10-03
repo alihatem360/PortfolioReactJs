@@ -19,9 +19,11 @@ function index({ project, proImag }) {
             })}
           </div>
           <div className="card-buttons position-relative">
-            <a className="btn" href={project.github} target="_blank">
-              GitHub <i class="fa-brands fa-github"></i>
-            </a>
+            <div>
+              <a className="btn" href={project.github} target="_blank">
+                GitHub <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
 
             {project.demo ? (
               <a
