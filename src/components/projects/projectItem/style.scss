@@ -20,16 +20,25 @@ $base-color: #3d3c42;
       height: 242px;
     }
   }
+
+  .card-body {
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   .card-title {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 600;
     color: #fff;
   }
 
   .card-text {
-    display: inline-flex;
-
+    display: flex;
+    flex-wrap: wrap;
     span {
+      font-size: 17px;
+
       margin: 0 8px 0px 0px;
       background-color: rgb(217 217 217 / 11%);
       color: white;
@@ -38,9 +47,9 @@ $base-color: #3d3c42;
 
   .card-buttons {
     a {
-      width: 40%;
+      width: 33%;
       color: white;
-      font-size: 24px;
+      font-size: 17px;
       font-weight: 500;
       font-family: monospace;
       padding: 6px 0;
