@@ -15,7 +15,14 @@ const Header = () => {
   }, []);
 
   console.log(aboutmeData);
-  const mySocials = ["github", "linkedin", "twitter", "facebook", "youtube"];
+  const mySocials = [
+    "github",
+    "linkedin",
+    "twitter",
+    "facebook",
+    "youtube",
+    "whatsapp",
+  ];
   console.log("header" + aboutmeData.name);
   return (
     <>
