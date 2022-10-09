@@ -25,6 +25,7 @@
 }
 .header .header-text {
   color: #fff;
+  text-transform: capitalize;
 }
 .header .header-text h4 {
   font-size: 38px;
