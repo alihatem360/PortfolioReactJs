@@ -23,6 +23,14 @@
 .header .header-img img {
   width: 90%;
 }
+@media (max-width: 768px) {
+  .header .header-img {
+    margin: 62px 0 0 0;
+  }
+}
+.header .header-img img {
+  width: 100%;
+}
 .header .header-text {
   color: #fff;
   text-transform: capitalize;
@@ -38,6 +46,11 @@
 }
 .header .header-text h2 {
   margin: 14px 0px 5px 0;
+}
+@media screen and (max-width: 768px) {
+  .header .header-text p {
+    width: 100%;
+  }
 }
 .header .header-text .header-buttons a {
   border: 1px solid #fff;

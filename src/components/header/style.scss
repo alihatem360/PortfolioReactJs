@@ -28,6 +28,14 @@
     img {
       width: 90%;
     }
+
+    @media (max-width: 768px) {
+      margin: 62px 0 0 0;
+    }
+
+    img {
+      width: 100%;
+    }
   }
 
   .header-text {
@@ -47,6 +55,15 @@
 
     h2 {
       margin: 14px 0px 5px 0;
+    }
+
+    // ==============
+    // meadia query for mobile view header-text h4 and p
+    // ==============
+    @media screen and (max-width: 768px) {
+      p {
+        width: 100%;
+      }
     }
 
     .header-buttons {
