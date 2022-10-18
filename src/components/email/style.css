@@ -1,0 +1,51 @@
+.modal-content {
+  background-color: #111722;
+  color: #fff;
+} /*# sourceMappingURL=style.css.map */
+.modal-header {
+  border-bottom: none;
+}
+
+button[name=ContactUs] {
+  background-color: #111722;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+button[name=ContactUs]:hover {
+  background-color: #fff;
+  color: #111722;
+}
+button[name=ContactUs]:hover, button[name=ContactUs]:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+button[class=btn-close] i {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 500;
+}
+button[class=btn-close]:hover, button[class=btn-close]:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#Form input[type=submit] {
+  color: #fff;
+  border: 1px solid;
+}
+#Form input[type=submit]:focus {
+  outline: none;
+  box-shadow: none;
+}
+#Form input[type=submit]:hover {
+  background-color: #fff;
+  color: #111722;
+}/*# sourceMappingURL=style.css.map */

@@ -1,6 +1,9 @@
 import "./style.css";
 import { useEffect, useState } from "react";
 import SocialData from "../../data/projects";
+
+import ContactUs from "../email/index.js";
+
 const Header = () => {
   const [socialsData, setSocialsData] = useState([]);
   const [aboutmeData, setAboutmeData] = useState([]);
@@ -14,7 +17,6 @@ const Header = () => {
     });
   }, []);
 
-  console.log(aboutmeData);
   const mySocials = [
     "github",
     "linkedin",
@@ -23,7 +25,6 @@ const Header = () => {
     "youtube",
     "whatsapp",
   ];
-  console.log("header" + aboutmeData.name);
   return (
     <>
       <div className="header">
@@ -41,8 +42,8 @@ const Header = () => {
               <p>{aboutmeData.bio}</p>
 
               <div className="header-buttons">
-                <a href="#" className="btn">
-                  Hir me
+                <a href="#">
+                  <ContactUs />
                 </a>
                 <a href={aboutmeData.cv} target="_blank" className="btn">
                   Download CV
@@ -61,7 +62,6 @@ const Header = () => {
                             rel="noreferrer"
                           >
                             <i class={`fa-brands fa-${social.name}`}></i>
-                            {console.log(`fa-brands fa-${social.name}`)}
                           </a>
                         </li>
                       );

@@ -1,0 +1,73 @@
+.modal-content {
+  background-color: #111722;
+  color: #fff;
+} /*# sourceMappingURL=style.css.map */
+
+.modal-header {
+  border-bottom: none;
+}
+button[name="ContactUs"] {
+  background-color: #111722;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: #fff;
+    color: #111722;
+  }
+
+  &:hover,
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+button[class="btn-close"] {
+  i {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 500;
+  }
+  &:hover,
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+#Form {
+  //   input[type="text"],
+  //   input[type="email"],
+  //   textarea {
+  //     &::-webkit-input-placeholder {
+  //       color: #414142;
+
+  //       text-transform: capitalize;
+
+  //       font-weight: 500;
+  //     }
+  //   }
+
+  input[type="submit"] {
+    color: #fff;
+    border: 1px solid;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+    &:hover {
+      background-color: #fff;
+      color: #111722;
+    }
+  }
+}
