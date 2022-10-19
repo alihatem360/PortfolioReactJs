@@ -12,7 +12,7 @@
   "Projects": [
     {
       "id": "0",
-      "imeg": "https://i.postimg.cc/509Hs3p6/Screenshot-2022-10-09-170351.png",
+      "imeg": "images/1-1.jpg",
       "title": "movieReactJs",
       "technology": ["react", "contextApi", "Api", "react-hook", "bootstrap"],
       "demo": "https://shoping-cart-redux-vite.pages.dev/",
