@@ -1,6 +1,6 @@
 import SocialData from "../../data/projects";
 import { useEffect, useState } from "react";
-import socialImage from "../../images/footer.jpeg";
+
 import "./style.css";
 const Footer = () => {
   const [socialsData, setSocialsData] = useState([]);
@@ -32,7 +32,7 @@ const Footer = () => {
             <div className="footer__Sosials">
               <div className="footer__Sosials__content">
                 <div className="footer__Sosials__imag">
-                  <img src={aboutmeData.footerImage} alt="social" />
+                  <img src={aboutmeData.footer} alt="social" />
                 </div>
                 <h2>ali hatem ramada</h2>
                 <h6>FRONT END DEVELOPER</h6>

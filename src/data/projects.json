@@ -1,18 +1,18 @@
 {
   "aboutme": [
     {
-      "heaaderimag": "https://i.postimg.cc/Kj30BgGJ/header-background2.jpg",
+      "heaaderimag": "images/header-background2.jpeg",
       "name": "Ali Hatem",
       "bio": " I'm a Computer Science Student, interested in some CS branches like programming and web development. I aim to Be a software engineer. I have a good knowledge of HTML & CSS, JavaScript, and React.js.",
       "cv": "https://www.canva.com/design/DAFJC1lPfF8/CLHOhUXfPneVNJgiCXQS8Q/view?utm_content=DAFJC1lPfF8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
-      "footerImage": "https://i.postimg.cc/50bHwcfG/footer.jpg"
+      "footer": "images/footer.jpeg"
     }
   ],
 
   "Projects": [
     {
       "id": "0",
-      "imeg": "images/1-1.jpg",
+      "imeg": "images/Screenshot 2022-10-19 193630.png",
       "title": "movieReactJs",
       "technology": ["react", "contextApi", "Api", "react-hook", "bootstrap"],
       "demo": "https://shoping-cart-redux-vite.pages.dev/",
@@ -21,7 +21,7 @@
     },
     {
       "id": "1",
-      "imeg": "https://i.postimg.cc/q7LPBV0p/2-3.png",
+      "imeg": "images/2-3.png",
       "title": "angularECommerceGradProj",
       "technology": ["angular", "bootstrap", "Api"],
       "demo": "https://21dfe692.angularecommercegradproj.pages.dev/login",
@@ -38,7 +38,7 @@
     },
     {
       "id": "3",
-      "imeg": "https://i.postimg.cc/76ZpfsY0/2-1.png",
+      "imeg": "images/2-2.png",
       "title": "UdacityMyReadsProject",
       "technology": ["react", "bootstrap", "Api"],
       "demo": "https://udacitymyreadsproject.pages.dev/",
@@ -46,7 +46,7 @@
     },
     {
       "id": "4",
-      "imeg": "https://i.postimg.cc/wjfs8nNm/1-1.png",
+      "imeg": "images/1-1.png",
       "title": "Portfolio Website",
       "technology": ["html", "css", "javascript", "bootstrap"],
       "demo": "https://alihatem360.github.io/Portfolio-Template/",
@@ -54,7 +54,7 @@
     },
     {
       "id": "5",
-      "imeg": "https://i.postimg.cc/ZqWvTjPD/1-3.png",
+      "imeg": "images/1-3.png",
       "title": "Js Template",
       "technology": ["html", "css", "javascript", "bootstrap"],
       "demo": "https://alihatem360.github.io/Js-Template/",
@@ -62,7 +62,7 @@
     },
     {
       "id": "6",
-      "imeg": "https://i.postimg.cc/SxNzPmn4/1-2.png",
+      "imeg": "images/1-2.png",
       "title": "Restaurant Website",
       "technology": ["html", "css", "javascript", "bootstrap"],
       "demo": "https://alihatem360.github.io/Restaurant-Template/",
@@ -70,7 +70,7 @@
     },
     {
       "id": "7",
-      "imeg": "https://i.postimg.cc/pdRNtVw0/2-2.png",
+      "imeg": "images/2-2.png",
       "title": "SpeakersReactjs",
       "technology": ["react", "bootstrap"],
       "demo": "https://speakersreactjs.pages.dev/",
@@ -78,7 +78,7 @@
     },
     {
       "id": "8",
-      "imeg": "https://i.postimg.cc/nzSN74C5/2-4.png",
+      "imeg": "images/2-4.png",
       "title": "agrica",
       "technology": ["html", "sass", "javascript", "bootstrap"],
       "demo": "https://alihatem360.github.io/agrica/",
@@ -86,7 +86,7 @@
     },
     {
       "id": "9",
-      "imeg": "https://i.postimg.cc/G3GY8MWW/1-1.jpg",
+      "imeg": "images/1-1.jpg",
       "title": "IMDb Movies",
       "technology": ["C#", "ASP.NET", "MVC", "Entity Framework", "SQL"],
       "demo": "",
@@ -95,7 +95,7 @@
     },
     {
       "id": "10",
-      "imeg": "https://i.postimg.cc/65KZdrwy/1-4.png",
+      "imeg": "images/1-4.png",
       "title": "React-Ecommerce-App",
       "technology": ["react", "bootstrap"],
       "demo": "",
