@@ -1,29 +1,14 @@
 import SocialData from "../../data/projects";
 import { useEffect, useState } from "react";
-
+import SocialMedia from "../SocialMedia/index";
 import "./style.css";
 const Footer = () => {
-  const [socialsData, setSocialsData] = useState([]);
   const [aboutmeData, setAboutmeData] = useState([]);
   useEffect(() => {
-    SocialData.getSocials().then((data) => {
-      setSocialsData(data[0]);
-    });
-
     SocialData.getAboutme().then((data) => {
       setAboutmeData(data[0][0]);
     });
   }, []);
-
-  const mySocials = [
-    "github",
-    "linkedin",
-    "twitter",
-    "facebook",
-    "youtube",
-    "whatsapp",
-    "email",
-  ];
 
   return (
     <div>
@@ -38,24 +23,7 @@ const Footer = () => {
                 <h2>ali hatem ramada</h2>
                 <h6>FRONT END DEVELOPER</h6>
                 <div className="footer__Sosials__icons">
-                  <ul className="list-unstyled">
-                    {socialsData.map((social) => {
-                      if (mySocials.includes(social.name)) {
-                        return (
-                          <li key={social.id}>
-                            <a
-                              href={social.link}
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <i class={`fa-brands fa-${social.name}`}></i>
-                              {console.log(`fa-brands fa-${social.name}`)}
-                            </a>
-                          </li>
-                        );
-                      }
-                    })}
-                  </ul>
+                  <SocialMedia />
                 </div>
               </div>
             </div>

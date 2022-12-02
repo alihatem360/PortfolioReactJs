@@ -1,31 +1,17 @@
 import "./style.css";
 import { useEffect, useState } from "react";
 import SocialData from "../../data/projects";
-
+import SocialMedia from "../SocialMedia/index";
 import ContactUs from "../email/index.js";
 
 const Header = () => {
-  const [socialsData, setSocialsData] = useState([]);
   const [aboutmeData, setAboutmeData] = useState([]);
   useEffect(() => {
-    SocialData.getSocials().then((data) => {
-      setSocialsData(data[0]);
-    });
-
     SocialData.getAboutme().then((data) => {
       setAboutmeData(data[0][0]);
     });
   }, []);
 
-  const mySocials = [
-    "github",
-    "linkedin",
-    "twitter",
-    "facebook",
-    "youtube",
-    "whatsapp",
-    "email",
-  ];
   return (
     <>
       <div className="header">
@@ -52,23 +38,7 @@ const Header = () => {
               </div>
 
               <div className="header-social">
-                <ul className="list-unstyled">
-                  {socialsData.map((social) => {
-                    if (mySocials.includes(social.name)) {
-                      return (
-                        <li key={social.id}>
-                          <a
-                            href={social.link}
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <i class={`fa-brands fa-${social.name}`}></i>
-                          </a>
-                        </li>
-                      );
-                    }
-                  })}
-                </ul>
+                <SocialMedia />
               </div>
             </div>
           </div>
