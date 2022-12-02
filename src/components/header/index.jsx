@@ -24,6 +24,7 @@ const Header = () => {
     "facebook",
     "youtube",
     "whatsapp",
+    "email",
   ];
   return (
     <>

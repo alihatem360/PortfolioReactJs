@@ -133,12 +133,12 @@
     {
       "id": "6",
       "name": "youtube",
-      "link": "https://www.youtube.com/channel/UCZ1Z1Z1Z1Z1Z1Z1Z1Z1Z1Z1https://www.youtube.com/channel/UC8VBtReu7uU0w7bCVgE-KVA"
+      "link": "https://www.youtube.com/channel/UC8VBtReu7uU0w7bCVgE-KVA"
     },
     {
       "id": "7",
       "name": "email",
-      "link": "alihatemramadan5@gmail.com"
+      "link": "mailto:alihatemramadan5@gmail.com"
     },
     {
       "id": "8",
@@ -148,7 +148,7 @@
     {
       "id": "9",
       "name": "whatsapp",
-      "link": "+201026159353"
+      "link": "http://wa.me/+201026159353"
     }
   ]
 }

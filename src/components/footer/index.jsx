@@ -22,6 +22,7 @@ const Footer = () => {
     "facebook",
     "youtube",
     "whatsapp",
+    "email",
   ];
 
   return (
