@@ -1,13 +1,12 @@
 .modal-content {
   background-color: #111722;
   color: #fff;
-} /*# sourceMappingURL=style.css.map */
+} 
 .modal-header {
   border-bottom: none;
 }
 
 button[name=ContactUs] {
-  background-color: #111722;
   color: #fff;
   border: 1px solid #fff;
   border-radius: 0;

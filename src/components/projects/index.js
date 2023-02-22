@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import PojectItem from "./projectItem";
 import "./style.css";
 import Footer from "../footer";
-
+import { Link } from "react-router-dom";
 const Projects = () => {
   const [projectsDta, setProjectsData] = useState([]);
   useEffect(() => {
@@ -17,13 +17,15 @@ const Projects = () => {
   return (
     <>
       <div className="container pt-5">
-        <div className="project-header">
-          <h2>Projects 🚀</h2>
+        <div className=" d-flex justify-content-between align-items-center">
+          <Link to="/" className="btn button1">
+            <i class="fa-solid fa-arrow-left"></i> Back to Home
+          </Link>
         </div>
         <div className="projects row">
-          {projectsDta.map((project) => {
+          {projectsDta.map((project, index) => {
             return (
-              <div className="col-lg-4" key={project.id}>
+              <div className="col-lg-4" key={index}>
                 <PojectItem project={project} />
               </div>
             );

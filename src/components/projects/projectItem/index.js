@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import "./style.css";
-function index({ project, proImag }) {
+const PojectItem = ({ project }) => {
+  console.log(" : ====== project", project.video);
   return (
     <Fragment>
       <div className="card">
@@ -20,25 +21,33 @@ function index({ project, proImag }) {
             })}
           </div>
           <div className="card-buttons position-relative">
-            <div>
-              <a className="btn" href={project.github} target="_blank">
+            <div className="d-flex justify-content-between">
+              <a
+                className="btn"
+                href={project.github}
+                target="_blank"
+                rel="noreferrer"
+              >
                 GitHub <i class="fa-brands fa-github"></i>
               </a>
             </div>
 
-            {project.demo ? (
+            {project.demo.length > 0 && (
               <a
                 className="btn  position-absolute top-0 end-0"
                 href={project.demo}
                 target="_blank"
+                rel="noreferrer"
               >
                 Demo <i class="fa-solid fa-globe"></i>
               </a>
-            ) : (
+            )}
+            {project.video && (
               <a
                 className="btn position-absolute top-0 end-0"
                 href={project.video}
                 target="_blank"
+                rel="noreferrer"
               >
                 video <i class="fa-solid fa-play"></i>
               </a>
@@ -48,6 +57,6 @@ function index({ project, proImag }) {
       </div>
     </Fragment>
   );
-}
+};
 
-export default index;
+export default PojectItem;

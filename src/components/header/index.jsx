@@ -14,33 +14,32 @@ const Header = () => {
 
   return (
     <>
-      <div className="header">
-        <div className="row">
-          <div className="col-lg-6 col-md-6 col-sm-12">
-            <div className="header-img ">
-              <img src={aboutmeData.heaaderimag} alt="placeholder" />
+      <div className="header d-flex justify-content-center align-items-center">
+        <div className="w-50 d-flex justify-content-center align-items-center">
+          <div className="header-img ">
+            <img src={aboutmeData.heaaderimag} alt="placeholder" />
+          </div>
+        </div>
+        <div className="header-text w-50">
+          <div className="header-contant">
+            <h4>Hi👋</h4>
+            <h2>I'm {aboutmeData.name}</h2>
+            <p>{aboutmeData.bio}</p>
+
+            <div className="header-buttons">
+              <a href="#">
+                <ContactUs />
+              </a>
+              <a href={aboutmeData.cv} target="_blank" className="btn ">
+                <span>Preview CV 👀</span>
+                {
+                  // eye icon font awesome
+                }
+              </a>
             </div>
           </div>
-
-          <div class=" col-lg-6 col-md-6 col-sm-12">
-            <div className="header-text">
-              <h4>Hi👋</h4>
-              <h2>I'm {aboutmeData.name}</h2>
-              <p>{aboutmeData.bio}</p>
-
-              <div className="header-buttons">
-                <a href="#">
-                  <ContactUs />
-                </a>
-                <a href={aboutmeData.cv} target="_blank" className="btn">
-                  Download CV
-                </a>
-              </div>
-
-              <div className="header-social">
-                <SocialMedia />
-              </div>
-            </div>
+          <div className="header-social">
+            <SocialMedia />
           </div>
         </div>
       </div>

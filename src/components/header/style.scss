@@ -8,33 +8,18 @@
 //   box-sizing: border-box;
 // }
 
-.row {
-  .col-lg-6:nth-child(2) {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-}
 .header {
   height: 100vh;
-  /* padding-top: 49px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 
   .header-img {
+    width: 65%;
     -webkit-mask-image: url(data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/LS0+CiAgICAgICAgICAgICAgPHN2ZyBpZD0ic3ctanMtYmxvYi1zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+IAogICAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50IiB4MT0iMCIgeDI9IjEiIHkxPSIxIiB5Mj0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBpZD0ic3RvcDEiIHN0b3AtY29sb3I9InJnYmEoNjEsIDYwLCA2NiwgMSkiIG9mZnNldD0iMCUiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtc3RvcGNvbG9yPSIiIHN0eWxlPSItLWRhcmtyZWFkZXItaW5saW5lLXN0b3Bjb2xvcjojYTkzYTA2OyI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN0b3AgaWQ9InN0b3AyIiBzdG9wLWNvbG9yPSJyZ2JhKDYxLCA2MCwgNjYsIDEpIiBvZmZzZXQ9IjEwMCUiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtc3RvcGNvbG9yPSIiIHN0eWxlPSItLWRhcmtyZWFkZXItaW5saW5lLXN0b3Bjb2xvcjojYjk3NDAzOyI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9InJnYmEoNjEsIDYwLCA2NiwgMSkiIGQ9Ik0xOS40LC0zMy44QzI2LjEsLTI5LjYsMzMuMywtMjYuNSwzOC40LC0yMS4xQzQzLjQsLTE1LjYsNDYuMywtNy44LDQ2LjQsMC4xQzQ2LjYsNy45LDQzLjksMTUuOSwzOS4zLDIyQzM0LjYsMjguMiwyOCwzMi41LDIxLjEsMzYuN0MxNC4yLDQwLjksNy4xLDQ1LDAuMSw0NC44Qy02LjksNDQuNiwtMTMuOCw0MC4yLC0xOS4yLDM1LjFDLTI0LjYsMzAuMSwtMjguNiwyNC41LC0zMi41LDE4LjVDLTM2LjQsMTIuNSwtNDAuMiw2LjMsLTQxLjgsLTAuOUMtNDMuNCwtOC4yLC00Mi45LC0xNi4zLC0zOC45LC0yMkMtMzQuOCwtMjcuNywtMjcuMiwtMzAuOSwtMjAuMiwtMzQuOUMtMTMuMSwtMzguOSwtNi42LC00My44LC0wLjEsLTQzLjZDNi4zLC00My40LDEyLjYsLTM4LjEsMTkuNCwtMzMuOFoiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUwIDUwKSIgc3Ryb2tlLXdpZHRoPSIwIiBzdHlsZT0idHJhbnNpdGlvbjogYWxsIDAuM3MgZWFzZSAwczsiIHN0cm9rZT0idXJsKCNzdy1ncmFkaWVudCkiPjwvcGF0aD4KICAgICAgICAgICAgICA8L3N2Zz4=);
     -webkit-mask-repeat: no-repeat;
-    @media screen and (max-width: 768px) {
-      margin: 73% 0 0 0;
-    }
-
-    @media screen and (max-width: 400px) {
-      margin: 126% 0 0 0;
-    }
 
     img {
       width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 
