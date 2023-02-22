@@ -12,7 +12,7 @@ const ContactUs = () => {
         data-bs-target="#exampleModal"
         name="ContactUs"
       >
-        Hir me 🐱‍🏍
+        Hir me 🤝
       </button>
 
       <div
