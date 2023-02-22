@@ -19,7 +19,9 @@ const HomeProjectsContainer = () => {
 
   return (
     <div className="container pt-5">
-      <h2 className="text-center mb-3 project-header">Projects ⚡</h2>
+      <h2 className="text-center mb-3 project-header z-index-+1">
+        Projects ⚡
+      </h2>
       <div className="projects row">
         {projectsDta.map((project, index) => {
           return (

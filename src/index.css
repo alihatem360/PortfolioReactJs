@@ -1,15 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid #fff; */
+}
+
 body {
   background-color: #453c67;
 }
 
 .button1 {
-  border: 1px solid #fff !important;
   color: #fff;
   margin: 16px 0;
   outline: none !important;
-  font-size: 17px;
+  font-size: 18px;
   padding: 9px;
   font-family: cursive;
+  background-color: #453c67;
 }
 
 .button1:hover {
@@ -24,10 +31,10 @@ body {
 }
 
 .project-header {
-  color: #fff;
+  color: #453c67;
   text-align: center;
   font-family: monospace;
   text-transform: uppercase;
-  font-size: 41px;
-  font-weight: 500;
+  font-size: 50px;
+  font-weight: 900;
 }

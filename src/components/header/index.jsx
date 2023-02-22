@@ -13,7 +13,7 @@ const Header = () => {
   }, []);
 
   return (
-    <>
+    <div className="position-relative">
       <div className="header d-flex justify-content-center align-items-center">
         <div className="w-50 d-flex justify-content-center align-items-center">
           <div className="header-img ">
@@ -43,7 +43,22 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </>
+      {
+        //  svg wave upper
+      }
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+        className="position-absolute bottom-0 "
+        style={{ zIndex: "-5" }}
+      >
+        <path
+          fill="#FFB84C"
+          fill-opacity="1"
+          d="M0,96L240,192L480,256L720,160L960,224L1200,96L1440,224L1440,320L1200,320L960,320L720,320L480,320L240,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
   );
 };
 

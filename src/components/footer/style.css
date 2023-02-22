@@ -3,10 +3,6 @@
   margin: 0px 0px 0px 0px;
 }
 
-.footer {
-  background-color: rgba(38, 36, 52, 0.3019607843);
-}
-
 .footer__Sosials {
   display: flex;
   justify-self: center;
