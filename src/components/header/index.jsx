@@ -15,12 +15,15 @@ const Header = () => {
   return (
     <div className="position-relative">
       <div className="header d-flex justify-content-center align-items-center">
-        <div className="w-50 d-flex justify-content-center align-items-center">
+        <div
+          className="w-50 d-flex justify-content-center align-items-center"
+          style={{ flex: "50%" }}
+        >
           <div className="header-img ">
             <img src={aboutmeData.heaaderimag} alt="placeholder" />
           </div>
         </div>
-        <div className="header-text w-50">
+        <div className="header-text w-50" style={{ flex: "50%" }}>
           <div className="header-contant">
             <h4>Hi👋</h4>
             <h2>I'm {aboutmeData.name}</h2>

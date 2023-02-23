@@ -16,7 +16,15 @@ const PojectItem = ({ project }) => {
             {project.technology.map((tech) => {
               return (
                 <h5>
-                  <span class="badge ">{tech}</span>
+                  <span
+                    class="badge "
+                    style={{
+                      backgroundColor: "#F5F5F5",
+                      color: "black",
+                    }}
+                  >
+                    {tech}
+                  </span>
                 </h5>
               );
             })}
