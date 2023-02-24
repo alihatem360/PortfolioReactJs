@@ -1,13 +1,20 @@
 import React, { Fragment } from "react";
 import "./style.css";
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 const PojectItem = ({ project }) => {
   console.log(" : ====== project", project.video);
   return (
     <Fragment>
       <div className="card">
         <div className="img-container">
-          <img src={project.imeg} className="card-img-top" alt="vdfgd" />
+          <LazyLoadImage
+            src={project.imeg}
+            alt={project.title}
+            effect="blur"
+            className="card-img-top"
+            placeholderSrc={project.imeg}
+          />
         </div>
         <div className="card-body">
           <h5 className="card-title">{project.title}</h5>
