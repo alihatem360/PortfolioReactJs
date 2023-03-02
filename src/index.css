@@ -17,6 +17,7 @@ body {
   padding: 9px;
   font-family: cursive;
   background-color: #453c67;
+  border-radius: 10px;
 }
 
 .button1:hover {
