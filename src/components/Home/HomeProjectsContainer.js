@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Projects from "../projects/index";
 import PojectItem from "../projects/projectItem";
 import { Link } from "react-router-dom";
+import SwiperSlideCom from "../Utilities/SwiperSlide/SwiperSlideCom";
 const HomeProjectsContainer = () => {
   const [projectsDta, setProjectsData] = useState([]);
   useEffect(() => {
@@ -34,19 +35,8 @@ const HomeProjectsContainer = () => {
         </svg>
       </div>
 
-      <div className="container pt-5">
-        <h2 className="text-center mb-3 project-header z-index-+1">
-          Projects ⚡
-        </h2>
-        <div className="projects row">
-          {projectsDta.map((project, index) => {
-            return (
-              <div className="col-lg-4" key={index}>
-                <PojectItem project={project} />
-              </div>
-            );
-          })}
-        </div>
+      <div className="container">
+        <SwiperSlideCom />
         <div className="text-center ">
           <Link to="/projects" className="btn button1">
             View All Projects <i class="fa-solid fa-arrow-right"></i>

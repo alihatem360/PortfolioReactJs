@@ -15,7 +15,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <>
+    <React.Fragment>
       <div className="container pt-5">
         <div className=" d-flex justify-content-between align-items-center">
           <Link to="/" className="btn button1">
@@ -48,7 +48,7 @@ const Projects = () => {
       </div>
 
       <Footer />
-    </>
+    </React.Fragment>
   );
 };
 
