@@ -1,17 +1,17 @@
 {
   "aboutme": [
     {
-      "heaaderimag": "images/header-background2.jpeg",
+      "heaaderimag": "images/header-background2.webp",
       "name": "Ali Hatem",
       "bio": " I'm a Computer Science Student, interested in some CS branches like programming and web development. I aim to Be a software engineer. I have a good knowledge of HTML & CSS, JavaScript, and React.js.",
       "cv": "https://drive.google.com/file/d/1YIaGyBxhB8B79yDyac_LXuhx9XPN9sAY/view?usp=share_link",
-      "footer": "images/footer.jpeg"
+      "footer": "images/footer.webp"
     }
   ],
 
   "Projects": [
     {
-      "imeg": "images/EcommerceWebsite.png",
+      "imeg": "images/EcommerceWebsite.webp",
       "title": "ReactJs Ecommerce",
       "technology": ["react", "redux", "bootstrap", "Api"],
       "demo": "",
@@ -19,21 +19,21 @@
       "video": "https://youtu.be/GBpBnKl0Rr8"
     },
     {
-      "imeg": "images/MovieReactJs.png",
+      "imeg": "images/MovieReactJs.webp",
       "title": "movieReactJs",
       "technology": ["react", "contextApi", "Api", "react-hook", "bootstrap"],
       "demo": "https://shoping-cart-redux-vite.pages.dev/",
       "github": "https://github.com/alihatem360/movieReactJs"
     },
     {
-      "imeg": "images/2-3.png",
+      "imeg": "images/2-3.webp",
       "title": "angularECommerceGradProj",
       "technology": ["angular", "bootstrap", "Api"],
       "demo": "https://21dfe692.angularecommercegradproj.pages.dev/login",
       "github": "https://github.com/alihatem360/angularECommerceGradProj"
     },
     {
-      "imeg": "images/NFT-Shop.png",
+      "imeg": "images/NFT-Shop.webp",
       "title": "NFT-Shop",
       "technology": ["react", "bootstrap", "Api"],
       "demo": "",
@@ -41,77 +41,77 @@
       "video": "https://youtu.be/Fu4gvovv2Pk"
     },
     {
-      "imeg": "images/alhatab.png",
+      "imeg": "images/alhatab.webp",
       "title": "alhatab",
       "technology": ["HTML", "CSS"],
       "demo": "https://alihatem360.github.io/alhatab/",
       "github": "https://github.com/alihatem360/alhatab"
     },
     {
-      "imeg": "images/2-4.png",
+      "imeg": "images/2-4.webp",
       "title": "agrica",
       "technology": ["html", "sass", "javascript", "bootstrap"],
       "demo": "https://alihatem360.github.io/agrica/",
       "github": "https://github.com/alihatem360/agrica"
     },
     {
-      "imeg": "images/2-1.png",
+      "imeg": "images/2-1.webp",
       "title": "UdacityMyReadsProject",
       "technology": ["react", "bootstrap", "Api"],
       "demo": "https://udacitymyreadsproject.pages.dev/",
       "github": "https://github.com/alihatem360/UdacityMyReadsProject"
     },
     {
-      "imeg": "images/movies-list-redux.png",
+      "imeg": "images/movies-list-redux.webp",
       "title": "movies-list-redux",
       "technology": ["react", "redux", "bootstrap", "Api"],
       "demo": "https://movies-list-redux.pages.dev/",
       "github": "https://github.com/alihatem360/movies-list-redux"
     },
     {
-      "imeg": "images/1-1.png",
+      "imeg": "images/1-1.webp",
       "title": "Portfolio Website",
       "technology": ["html", "css", "javascript", "bootstrap"],
       "demo": "https://alihatem360.github.io/Portfolio-Template/",
       "github": "https://github.com/alihatem360/Portfolio-Template"
     },
     {
-      "imeg": "images/1-3.png",
+      "imeg": "images/1-3.webp",
       "title": "Js Template",
       "technology": ["html", "css", "javascript", "bootstrap"],
       "demo": "https://alihatem360.github.io/Js-Template/",
       "github": "https://github.com/alihatem360/Js-Template"
     },
     {
-      "imeg": "images/1-2.png",
+      "imeg": "images/1-2.webp",
       "title": "Restaurant Website",
       "technology": ["html", "css", "javascript", "bootstrap"],
       "demo": "https://alihatem360.github.io/Restaurant-Template/",
       "github": "https://github.com/alihatem360/Restaurant-Template"
     },
     {
-      "imeg": "images/2-2.png",
+      "imeg": "images/2-2.webp",
       "title": "SpeakersReactjs",
       "technology": ["react", "bootstrap"],
       "demo": "https://speakersreactjs.pages.dev/",
       "github": "https://github.com/alihatem360/SpeakersReactjs"
     },
     {
-      "imeg": "images/farooq-task.png",
+      "imeg": "images/farooq-task.webp",
       "title": "farooq-task",
       "technology": ["react", "reactbootstrap", "Api"],
       "demo": "https://farooq-task.pages.dev/",
       "github": "https://github.com/alihatem360/farooq-task"
     },
     {
-      "imeg": "images/1-1.jpg",
+      "imeg": "images/1-5.webp",
       "title": "IMDb Movies",
       "technology": ["C#", "ASP.NET", "MVC", "Entity Framework", "SQL"],
       "demo": "",
       "github": "https://github.com/alihatem360/IMDb"
     },
     {
-      "imeg": "images/1-4.png",
+      "imeg": "images/1-4.webp",
       "title": "React-Ecommerce-App",
       "technology": ["react", "bootstrap"],
       "demo": "",
