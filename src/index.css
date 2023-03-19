@@ -39,3 +39,10 @@ body {
   font-size: 50px;
   font-weight: 900;
 }
+/* 
+  width: 100% for the lazy loading images to work properly
+*/
+
+.lazy-load-image-loaded {
+  width: 100%;
+}

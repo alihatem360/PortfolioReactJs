@@ -97,6 +97,13 @@
       "github": "https://github.com/alihatem360/SpeakersReactjs"
     },
     {
+      "imeg": "images/farooq-task.png",
+      "title": "farooq-task",
+      "technology": ["react", "reactbootstrap", "Api"],
+      "demo": "https://farooq-task.pages.dev/",
+      "github": "https://github.com/alihatem360/farooq-task"
+    },
+    {
       "imeg": "images/1-1.jpg",
       "title": "IMDb Movies",
       "technology": ["C#", "ASP.NET", "MVC", "Entity Framework", "SQL"],

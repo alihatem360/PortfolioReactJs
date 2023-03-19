@@ -3,16 +3,15 @@ import "./style.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 const PojectItem = ({ project }) => {
-  console.log(" : ====== project", project.video);
   return (
     <Fragment>
       <div className="card">
-        <div className="img-container">
+        <div className="img-container w-100">
           <LazyLoadImage
             src={project.imeg}
             alt={project.title}
             effect="blur"
-            className="card-img-top"
+            className="card-img-top w-100"
             placeholderSrc={project.imeg}
           />
         </div>
@@ -26,8 +25,10 @@ const PojectItem = ({ project }) => {
                   <span
                     class="badge "
                     style={{
-                      backgroundColor: "#F5F5F5",
-                      color: "black",
+                      color: "white",
+                      borderRadius: "5px",
+                      outline: "none",
+                      padding: "7px",
                     }}
                   >
                     {tech}
