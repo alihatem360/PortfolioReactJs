@@ -31,7 +31,7 @@ const PojectItem = ({ project }) => {
                       padding: "7px",
                     }}
                   >
-                    {tech}
+                    #{tech}
                   </span>
                 </h5>
               );

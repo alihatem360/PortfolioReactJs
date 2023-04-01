@@ -12,15 +12,13 @@ import { EffectCoverflow, Pagination, Navigation } from "swiper";
 
 const SwiperSlideCom = () => {
   const [projectsDta, setProjectsData] = useState([]);
+
   useEffect(() => {
     projects.getProjects().then((data) => {
-      console.log(" : ======" + data[0]);
       setProjectsData(data[0]);
     });
   }, []);
-  if (projectsDta) {
-    console.log(" : ====== projectsDta from SwiperSlideCom", projectsDta);
-  }
+
   return (
     <div className="container">
       <h1 className="heading">Projects ⚡</h1>

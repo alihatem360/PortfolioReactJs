@@ -32,14 +32,7 @@
       "demo": "https://21dfe692.angularecommercegradproj.pages.dev/login",
       "github": "https://github.com/alihatem360/angularECommerceGradProj"
     },
-    {
-      "imeg": "images/NFT-Shop.webp",
-      "title": "NFT-Shop",
-      "technology": ["react", "bootstrap", "Api"],
-      "demo": "",
-      "github": "https://github.com/alihatem360/NFT-Shop",
-      "video": "https://youtu.be/Fu4gvovv2Pk"
-    },
+
     {
       "imeg": "images/alhatab.webp",
       "title": "alhatab",
@@ -55,20 +48,6 @@
       "github": "https://github.com/alihatem360/agrica"
     },
     {
-      "imeg": "images/2-1.webp",
-      "title": "UdacityMyReadsProject",
-      "technology": ["react", "bootstrap", "Api"],
-      "demo": "https://udacitymyreadsproject.pages.dev/",
-      "github": "https://github.com/alihatem360/UdacityMyReadsProject"
-    },
-    {
-      "imeg": "images/movies-list-redux.webp",
-      "title": "movies-list-redux",
-      "technology": ["react", "redux", "bootstrap", "Api"],
-      "demo": "https://movies-list-redux.pages.dev/",
-      "github": "https://github.com/alihatem360/movies-list-redux"
-    },
-    {
       "imeg": "images/1-1.webp",
       "title": "Portfolio Website",
       "technology": ["html", "css", "javascript", "bootstrap"],
@@ -82,12 +61,35 @@
       "demo": "https://alihatem360.github.io/Js-Template/",
       "github": "https://github.com/alihatem360/Js-Template"
     },
+
+    {
+      "imeg": "images/movies-list-redux.webp",
+      "title": "movies-list-redux",
+      "technology": ["react", "redux", "bootstrap", "Api"],
+      "demo": "https://movies-list-redux.pages.dev/",
+      "github": "https://github.com/alihatem360/movies-list-redux"
+    },
+    {
+      "imeg": "images/NFT-Shop.webp",
+      "title": "NFT-Shop",
+      "technology": ["react", "bootstrap", "Api"],
+      "demo": "",
+      "github": "https://github.com/alihatem360/NFT-Shop",
+      "video": "https://youtu.be/Fu4gvovv2Pk"
+    },
     {
       "imeg": "images/1-2.webp",
       "title": "Restaurant Website",
       "technology": ["html", "css", "javascript", "bootstrap"],
       "demo": "https://alihatem360.github.io/Restaurant-Template/",
       "github": "https://github.com/alihatem360/Restaurant-Template"
+    },
+    {
+      "imeg": "images/2-1.webp",
+      "title": "UdacityMyReadsProject",
+      "technology": ["react", "bootstrap", "Api"],
+      "demo": "https://udacitymyreadsproject.pages.dev/",
+      "github": "https://github.com/alihatem360/UdacityMyReadsProject"
     },
     {
       "imeg": "images/2-2.webp",
@@ -109,14 +111,6 @@
       "technology": ["C#", "ASP.NET", "MVC", "Entity Framework", "SQL"],
       "demo": "",
       "github": "https://github.com/alihatem360/IMDb"
-    },
-    {
-      "imeg": "images/1-4.webp",
-      "title": "React-Ecommerce-App",
-      "technology": ["react", "bootstrap"],
-      "demo": "",
-      "video": "",
-      "github": "https://github.com/alihatem360/React-Ecommerce-app"
     }
   ],
 
