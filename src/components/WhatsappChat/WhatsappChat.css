@@ -5,3 +5,9 @@
   z-index: 9999;
   direction: rtl;
 }
+
+@media (max-width: 768px) {
+  .whatsapp-chat-container {
+    display: none;
+  }
+}

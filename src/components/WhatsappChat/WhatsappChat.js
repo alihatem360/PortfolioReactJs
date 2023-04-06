@@ -1,10 +1,23 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./WhatsappChat.css";
 function WhatsappChat() {
   const [message, setMessage] = useState("");
   const [showForm, setShowForm] = useState(false);
+  const [hasScrolled, setHasScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setHasScrolled(true);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const handleClick = () => {
     setShowForm(!showForm);
@@ -120,19 +133,21 @@ function WhatsappChat() {
           </form>
         </div>
       )}
-      <FontAwesomeIcon
-        icon={faWhatsapp}
-        onClick={handleClick}
-        style={{
-          color: "#25D366",
-          fontSize: "7rem",
-          cursor: "pointer",
-          position: "fixed",
-          zIndex: "9999",
-          position: "absolute",
-          bottom: "-53",
-        }}
-      />
+      {hasScrolled && (
+        <FontAwesomeIcon
+          icon={faWhatsapp}
+          onClick={handleClick}
+          style={{
+            color: "#25D366",
+            fontSize: "7rem",
+            cursor: "pointer",
+            position: "fixed",
+            zIndex: "9999",
+            position: "absolute",
+            bottom: "-53",
+          }}
+        />
+      )}
     </div>
   );
 }
