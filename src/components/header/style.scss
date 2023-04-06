@@ -3,10 +3,10 @@
   margin: 0 0;
 }
 
-// * {
-//   border: 1px solid red;
-//   box-sizing: border-box;
-// }
+* {
+  // border: 1px solid red;
+  box-sizing: border-box;
+}
 
 .header {
   height: 100vh;
@@ -34,12 +34,13 @@
 
     p {
       width: 80%;
-      font-size: 20px;
+      font-size: 18px;
       line-height: 30px;
     }
 
     h2 {
       margin: 14px 0px 5px 0;
+      font-size: 2.5rem;
     }
 
     // ==============
@@ -52,21 +53,25 @@
     }
 
     .header-buttons {
-      a {
-        width: 94px;
-        font-size: 18px;
-        font-weight: 600;
+      button:first-child,
+      button a {
         color: #fff;
+        border: 1px #fff solid;
+        font-size: 2.2rem;
+        outline: none;
+        font-weight: 600;
       }
 
-      a:first-child {
-        margin-right: 10px;
+      button:first-child:hover,
+      button a:hover {
+        color: #453c67;
+        background-color: #fff;
+        outline: none !important;
       }
-
-      a:last-child {
-        border: 1px solid #fff;
-        margin-left: 10px;
-        width: 150px;
+      button:first-child:focus,
+      button a:focus {
+        border: 1px #fff solid !important;
+        outline: none !important;
       }
     }
 
@@ -86,7 +91,8 @@
           font-size: 27px;
 
           &:hover {
-            color: #fff;
+            color: #ffb84c !important;
+            transition: all 0.3s ease-in-out;
           }
         }
       }

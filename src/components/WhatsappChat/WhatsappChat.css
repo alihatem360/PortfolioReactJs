@@ -1,0 +1,7 @@
+.whatsapp-chat-container {
+  position: fixed;
+  bottom: 70px;
+  right: 19px;
+  z-index: 9999;
+  direction: rtl;
+}

@@ -44,6 +44,11 @@
   background-color: rgba(217, 217, 217, 0.11);
   color: white;
 }
+@media (max-width: 500px) {
+  .card .card-text span {
+    font-size: 14px;
+  }
+}
 .card .card-buttons a {
   width: 33%;
   color: white;
@@ -57,6 +62,12 @@
   outline: none;
   box-shadow: none;
 }
+
+@media (max-width: 500px) {
+  .card .card-buttons a {
+    width: 40%;
+  }
+}
 .card .card-buttons a:hover {
   background-color: white;
   color: #3d3c42;
@@ -67,4 +78,4 @@
 .card .card-buttons a:focus {
   outline: none;
   box-shadow: none;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

@@ -2,8 +2,8 @@ import "./style.css";
 import { useEffect, useState } from "react";
 import SocialData from "../../data/projects";
 import SocialMedia from "../SocialMedia/index";
-import ContactUs from "../email/index.js";
-
+// import ContactUs from "../email/index.js";
+import CV from "../../assets/Ali_Hatem_Ramadan_Resume.pdf";
 const Header = () => {
   const [aboutmeData, setAboutmeData] = useState([]);
   useEffect(() => {
@@ -11,6 +11,25 @@ const Header = () => {
       setAboutmeData(data[0][0]);
     });
   }, []);
+
+  const handleDownload = (CvLink, CVName) => {
+    fetch(CvLink, {
+      headers: {
+        Origin: window.location.origin,
+      },
+    })
+      .then((response) => response.blob())
+      .then((blob) => {
+        const url = window.URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = CVName;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      })
+      .catch((error) => console.error(error));
+  };
 
   return (
     <div className="position-relative">
@@ -30,15 +49,22 @@ const Header = () => {
             <p>{aboutmeData.bio}</p>
 
             <div className="header-buttons">
-              <a href="#">
-                <ContactUs />
-              </a>
-              <a href={aboutmeData.cv} target="_blank" className="btn ">
-                <span>Preview CV 👀</span>
-                {
-                  // eye icon font awesome
-                }
-              </a>
+              <button
+                className="btn"
+                onClick={() => handleDownload(CV, "Ali_Hatem_Ramadan_Resume")}
+              >
+                CV <i class="fa-solid fa-file-arrow-down"></i>
+              </button>
+              <button className="btn">
+                <a
+                  href={aboutmeData.cv}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn"
+                >
+                  Preview CV 👀
+                </a>
+              </button>
             </div>
           </div>
           <div className="header-social">
