@@ -20,7 +20,7 @@
     },
     {
       "imeg": "images/E-Learning.png",
-      "title": "E-Learning | اكاديمية فلاح للبرمجة",
+      "title": "E-Learning ReactJS",
       "technology": ["Tailwind", "React", "Vite"],
       "demo": "https://e-learningreactjs.pages.dev/",
       "github": "https://github.com/alihatem360/e-learningReactJS"
