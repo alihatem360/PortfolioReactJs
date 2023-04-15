@@ -4,7 +4,7 @@
       "heaaderimag": "images/header-background2.webp",
       "name": "Ali Hatem",
       "bio": "a frontend developer specializing in ReactJS ⚛️. My focus is on building stunning user interfaces using HTML, CSS, and JavaScript 💻. Let's create something beautiful together! 🌟",
-      "cv": "https://drive.google.com/file/d/145iJMo5bA1X5OBdgMS9lImaTzHnszJaI/view?usp=share_link",
+      "cv": "https://drive.google.com/file/d/1hmcv0l-TPFkrhSk_4y31kmYJWYYw5Vzn/view?usp=share_link",
       "footer": "images/footer.webp"
     }
   ],
@@ -24,6 +24,13 @@
       "technology": ["Tailwind", "React", "Vite"],
       "demo": "https://e-learningreactjs.pages.dev/",
       "github": "https://github.com/alihatem360/e-learningReactJS"
+    },
+    {
+      "imeg": "images/greeting-card.png",
+      "title": "greeting-card",
+      "technology": ["react", "Tailwind", "Vite"],
+      "demo": "https://greeting-card-pied.vercel.app/",
+      "github": "https://github.com/alihatem360/greeting-card"
     },
     {
       "imeg": "images/MovieReactJs.webp",
