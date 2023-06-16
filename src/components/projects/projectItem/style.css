@@ -1,11 +1,11 @@
 .row {
-  padding: 0 0;
-  margin: 0 0;
+  padding: 0 0 !important;
+  margin: 0 0 !important;
 }
 
 .card {
   margin: 1px 0 37px 0;
-  background-color: #29263a;
+  background-color: #29263a !important;
   border: none;
   text-transform: capitalize;
   border-radius: 13px;
@@ -67,4 +67,4 @@
 .card .card-buttons a:focus {
   outline: none;
   box-shadow: none;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
