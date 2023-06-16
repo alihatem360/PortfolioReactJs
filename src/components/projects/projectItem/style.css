@@ -8,7 +8,7 @@
   background-color: #29263a !important;
   border: none;
   text-transform: capitalize;
-  border-radius: 13px;
+  border-radius: 13px !important;
   transition: all 0.3s ease-in-out;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
