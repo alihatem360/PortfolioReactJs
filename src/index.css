@@ -2,6 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Abril Fatface", cursive;
+  font-family: "Almarai", sans-serif;
+  font-family: "Amatic SC", cursive;
+  font-family: "Chakra Petch", sans-serif;
+  font-family: "El Messiri", sans-serif;
+  font-family: "Finlandica", sans-serif;
+  font-family: "Kufam", sans-serif;
+  font-family: "Nanum Myeongjo", serif;
+  font-family: "Tajawal", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   /* border: 1px solid #fff; */
 }
 
@@ -15,7 +25,6 @@ body {
   outline: none !important;
   font-size: 18px;
   padding: 9px;
-  font-family: cursive;
   background-color: #453c67;
   border-radius: 10px;
 }
