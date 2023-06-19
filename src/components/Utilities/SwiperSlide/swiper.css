@@ -78,7 +78,7 @@ body {
 
 @media (max-width: 500px) {
   .swiper_container {
-    height: 47rem;
+    height: 51rem;
   }
   .swiper-slide {
     width: 28rem !important;

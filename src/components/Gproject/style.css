@@ -24,6 +24,13 @@
   backdrop-filter: blur(15px);
 }
 
+@media (max-width: 768px) {
+  .gproject_card_container .gproject_card {
+    width: 95%;
+    padding: 20px;
+  }
+}
+
 .gproject_card h3 {
   font-size: 3.5rem;
   font-weight: 600;

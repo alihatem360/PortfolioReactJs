@@ -29,6 +29,12 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+  .card .card-body {
+    height: 100%;
+  }
+}
 .card .card-title {
   font-size: 22px;
   font-weight: 600;
@@ -50,6 +56,13 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .card-buttons {
+    /* flex-direction: column; */
+  }
+}
+
 .card-buttons a {
   color: white;
   font-size: 17px;
@@ -62,6 +75,13 @@
   outline: none;
   box-shadow: none;
 }
+
+@media (max-width: 768px) {
+  .card-buttons a {
+    font-size: 11px;
+  }
+}
+
 .card-buttons a:hover {
   background-color: white;
   color: #3d3c42;
