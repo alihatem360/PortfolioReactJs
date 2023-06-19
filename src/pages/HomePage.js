@@ -6,9 +6,7 @@ const HomePage = () => {
   return (
     <React.Fragment>
       <Header />
-
       <HomeProjectsContainer />
-
       <Footer />
     </React.Fragment>
   );

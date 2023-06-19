@@ -44,27 +44,32 @@
   background-color: rgba(217, 217, 217, 0.11);
   color: white;
 }
-.card .card-buttons a {
-  width: 33%;
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-buttons a {
   color: white;
   font-size: 17px;
   font-weight: 500;
   font-family: monospace;
-  padding: 6px 0;
+  padding: 6px 14px;
   margin: 9px 0;
   border: 1px solid #fff;
   box-sizing: border-box;
   outline: none;
   box-shadow: none;
 }
-.card .card-buttons a:hover {
+.card-buttons a:hover {
   background-color: white;
   color: #3d3c42;
   box-sizing: border-box;
   outline: none;
   box-shadow: none;
 }
-.card .card-buttons a:focus {
+.card-buttons a:focus {
   outline: none;
   box-shadow: none;
 } /*# sourceMappingURL=style.css.map */

@@ -59,7 +59,7 @@ body {
 .heading {
   padding: 1rem 0;
   text-align: center;
-  color: #453c67;
+  color: #fff !important;
   font-size: 38px;
   font-weight: 700;
 }

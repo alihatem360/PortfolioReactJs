@@ -3,6 +3,7 @@ import projects from "../../data/projects";
 import { useEffect, useState } from "react";
 import Projects from "../projects/index";
 import PojectItem from "../projects/projectItem";
+import GProject from "../Gproject/index";
 import { Link } from "react-router-dom";
 import SwiperSlideCom from "../Utilities/SwiperSlide/SwiperSlideCom";
 const HomeProjectsContainer = () => {
@@ -14,12 +15,12 @@ const HomeProjectsContainer = () => {
     });
   }, []);
 
-  if (projectsDta) {
-    console.log(" : ====== projectsDta", projectsDta);
-  }
+  // if (projectsDta) {
+  //   console.log(" : ====== projectsDta", projectsDta[0]);
+  // }
 
-  return (
-    <div className="projects-container ">
+  const UppeCurve = () => {
+    return (
       <div className="upper__Curved position-relative">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -34,15 +35,11 @@ const HomeProjectsContainer = () => {
           ></path>
         </svg>
       </div>
+    );
+  };
 
-      <div className="container">
-        <SwiperSlideCom />
-        <div className="text-center ">
-          <Link to="/projects" className="btn button1">
-            View All Projects <i class="fa-solid fa-arrow-right"></i>
-          </Link>
-        </div>
-      </div>
+  const LowerCurve = () => {
+    return (
       <div className="lower__Curved position-relative">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +54,26 @@ const HomeProjectsContainer = () => {
           ></path>
         </svg>
       </div>
-    </div>
+    );
+  };
+
+  return (
+    <React.Fragment>
+      <div className="projects-container ">
+        <UppeCurve />
+        <GProject gproject={projectsDta[0]} />
+
+        <div className="container">
+          <SwiperSlideCom />
+          <div className="text-center ">
+            <Link to="/projects" className="btn button1">
+              View All Projects <i class="fa-solid fa-arrow-right"></i>
+            </Link>
+          </div>
+        </div>
+        <LowerCurve />
+      </div>
+    </React.Fragment>
   );
 };
 

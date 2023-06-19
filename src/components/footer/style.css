@@ -54,6 +54,8 @@
 .footer__Sosials__content h2 {
   margin: 10px 0 5px 0;
 }
+
 .footer__Sosials__content h6 {
   margin: 10px 0 5px 0;
-}/*# sourceMappingURL=style.css.map */
+  font-size: 1.4em !important;
+} /*# sourceMappingURL=style.css.map */

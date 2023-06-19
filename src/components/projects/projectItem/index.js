@@ -37,21 +37,30 @@ const PojectItem = ({ project }) => {
               );
             })}
           </div>
-          <div className="card-buttons position-relative">
-            <div className="d-flex justify-content-between">
+
+          {project.codeStatus === "PRIVATE" ? (
+            <span
+              className="text-danger fw-bold bg-light p-2 rounded w-25 text-center"
+              style={{ fontSize: "1.2rem" }}
+            >
+              {project.codeStatus === "PRIVATE" ? "Code is Private" : null}
+            </span>
+          ) : null}
+          <div className="card-buttons">
+            {project.github === "" || project.github === undefined ? null : (
               <a
                 className="btn"
-                href={project.github}
+                href={project.codeStatus === "PRIVATE" ? null : project.github}
                 target="_blank"
                 rel="noreferrer"
               >
                 GitHub <i class="fa-brands fa-github"></i>
               </a>
-            </div>
+            )}
 
-            {project.demo.length > 0 && (
+            {project.demo === "" || project.demo === undefined ? null : (
               <a
-                className="btn  position-absolute top-0 end-0"
+                className="btn"
                 href={project.demo}
                 target="_blank"
                 rel="noreferrer"
@@ -59,9 +68,10 @@ const PojectItem = ({ project }) => {
                 Demo <i class="fa-solid fa-globe"></i>
               </a>
             )}
-            {project.video && (
+
+            {project.video === "" || project.video === undefined ? null : (
               <a
-                className="btn position-absolute top-0 end-0"
+                className="btn"
                 href={project.video}
                 target="_blank"
                 rel="noreferrer"

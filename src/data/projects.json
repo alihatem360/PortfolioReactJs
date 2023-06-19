@@ -11,26 +11,39 @@
 
   "Projects": [
     {
+      "imeg": "images/2-5.png",
+      "title": "1M Brothers",
+      "description": "Front-end part of a graduation project for my final year. Responsible for entire front-end development. Donation website for patient cases. Users can donate and submit new cases. Upload papers and await admin approval. Integrated payment provider. Designed intuitive user interface. Showcase of HTML, CSS, and JavaScript skills. Functional and visually appealing website. Real-world application.",
+      "technology": ["react", "redux", "bootstrap", "Api"],
+      "demo": "http://imbr.surge.sh/",
+      "github": "https://github.com/alihatem360/1m-brother_frontend",
+      "video": "https://youtu.be/BDsHi7dYvxc",
+      "codeStatus": "PRIVATE"
+    },
+    {
       "imeg": "images/EcommerceWebsite.webp",
       "title": "ReactJs Ecommerce",
       "technology": ["react", "redux", "bootstrap", "Api"],
       "demo": "",
       "github": "https://github.com/alihatem360/ecommerceReactJS",
-      "video": "https://youtu.be/GBpBnKl0Rr8"
+      "video": "https://youtu.be/GBpBnKl0Rr8",
+      "codeStatus": "PRIVATE"
     },
     {
       "imeg": "images/E-Learning.png",
       "title": "E-Learning ReactJS",
       "technology": ["Tailwind", "React", "Vite"],
       "demo": "https://e-learningreactjs.pages.dev/",
-      "github": "https://github.com/alihatem360/e-learningReactJS"
+      "github": "https://github.com/alihatem360/e-learningReactJS",
+      "video": "https://youtu.be/L6EqydzzSr8"
     },
     {
       "imeg": "images/greeting-card.png",
       "title": "greeting-card",
       "technology": ["react", "Tailwind", "Vite"],
       "demo": "https://greeting-card-pied.vercel.app/",
-      "github": "https://github.com/alihatem360/greeting-card"
+      "github": "https://github.com/alihatem360/greeting-card",
+      "video": "https://youtu.be/XDKyLS0QXpg"
     },
     {
       "imeg": "images/MovieReactJs.webp",
@@ -39,27 +52,22 @@
       "demo": "https://shoping-cart-redux-vite.pages.dev/",
       "github": "https://github.com/alihatem360/movieReactJs"
     },
-    {
-      "imeg": "images/2-3.webp",
-      "title": "angularECommerceGradProj",
-      "technology": ["angular", "bootstrap", "Api"],
-      "demo": "https://21dfe692.angularecommercegradproj.pages.dev/login",
-      "github": "https://github.com/alihatem360/angularECommerceGradProj"
-    },
 
     {
       "imeg": "images/alhatab.webp",
       "title": "alhatab",
       "technology": ["HTML", "CSS"],
       "demo": "https://alihatem360.github.io/alhatab/",
-      "github": "https://github.com/alihatem360/alhatab"
+      "github": "https://github.com/alihatem360/alhatab",
+      "video": "https://youtu.be/eGk8rV_FJJ4"
     },
     {
       "imeg": "images/2-4.webp",
       "title": "agrica",
       "technology": ["html", "sass", "javascript", "bootstrap"],
       "demo": "https://alihatem360.github.io/agrica/",
-      "github": "https://github.com/alihatem360/agrica"
+      "github": "https://github.com/alihatem360/agrica",
+      "video": "https://youtu.be/IkweYBUhlM4"
     },
     {
       "imeg": "images/1-1.webp",
@@ -73,7 +81,8 @@
       "title": "Js Template",
       "technology": ["html", "css", "javascript", "bootstrap"],
       "demo": "https://alihatem360.github.io/Js-Template/",
-      "github": "https://github.com/alihatem360/Js-Template"
+      "github": "https://github.com/alihatem360/Js-Template",
+      "video": "https://youtu.be/IkweYBUhlM4"
     },
 
     {
@@ -89,7 +98,7 @@
       "technology": ["react", "bootstrap", "Api"],
       "demo": "",
       "github": "https://github.com/alihatem360/NFT-Shop",
-      "video": "https://youtu.be/Fu4gvovv2Pk"
+      "video": ""
     },
     {
       "imeg": "images/1-2.webp",
@@ -118,6 +127,13 @@
       "technology": ["react", "reactbootstrap", "Api"],
       "demo": "https://farooq-task.pages.dev/",
       "github": "https://github.com/alihatem360/farooq-task"
+    },
+    {
+      "imeg": "images/2-3.webp",
+      "title": "angularECommerceGradProj",
+      "technology": ["angular", "bootstrap", "Api"],
+      "demo": "https://21dfe692.angularecommercegradproj.pages.dev/login",
+      "github": "https://github.com/alihatem360/angularECommerceGradProj"
     },
     {
       "imeg": "images/1-5.webp",
