@@ -1,7 +1,7 @@
 import React from "react";
 import projects from "../../data/projects";
 import { useEffect, useState } from "react";
-import PojectItem from "./projectItem";
+import PojectItem from "./components/projectItem";
 import "./style.css";
 import Footer from "../footer";
 import { Link } from "react-router-dom";
@@ -9,7 +9,6 @@ const Projects = () => {
   const [projectsDta, setProjectsData] = useState([]);
   useEffect(() => {
     projects.getProjects().then((data) => {
-      console.log(" : ======" + data[0]);
       setProjectsData(data[0]);
     });
   }, []);

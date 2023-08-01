@@ -57,7 +57,7 @@ function index({ gproject }) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    GitHub <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span> <i class="fa-brands fa-github"></i>
                   </a>
                 )}
 
@@ -69,7 +69,7 @@ function index({ gproject }) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Demo <i class="fa-solid fa-globe"></i>
+                    <span>Demo</span> <i class="fa-solid fa-globe"></i>
                   </a>
                 )}
 
@@ -81,7 +81,7 @@ function index({ gproject }) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    video <i class="fa-solid fa-play"></i>
+                    <span>video</span> <i class="fa-solid fa-play"></i>
                   </a>
                 )}
               </div>

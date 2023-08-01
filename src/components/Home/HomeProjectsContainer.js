@@ -2,7 +2,7 @@ import React from "react";
 import projects from "../../data/projects";
 import { useEffect, useState } from "react";
 import Projects from "../projects/index";
-import PojectItem from "../projects/projectItem";
+import PojectItem from "../projects/components/projectItem";
 import GProject from "../Gproject/index";
 import { Link } from "react-router-dom";
 import SwiperSlideCom from "../Utilities/SwiperSlide/SwiperSlideCom";

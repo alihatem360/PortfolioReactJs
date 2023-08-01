@@ -53,7 +53,7 @@
 
 .card-buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -76,9 +76,9 @@
   box-shadow: none;
 }
 
-@media (max-width: 768px) {
-  .card-buttons a {
-    font-size: 11px;
+@media (max-width: 546px) {
+  .card-buttons a span {
+    display: none !important;
   }
 }
 

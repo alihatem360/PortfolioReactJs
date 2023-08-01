@@ -20,8 +20,7 @@ const SocialMedia = () => {
   ];
 
   return (
-    <>
-      {/* <h1>social media</h1> */}
+    <React.Fragment>
       <ul className="list-unstyled">
         {socialsData.map((social) => {
           if (mySocials.includes(social.name)) {
@@ -44,7 +43,7 @@ const SocialMedia = () => {
           }
         })}
       </ul>
-    </>
+    </React.Fragment>
   );
 };
 

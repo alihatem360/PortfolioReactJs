@@ -2,6 +2,8 @@ import React, { Fragment } from "react";
 import "./style.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+// components
+import ProjectCardButtons from "../ProjectCardButtons";
 const PojectItem = ({ project }) => {
   return (
     <Fragment>
@@ -40,46 +42,13 @@ const PojectItem = ({ project }) => {
 
           {project.codeStatus === "PRIVATE" ? (
             <span
-              className="text-danger fw-bold bg-light p-2 rounded w-25 text-center"
-              style={{ fontSize: "1.2rem" }}
+              className="text-danger fw-bold bg-light p-2 rounded text-center"
+              style={{ fontSize: "1.2rem", width: "40%" }}
             >
               {project.codeStatus === "PRIVATE" ? "Code is Private" : null}
             </span>
           ) : null}
-          <div className="card-buttons">
-            {project.github === "" || project.github === undefined ? null : (
-              <a
-                className="btn"
-                href={project.codeStatus === "PRIVATE" ? null : project.github}
-                target="_blank"
-                rel="noreferrer"
-              >
-                GitHub <i class="fa-brands fa-github"></i>
-              </a>
-            )}
-
-            {project.demo === "" || project.demo === undefined ? null : (
-              <a
-                className="btn"
-                href={project.demo}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Demo <i class="fa-solid fa-globe"></i>
-              </a>
-            )}
-
-            {project.video === "" || project.video === undefined ? null : (
-              <a
-                className="btn"
-                href={project.video}
-                target="_blank"
-                rel="noreferrer"
-              >
-                video <i class="fa-solid fa-play"></i>
-              </a>
-            )}
-          </div>
+          <ProjectCardButtons project={project} />
         </div>
       </div>
     </Fragment>
