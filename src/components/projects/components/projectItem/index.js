@@ -2,9 +2,11 @@ import React, { Fragment } from "react";
 import "./style.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import { useTranslation } from "react-i18next";
 // components
 import ProjectCardButtons from "../ProjectCardButtons";
 const PojectItem = ({ project }) => {
+  const { t, i18n } = useTranslation();
   return (
     <Fragment>
       <div className="card">
@@ -45,7 +47,11 @@ const PojectItem = ({ project }) => {
               className="text-danger fw-bold bg-light p-2 rounded text-center"
               style={{ fontSize: "1.2rem", width: "40%" }}
             >
-              {project.codeStatus === "PRIVATE" ? "Code is Private" : null}
+              {project.codeStatus === "PRIVATE"
+                ? i18n.language === "en"
+                  ? "code is private"
+                  : "الكود خاص"
+                : null}
             </span>
           ) : null}
           <ProjectCardButtons project={project} />
