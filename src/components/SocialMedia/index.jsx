@@ -1,10 +1,13 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import SocialData from "../../data/projects";
+import GetAllData from "../../data/projects";
 const SocialMedia = () => {
+  const { getProjects, getSocials, getAboutme, getSkills } = GetAllData();
+
   const [socialsData, setSocialsData] = useState([]);
   useEffect(() => {
-    SocialData.getSocials().then((data) => {
+    getSocials().then((data) => {
       setSocialsData(data[0]);
     });
   }, []);

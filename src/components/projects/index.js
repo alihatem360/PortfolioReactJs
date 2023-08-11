@@ -5,23 +5,23 @@ import PojectItem from "./components/projectItem";
 import "./style.css";
 import Footer from "../footer";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import GetAllData from "../../data/projects";
 const Projects = () => {
+  const { t, i18n } = useTranslation();
+
+  const { getProjects, getSocials, getAboutme, getSkills } = GetAllData();
   const [projectsDta, setProjectsData] = useState([]);
   useEffect(() => {
-    projects.getProjects().then((data) => {
+    getProjects().then((data) => {
       setProjectsData(data[0]);
     });
-  }, []);
+  }, [i18n.language]);
 
   return (
     <React.Fragment>
       <div className="container pt-5">
-        <div className=" d-flex justify-content-between align-items-center">
-          <Link to="/" className="btn button1">
-            <i class="fa-solid fa-arrow-left"></i> Back to Home
-          </Link>
-        </div>
-        <div className="projects row">
+        <div className="projects row pt-5">
           {projectsDta.map((project, index) => {
             return (
               <div className="col-lg-4" key={index}>

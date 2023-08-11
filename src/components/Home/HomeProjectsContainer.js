@@ -1,73 +1,46 @@
 import React from "react";
-import projects from "../../data/projects";
 import { useEffect, useState } from "react";
-import Projects from "../projects/index";
-import PojectItem from "../projects/components/projectItem";
-import GProject from "../Gproject/index";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import GetAllData from "../../data/projects";
+
+// components
+import GProject from "../Gproject/index";
 import SwiperSlideCom from "../Utilities/SwiperSlide/SwiperSlideCom";
+import FloatingWhatsAppCom from "../WhatsappChat/FloatingWhatsAppCom";
+import UppeCurve from "../Utilities/UppeCurve";
+import LowerCurve from "../Utilities/LowerCurve";
 const HomeProjectsContainer = () => {
+  const { t, i18n } = useTranslation();
   const [projectsDta, setProjectsData] = useState([]);
+  const { getProjects, getSocials, getAboutme, getSkills } = GetAllData();
+
   useEffect(() => {
-    projects.getProjects().then((data) => {
+    getProjects().then((data) => {
       console.log(" : ======", data[0]);
       setProjectsData(data[0].slice(0, 3));
     });
-  }, []);
-
-  // if (projectsDta) {
-  //   console.log(" : ====== projectsDta", projectsDta[0]);
-  // }
-
-  const UppeCurve = () => {
-    return (
-      <div className="upper__Curved position-relative">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1440 320"
-          className="position-absolute top-0"
-          style={{ zIndex: "-5" }}
-        >
-          <path
-            fill="#FFB84C"
-            fill-opacity="1"
-            d="M0,256L240,224L480,160L720,224L960,192L1200,96L1440,96L1440,0L1200,0L960,0L720,0L480,0L240,0L0,0Z"
-          ></path>
-        </svg>
-      </div>
-    );
-  };
-
-  const LowerCurve = () => {
-    return (
-      <div className="lower__Curved position-relative">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1440 320"
-          className="position-absolute bottom-0"
-          style={{ zIndex: "-5" }}
-        >
-          <path
-            fill="#FFB84C"
-            fill-opacity="1"
-            d="M0,32L288,192L576,128L864,288L1152,64L1440,192L1440,320L1152,320L864,320L576,320L288,320L0,320Z"
-          ></path>
-        </svg>
-      </div>
-    );
-  };
+  }, i18n.language);
 
   return (
     <React.Fragment>
       <div className="projects-container ">
         <UppeCurve />
         <GProject gproject={projectsDta[0]} />
-
+        <FloatingWhatsAppCom />
         <div className="container">
           <SwiperSlideCom />
           <div className="text-center ">
             <Link to="/projects" className="btn button1">
-              View All Projects <i class="fa-solid fa-arrow-right"></i>
+              {t("projects.homebutton")}
+              <i
+                class="fa-solid fa-arrow-right"
+                style={{
+                  transform:
+                    i18n.language === "ar" ? "rotate(180deg)" : "rotate(0deg)",
+                  padding: "0 5px",
+                }}
+              ></i>
             </Link>
           </div>
         </div>

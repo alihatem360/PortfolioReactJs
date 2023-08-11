@@ -1,23 +1,28 @@
 import { Link } from "react-router-dom";
 import "./style.css";
+import { Fragment } from "react";
+import { useTranslation } from "react-i18next";
+import LnaguageMenu from "./LnaguageMenu";
 const Nav = () => {
+  const { t, i18n } = useTranslation();
   return (
-    <>
+    <div className="nav__container">
       <div className="nav__bar">
-        <ul class="nav justify-content-end">
+        <ul class="nav">
           <li class="nav-item">
             <Link class="nav-link active" aria-current="page" to="/">
-              Home
+              {i18n.language === "ar" ? "الرئيسية" : "Home"}
             </Link>
           </li>
           <li class="nav-item">
             <Link class="nav-link" to="projects">
-              Projects
+              {i18n.language === "ar" ? "المشاريع" : "Projects"}
             </Link>
           </li>
         </ul>
       </div>
-    </>
+      <LnaguageMenu />
+    </div>
   );
 };
 

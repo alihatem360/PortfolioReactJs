@@ -6,18 +6,22 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./swiper.css";
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
-import projects from "../../../data/projects";
+import { useTranslation } from "react-i18next";
 import PojectItem from "../../projects/components/projectItem";
 import LoaderCom from "../LoaderCom";
+import GetAllData from "../../../data/projects";
 const OurTeamCom = () => {
+  const { t, i18n } = useTranslation();
+
+  const { getProjects, getSocials, getAboutme, getSkills } = GetAllData();
   const [projectsDta, setProjectsData] = useState([]);
   useEffect(() => {
-    projects.getProjects().then((data) => {
+    getProjects().then((data) => {
       setTimeout(() => {
         setProjectsData(data[0]);
-      }, 3000);
+      }, 2000);
     });
-  }, []);
+  }, [i18n.language]);
 
   return (
     <div className="container">

@@ -1,0 +1,15 @@
+{
+  "footer": {
+    "footerName": "Ali Hatem Ramadan 👨‍💻",
+    "footerTitle": "Front End Developer 🚀"
+  },
+  "direction": "ltr",
+  "projects": {
+    "backbutoon": "Back to home",
+    "homebutton": " View All Projects"
+  },
+  "language": {
+    "arabic": "Arabic",
+    "english": "English"
+  }
+}

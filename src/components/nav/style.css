@@ -1,8 +1,21 @@
-.nav__bar {
+.nav__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
   width: 100%;
-  z-index: 999;
-  background-color: rgba(17, 23, 34, 0.8);
+  z-index: 100;
+  gap: 1rem;
+}
+.nav__bar * {
+  font-size: 2rem !important;
+}
+
+.nav__bar .lang__switcher {
+  display: flex;
+  justify-content: space-between;
 }
 .nav__bar ul {
   width: 100%;
@@ -10,6 +23,30 @@
 .nav__bar ul li a {
   color: #fff;
 }
-.nav__bar ul li a:hover, .nav__bar ul li a:focus {
+.nav__bar ul li a:hover,
+.nav__bar ul li a:focus {
   color: #fff;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.dropdown-toggle {
+  font-size: 2rem !important;
+  background-color: transparent !important;
+  border: 1px solid !important;
+  margin: 5px 0 !important;
+  outline: none !important;
+}
+
+.dropdown-item {
+  font-size: 2rem !important;
+  border: 1px solid #fff !important;
+  margin: 5px 0 !important;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+  outline: none !important;
+}

@@ -2,19 +2,18 @@
   "aboutme": [
     {
       "heaaderimag": "images/header-background2.webp",
-      "name": "Ali Hatem",
-      "bio": "a frontend developer specializing in ReactJS ⚛️. My focus is on building stunning user interfaces using HTML, CSS, and JavaScript 💻. Let's create something beautiful together! 🌟",
+      "name": "علي حاتم",
+      "bio": "مطور واجهات أمامية متخصص في رياكت جي إس ⚛️. تركيزي على بناء واجهات مستخدم رائعة باستخدام إتش تي إم إل و سي إس إس و جافا سكريبت 💻. دعونا نبدأ بإنشاء شيء جميل معًا! 🌟",
       "cv": "https://drive.google.com/file/d/1hmcv0l-TPFkrhSk_4y31kmYJWYYw5Vzn/view?usp=share_link",
       "footer": "images/footer.webp"
     }
   ],
-
   "Projects": [
     {
       "imeg": "images/2-5.png",
       "title": "1M Brothers",
-      "description": "Front-end part of a graduation project for my final year. Responsible for entire front-end development. Donation website for patient cases. Users can donate and submit new cases. Upload papers and await admin approval. Integrated payment provider. Designed intuitive user interface. Showcase of HTML, CSS, and JavaScript skills. Functional and visually appealing website. Real-world application.",
-      "technology": ["react", "redux", "bootstrap", "Api"],
+      "description": "الجزء الأمامي من مشروع التخرج للعام الأخير. مسؤول عن تطوير الواجهة الأمامية بأكملها. موقع ويب للتبرع لحالات المرضى. يمكن للمستخدمين التبرع وتقديم حالات جديدة. رفع الأوراق وانتظار موافقة المشرف. مزود خدمة الدفع المتكاملة. تصميم واجهة مستخدم بديهية. عرض لمهارات HTML و CSS و JavaScript. موقع ويب عملي وجذاب من الناحية البصرية.",
+      "technology": ["رياكت", "ريدوكس", "بوتستراب", "آبي"],
       "demo": "http://imbr.surge.sh/",
       "github": "https://github.com/alihatem360/1m-brother_frontend",
       "video": "https://youtu.be/BDsHi7dYvxc",
@@ -22,8 +21,8 @@
     },
     {
       "imeg": "images/EcommerceWebsite.webp",
-      "title": "ReactJs Ecommerce",
-      "technology": ["react", "redux", "bootstrap", "Api"],
+      "title": "متجر إلكتروني بواجهة رياكت",
+      "technology": ["رياكت", "ريدوكس", "بوتستراب", "آبي"],
       "demo": "",
       "github": "https://github.com/alihatem360/ecommerceReactJS",
       "video": "https://youtu.be/GBpBnKl0Rr8",
@@ -31,31 +30,31 @@
     },
     {
       "imeg": "images/E-Learning.png",
-      "title": "E-Learning ReactJS",
-      "technology": ["Tailwind", "React", "Vite"],
+      "title": "منصة تعليم إلكتروني بواجهة رياكت",
+      "technology": ["تايلويند", "رياكت", "فيت"],
       "demo": "https://e-learningreactjs.pages.dev/",
       "github": "https://github.com/alihatem360/e-learningReactJS",
       "video": "https://youtu.be/L6EqydzzSr8"
     },
     {
       "imeg": "images/greeting-card.png",
-      "title": "greeting-card",
-      "technology": ["react", "Tailwind", "Vite"],
+      "title": "بطاقة تهنئة",
+      "technology": ["رياكت", "تايلويند", "فيت"],
       "demo": "https://greeting-card-pied.vercel.app/",
       "github": "https://github.com/alihatem360/greeting-card",
       "video": "https://youtu.be/XDKyLS0QXpg"
     },
     {
       "imeg": "images/MovieReactJs.webp",
-      "title": "movieReactJs",
-      "technology": ["react", "contextApi", "Api", "react-hook", "bootstrap"],
+      "title": "تطبيق MovieReactJs",
+      "technology": ["رياكت", "سياقApi", "آبي", "رياكت-هوك", "بوتستراب"],
       "demo": "https://shoping-cart-redux-vite.pages.dev/",
       "github": "https://github.com/alihatem360/movieReactJs"
     },
 
     {
       "imeg": "images/alhatab.webp",
-      "title": "alhatab",
+      "title": "مشروع الحطاب",
       "technology": ["HTML", "CSS"],
       "demo": "https://alihatem360.github.io/alhatab/",
       "github": "https://github.com/alihatem360/alhatab",
@@ -63,23 +62,23 @@
     },
     {
       "imeg": "images/2-4.webp",
-      "title": "agrica",
-      "technology": ["html", "sass", "javascript", "bootstrap"],
+      "title": "مشروع أجريكا",
+      "technology": ["إتش-تي-إم-إل", "كاسّ", "جافا سكريبت", "بوتستراب"],
       "demo": "https://alihatem360.github.io/agrica/",
       "github": "https://github.com/alihatem360/agrica",
       "video": "https://youtu.be/IkweYBUhlM4"
     },
     {
       "imeg": "images/1-1.webp",
-      "title": "Portfolio Website",
-      "technology": ["html", "css", "javascript", "bootstrap"],
+      "title": "موقع شخصي",
+      "technology": ["إتش-تي-إم-إل", "سي إس إس", "جافا سكريبت", "بوتستراب"],
       "demo": "https://alihatem360.github.io/Portfolio-Template/",
       "github": "https://github.com/alihatem360/Portfolio-Template"
     },
     {
       "imeg": "images/1-3.webp",
-      "title": "Js Template",
-      "technology": ["html", "css", "javascript", "bootstrap"],
+      "title": "قالب جافا سكريبت",
+      "technology": ["إتش-تي-إم-إل", "سي إس إس", "جافا سكريبت", "بوتستراب"],
       "demo": "https://alihatem360.github.io/Js-Template/",
       "github": "https://github.com/alihatem360/Js-Template",
       "video": "https://youtu.be/IkweYBUhlM4"
@@ -87,58 +86,64 @@
 
     {
       "imeg": "images/movies-list-redux.webp",
-      "title": "movies-list-redux",
-      "technology": ["react", "redux", "bootstrap", "Api"],
+      "title": "قائمة أفلام ريدوكس",
+      "technology": ["رياكت", "ريدوكس", "بوتستراب", "آبي"],
       "demo": "https://movies-list-redux.pages.dev/",
       "github": "https://github.com/alihatem360/movies-list-redux"
     },
     {
       "imeg": "images/NFT-Shop.webp",
-      "title": "NFT-Shop",
-      "technology": ["react", "bootstrap", "Api"],
+      "title": "متجر NFT",
+      "technology": ["رياكت", "بوتستراب", "آبي"],
       "demo": "",
       "github": "https://github.com/alihatem360/NFT-Shop",
       "video": ""
     },
     {
       "imeg": "images/1-2.webp",
-      "title": "Restaurant Website",
-      "technology": ["html", "css", "javascript", "bootstrap"],
+      "title": "موقع مطعم",
+      "technology": ["إتش-تي-إم-إل", "سي إس إس", "جافا سكريبت", "بوتستراب"],
       "demo": "https://alihatem360.github.io/Restaurant-Template/",
       "github": "https://github.com/alihatem360/Restaurant-Template"
     },
     {
       "imeg": "images/2-1.webp",
-      "title": "UdacityMyReadsProject",
-      "technology": ["react", "bootstrap", "Api"],
+      "title": "مشروع UdacityMyReads",
+      "technology": ["رياكت", "بوتستراب", "آبي"],
       "demo": "https://udacitymyreadsproject.pages.dev/",
       "github": "https://github.com/alihatem360/UdacityMyReadsProject"
     },
     {
       "imeg": "images/2-2.webp",
-      "title": "SpeakersReactjs",
-      "technology": ["react", "bootstrap"],
+      "title": "مشروع SpeakersReactjs",
+      "technology": ["رياكت", "بوتستراب"],
       "demo": "https://speakersreactjs.pages.dev/",
       "github": "https://github.com/alihatem360/SpeakersReactjs"
     },
     {
       "imeg": "images/farooq-task.webp",
-      "title": "farooq-task",
-      "technology": ["react", "reactbootstrap", "Api"],
+      "title": "مشروع farooq-task",
+      "technology": ["رياكت", "رياكت-بوتستراب", "آبي"],
       "demo": "https://farooq-task.pages.dev/",
       "github": "https://github.com/alihatem360/farooq-task"
     },
     {
       "imeg": "images/2-3.webp",
-      "title": "angularECommerceGradProj",
-      "technology": ["angular", "bootstrap", "Api"],
+      "title": "مشروع angularECommerceGradProj",
+      "technology": ["أنغولار", "بوتستراب", "آبي"],
       "demo": "https://21dfe692.angularecommercegradproj.pages.dev/login",
       "github": "https://github.com/alihatem360/angularECommerceGradProj"
     },
     {
       "imeg": "images/1-5.webp",
-      "title": "IMDb Movies",
-      "technology": ["C#", "ASP.NET", "MVC", "Entity Framework", "SQL"],
+      "title": "أفلام IMDb",
+      "technology": [
+        "سي-شارب",
+        "آسب.نت",
+        "إم في سي",
+        "إنتيتي فريموورك",
+        "إس كيو إل"
+      ],
       "demo": "",
       "github": "https://github.com/alihatem360/IMDb"
     }
@@ -147,47 +152,47 @@
   "socials": [
     {
       "id": "1",
-      "name": "facebook",
+      "name": "فيسبوك",
       "link": "https://www.facebook.com/profile.php?id=100012592714147"
     },
     {
       "id": "2",
-      "name": "twitter",
+      "name": "تويتر",
       "link": "https://twitter.com/AliHate21071474"
     },
     {
       "id": "3",
-      "name": "github",
+      "name": "جيثب",
       "link": "https://github.com/alihatem360"
     },
     {
       "id": "4",
-      "name": "linkedin",
+      "name": "لينكد إن",
       "link": "https://www.linkedin.com/in/aliihatem-753025203/"
     },
     {
       "id": "5",
-      "name": "instagram",
+      "name": "إنستجرام",
       "link": "https://www.instagram.com/alihatem5496/"
     },
     {
       "id": "6",
-      "name": "youtube",
+      "name": "يوتيوب",
       "link": "https://www.youtube.com/channel/UC8VBtReu7uU0w7bCVgE-KVA"
     },
     {
       "id": "7",
-      "name": "email",
+      "name": "البريد الإلكتروني",
       "link": "mailto:alihatemramadan5@gmail.com"
     },
     {
       "id": "8",
-      "name": "phone",
+      "name": "الهاتف",
       "link": "+201026159353"
     },
     {
       "id": "9",
-      "name": "whatsapp",
+      "name": "واتساب",
       "link": "http://wa.me/+201026159353"
     }
   ],

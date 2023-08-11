@@ -65,6 +65,7 @@ body {
 }
 
 .swiper_container {
+  direction: ltr !important;
   height: 52rem;
   padding: 2rem 0;
   position: relative;
