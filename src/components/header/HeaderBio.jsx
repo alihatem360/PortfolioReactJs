@@ -12,7 +12,16 @@ const HeaderBio = ({ aboutmeData }) => {
         <h2>
           {i18n.language === "en" ? "I'm" : "أنا"} {aboutmeData.name} 👨‍💻
         </h2>
-        <p>{aboutmeData.bio}</p>
+        <p>
+          {aboutmeData.bio?.map((item) => {
+            return (
+              <span>
+                {item}
+                <br />
+              </span>
+            );
+          })}
+        </p>
 
         <div className="header-buttons">
           <button

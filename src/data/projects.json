@@ -3,7 +3,11 @@
     {
       "heaaderimag": "images/header-background2.webp",
       "name": "Ali Hatem",
-      "bio": "a frontend developer specializing in ReactJS ⚛️. My focus is on building stunning user interfaces using HTML, CSS, and JavaScript 💻. Let's create something beautiful together! 🌟",
+      "bio": [
+        "a frontend developer specializing in ReactJS ⚛️.",
+        "My focus is on building stunning user interfaces using HTML, CSS, and JavaScript 💻.",
+        "Let's create something beautiful together! 🌟"
+      ],
       "cv": "https://drive.google.com/file/d/1hmcv0l-TPFkrhSk_4y31kmYJWYYw5Vzn/view?usp=share_link",
       "footer": "images/footer.webp"
     }
