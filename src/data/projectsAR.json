@@ -49,6 +49,15 @@
       "video": "https://youtu.be/XDKyLS0QXpg"
     },
     {
+      "imeg": "images/Hospital-LandingPage.png",
+      "title": "صفحة هبوط لمستشفي ",
+      "technology": ["HTML", "CSS", "JavaScript"],
+      "demo": "https://hospital-landing-page-sooty.vercel.app/",
+      "github": "https://github.com/alihatem360/Hospital-LandingPage",
+      "video": ""
+    },
+
+    {
       "imeg": "images/MovieReactJs.webp",
       "title": "تطبيق MovieReactJs",
       "technology": ["رياكت", "سياقApi", "آبي", "رياكت-هوك", "بوتستراب"],
@@ -86,6 +95,14 @@
       "demo": "https://alihatem360.github.io/Js-Template/",
       "github": "https://github.com/alihatem360/Js-Template",
       "video": "https://youtu.be/IkweYBUhlM4"
+    },
+    {
+      "imeg": "images/BookDownloadPage.png",
+      "title": "صفحة تحميل كتاب",
+      "technology": ["html", "css"],
+      "demo": "https://alihatem360.github.io/BookDownloadPage/",
+      "github": "https://github.com/alihatem360/BookDownloadPage",
+      "codeStatus": "PRIVATE"
     },
 
     {

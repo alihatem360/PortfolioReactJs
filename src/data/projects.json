@@ -22,6 +22,7 @@
       "demo": "http://imbr.surge.sh/",
       "github": "https://github.com/alihatem360/1m-brother_frontend",
       "video": "https://youtu.be/BDsHi7dYvxc",
+      "videoKey": "BDsHi7dYvxc",
       "codeStatus": "PRIVATE"
     },
     {
@@ -31,6 +32,7 @@
       "demo": "",
       "github": "https://github.com/alihatem360/ecommerceReactJS",
       "video": "https://youtu.be/GBpBnKl0Rr8",
+      "videoKey": "GBpBnKl0Rr8",
       "codeStatus": "PRIVATE"
     },
     {
@@ -39,7 +41,8 @@
       "technology": ["Tailwind", "React", "Vite"],
       "demo": "https://e-learningreactjs.pages.dev/",
       "github": "https://github.com/alihatem360/e-learningReactJS",
-      "video": "https://youtu.be/L6EqydzzSr8"
+      "video": "https://youtu.be/L6EqydzzSr8",
+      "videoKey": "L6EqydzzSr8"
     },
     {
       "imeg": "images/greeting-card.png",
@@ -47,7 +50,16 @@
       "technology": ["react", "Tailwind", "Vite"],
       "demo": "https://greeting-card-pied.vercel.app/",
       "github": "https://github.com/alihatem360/greeting-card",
-      "video": "https://youtu.be/XDKyLS0QXpg"
+      "video": "https://youtu.be/XDKyLS0QXpg",
+      "videoKey": "XDKyLS0QXpg"
+    },
+    {
+      "imeg": "images/Hospital-LandingPage.png",
+      "title": "hospital-landing-page",
+      "technology": ["HTML", "CSS", "JavaScript"],
+      "demo": "https://hospital-landing-page-sooty.vercel.app/",
+      "github": "https://github.com/alihatem360/Hospital-LandingPage",
+      "video": ""
     },
     {
       "imeg": "images/MovieReactJs.webp",
@@ -63,7 +75,8 @@
       "technology": ["HTML", "CSS"],
       "demo": "https://alihatem360.github.io/alhatab/",
       "github": "https://github.com/alihatem360/alhatab",
-      "video": "https://youtu.be/eGk8rV_FJJ4"
+      "video": "https://youtu.be/eGk8rV_FJJ4",
+      "videoKey": "eGk8rV_FJJ4"
     },
     {
       "imeg": "images/2-4.webp",
@@ -71,7 +84,8 @@
       "technology": ["html", "sass", "javascript", "bootstrap"],
       "demo": "https://alihatem360.github.io/agrica/",
       "github": "https://github.com/alihatem360/agrica",
-      "video": "https://youtu.be/IkweYBUhlM4"
+      "video": "https://youtu.be/IkweYBUhlM4",
+      "videoKey": "IkweYBUhlM4"
     },
     {
       "imeg": "images/1-1.webp",
@@ -86,7 +100,16 @@
       "technology": ["html", "css", "javascript", "bootstrap"],
       "demo": "https://alihatem360.github.io/Js-Template/",
       "github": "https://github.com/alihatem360/Js-Template",
-      "video": "https://youtu.be/IkweYBUhlM4"
+      "video": "https://youtu.be/IkweYBUhlM4",
+      "videoKey": "IkweYBUhlM4"
+    },
+    {
+      "imeg": "images/BookDownloadPage.png",
+      "title": "BookDownloadPage",
+      "technology": ["html", "css"],
+      "demo": "https://alihatem360.github.io/BookDownloadPage/",
+      "github": "https://github.com/alihatem360/BookDownloadPage",
+      "codeStatus": "PRIVATE"
     },
 
     {

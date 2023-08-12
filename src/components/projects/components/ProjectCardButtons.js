@@ -1,4 +1,5 @@
 import React from "react";
+import VideoPopup from "./VideoPopup";
 
 const ProjectCardButtons = ({ project }) => {
   return (
@@ -28,14 +29,7 @@ const ProjectCardButtons = ({ project }) => {
         )}
 
         {project.video === "" || project.video === undefined ? null : (
-          <a
-            className="btn"
-            href={project.video}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>video</span> <i class="fa-solid fa-play"></i>
-          </a>
+          <VideoPopup videoKey={project.videoKey} />
         )}
       </div>
     </React.Fragment>

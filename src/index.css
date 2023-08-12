@@ -26,6 +26,12 @@ body {
   box-shadow: 0 0 10px 1px rgba(249, 244, 244, 0.25);
 }
 
+@media (max-width: 768px) {
+  .button1 {
+    margin: 0;
+  }
+}
+
 .button1:hover {
   background-color: #fff;
   color: #453c67;
