@@ -12,15 +12,7 @@ const SocialMedia = () => {
     });
   }, []);
 
-  const mySocials = [
-    "github",
-    "linkedin",
-    "twitter",
-    "facebook",
-    "youtube",
-    "whatsapp",
-    "email",
-  ];
+  const mySocials = ["github", "linkedin", "youtube", "whatsapp", "email"];
 
   return (
     <React.Fragment>
