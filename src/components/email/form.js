@@ -7,7 +7,7 @@ const Form = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    console.log("data from form " + e.target);
+    // console.log("data from form " + e.target);
 
     emailjs
       .sendForm(
@@ -18,10 +18,10 @@ const Form = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          // console.log(result.text);
         },
         (error) => {
-          console.log(error.text);
+          // console.log(error.text);
         }
       );
 

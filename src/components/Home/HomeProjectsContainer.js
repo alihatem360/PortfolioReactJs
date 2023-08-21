@@ -17,7 +17,7 @@ const HomeProjectsContainer = () => {
 
   useEffect(() => {
     getProjects().then((data) => {
-      console.log(" : ======", data[0]);
+      // console.log(" : ======", data[0]);
       setProjectsData(data[0].slice(0, 3));
     });
   }, i18n.language);

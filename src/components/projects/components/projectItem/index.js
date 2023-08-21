@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 // components
 import ProjectCardButtons from "../ProjectCardButtons";
 const PojectItem = ({ project }) => {
+  // console.log(" : project", project);/
   const { t, i18n } = useTranslation();
   return (
     <Fragment>

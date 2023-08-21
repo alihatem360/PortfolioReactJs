@@ -6,7 +6,7 @@ const SkillComponent = () => {
   const [skillsData, setSkillsData] = useState([]);
   useEffect(() => {
     projects.getSkills().then((data) => {
-      console.log(data[0], "data from skill component");
+      // console.log(data[0], "data from skill component");
       setSkillsData(data[0]);
     });
   }, []);

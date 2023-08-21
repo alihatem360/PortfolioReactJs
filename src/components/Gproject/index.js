@@ -8,7 +8,7 @@ function index({ gproject }) {
 
     return match && match[2].length === 11 ? match[2] : null;
   };
-  console.log(gproject, "gproject in gproject card");
+  // console.log(gproject, "gproject in gproject card");
   return (
     <React.Fragment>
       <div class="gproject_card_container">
