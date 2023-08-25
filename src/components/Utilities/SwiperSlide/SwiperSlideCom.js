@@ -8,24 +8,28 @@ import "./swiper.css";
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
 import PojectItem from "../../projects/components/projectItem";
 import LoaderCom from "../LoaderCom";
-import { useSelector, useDispatch } from "react-redux";
-import { fetchProjectData } from "../../../store/reducers/projectSlice";
-
+// import { useSelector, useDispatch } from "react-redux";
+// import { fetchProjectData } from "../../../store/reducers/projectSlice";
+import { useTranslation } from "react-i18next";
+import GetAllData from "../../../data/projects";
 const OurTeamCom = () => {
-  const dispatch = useDispatch();
-  const projects = useSelector((state) => state.project.data);
+  const { getProjects, getSocials, getAboutme, getSkills } = GetAllData();
+  const [projectsDta, setProjectsData] = useState([]);
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
-    dispatch(fetchProjectData());
-  }, [dispatch]);
+    getProjects().then((data) => {
+      setTimeout(() => {
+        setProjectsData(data[0]);
+      }, 1000);
+    });
+  }, [i18n.language]);
 
   return (
     <div className="container">
-      {projects !== undefined &&
-      projects !== null &&
-      projects.data !== undefined &&
-      projects.data !== null &&
-      projects.data.length > 0 ? (
+      {projectsDta !== undefined &&
+      projectsDta !== null &&
+      projectsDta.length > 0 ? (
         <Swiper
           effect={"coverflow"}
           grabCursor={true}
@@ -42,7 +46,7 @@ const OurTeamCom = () => {
           modules={[EffectCoverflow, Pagination, Navigation]}
           className="swiper_container"
         >
-          {projects?.data?.map((item, index) => {
+          {projectsDta?.map((item, index) => {
             return (
               <SwiperSlide key={index}>
                 <PojectItem project={item} />

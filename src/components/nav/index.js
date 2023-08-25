@@ -3,6 +3,7 @@ import "./style.css";
 import { Fragment } from "react";
 import { useTranslation } from "react-i18next";
 import LnaguageMenu from "./LnaguageMenu";
+import LoginModal from "../Auth/LoginModal";
 const Nav = () => {
   const { t, i18n } = useTranslation();
   return (
