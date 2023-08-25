@@ -1,5 +1,4 @@
 .login__modal {
-  position: fixed;
   bottom: 5px;
   left: 5px;
 }
@@ -22,4 +21,8 @@
   padding: 0 !important;
   display: flex;
   justify-content: center !important;
+}
+
+.login__modal__container {
+  height: 100vh;
 }

@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import SocialMedia from "../SocialMedia/index";
 import CV from "../../assets/Ali_Hatem_Ramadan_Resume.pdf";
 import { handleDownloadCv } from "../../helpers/index.js";
+import PreviewCvModal from "../Auth/PreviewCvModal";
 const HeaderBio = ({ aboutmeData }) => {
   const { t, i18n } = useTranslation();
   return (
@@ -23,23 +24,14 @@ const HeaderBio = ({ aboutmeData }) => {
           })}
         </p>
 
-        <div className="header-buttons">
+        <div className="header-buttons d-flex justify-content-start gap-3">
           <button
             className="btn"
             onClick={() => handleDownloadCv(CV, "Ali_Hatem_Ramadan_Resume")}
           >
             CV <i class="fa-solid fa-file-arrow-down"></i>
           </button>
-          <button className="btn">
-            <a
-              href={aboutmeData.cv}
-              target="_blank"
-              rel="noreferrer"
-              className="btn"
-            >
-              Preview CV 👀
-            </a>
-          </button>
+          <PreviewCvModal />
         </div>
       </div>
 
