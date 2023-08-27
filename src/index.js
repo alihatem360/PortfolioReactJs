@@ -7,12 +7,17 @@ import "./i18n";
 import { Provider } from "react-redux";
 import store from "./store/index";
 import { BrowserRouter } from "react-router-dom";
-const root = ReactDOM.createRoot(document.getElementById("root"));
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
 root.render(
-  <BrowserRouter>
-    <Provider store={store}>
-      <App />
-    </Provider>
-  </BrowserRouter>
+  <StrictMode>
+    <BrowserRouter>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </BrowserRouter>
+  </StrictMode>
 );
