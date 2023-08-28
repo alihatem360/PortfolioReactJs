@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-lg-12 ">
               <div className="footer__Sosials">
-                <div className="footer__Sosials__content">
+                <div className="footer__Sosials__content" data-aos="fade-up">
                   <div className="footer__Sosials__imag">
                     <img src={aboutmeData.footer} alt="social" />
                   </div>

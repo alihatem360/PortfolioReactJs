@@ -7,7 +7,7 @@ import PreviewCvModal from "../Auth/PreviewCvModal";
 const HeaderBio = ({ aboutmeData }) => {
   const { t, i18n } = useTranslation();
   return (
-    <div className="header-text ">
+    <div className="header-text " data-aos="fade-up">
       <div className="header-contant">
         <h4>{i18n.language === "en" ? "Hi👋" : "مرحبا 👋"}</h4>
         <h2>

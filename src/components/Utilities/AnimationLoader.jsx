@@ -4,7 +4,10 @@ import animationData from "../../assets/animation.json";
 const AnimationLoader = () => {
   return (
     <div className="d-flex justify-content-center align-items-center">
-      <Lottie animationData={animationData} />
+      <Lottie
+        animationData={animationData}
+        style={{ width: "100%", height: "90vh" }}
+      />
     </div>
   );
 };

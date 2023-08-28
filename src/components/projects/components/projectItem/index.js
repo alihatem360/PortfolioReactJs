@@ -10,7 +10,7 @@ const PojectItem = ({ project }) => {
   const { t, i18n } = useTranslation();
   return (
     <Fragment>
-      <div className="card">
+      <div className="card" data-aos="fade-up">
         <div className="img-container w-100">
           <LazyLoadImage
             src={project.imeg}

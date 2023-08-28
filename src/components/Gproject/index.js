@@ -20,7 +20,7 @@ function index({ gproject }) {
               : gproject.title}
           </h3>
           <div class="gproject_card_body">
-            <div class="gproject_card_video">
+            <div class="gproject_card_video" data-aos="fade-up">
               <iframe
                 src={
                   gproject === undefined || gproject.video === ""
@@ -36,7 +36,7 @@ function index({ gproject }) {
                 width="100%"
               ></iframe>
             </div>
-            <div class="gproject_card_content">
+            <div class="gproject_card_content" data-aos="fade-up">
               {
                 <p>
                   {gproject === undefined || gproject.description === "" ? (
