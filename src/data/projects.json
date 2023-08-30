@@ -18,7 +18,7 @@
       "imeg": "images/2-5.png",
       "title": "1M Brothers",
       "description": "Front-end part of a graduation project for my final year. Responsible for entire front-end development. Donation website for patient cases. Users can donate and submit new cases. Upload papers and await admin approval. Integrated payment provider. Designed intuitive user interface. Showcase of HTML, CSS, and JavaScript skills. Functional and visually appealing website. Real-world application.",
-      "technology": ["react", "redux", "bootstrap", "Api"],
+      "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],
       "demo": "http://imbr.surge.sh/",
       "github": "https://github.com/alihatem360/1m-brother_frontend",
       "video": "https://youtu.be/BDsHi7dYvxc",
@@ -28,7 +28,7 @@
     {
       "imeg": "images/EcommerceWebsite.webp",
       "title": "ReactJs Ecommerce",
-      "technology": ["react", "redux", "bootstrap", "Api"],
+      "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],
       "demo": "",
       "github": "https://github.com/alihatem360/ecommerceReactJS",
       "video": "https://youtu.be/GBpBnKl0Rr8",
@@ -38,7 +38,7 @@
     {
       "imeg": "images/mohammed-al-huwaila.png",
       "title": "mohammed-al-huwaila",
-      "technology": ["react", "redux", "bootstrap", "Api"],
+      "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],
       "demo": "https://mohammed-al-huwaila2.vercel.app/",
       "github": "https://github.com/alihatem360/Mohammed-Al-Huwaila2",
       "codeStatus": "PRIVATE"
@@ -46,7 +46,7 @@
     {
       "imeg": "images/thamer-al-suwait.png",
       "title": "thamer-al-suwait",
-      "technology": ["react", "redux", "bootstrap", "Api"],
+      "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],
       "demo": "https://thamer-al-suwait.vercel.app/",
       "github": "https://github.com/alihatem360/Thamer-Al-Suwait",
       "codeStatus": "PRIVATE"
@@ -54,7 +54,7 @@
     {
       "imeg": "images/saoud-al-asfour.png",
       "title": "saoud-al-asfour",
-      "technology": ["react", "redux", "bootstrap", "Api"],
+      "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],
       "demo": "https://saoud-al-asfour.vercel.app/",
       "github": "https://github.com/alihatem360/Saoud_Al-Asfour",
       "codeStatus": "PRIVATE"
@@ -62,7 +62,7 @@
     {
       "imeg": "images/abdullah-mutlaq-awad-al-mutairi.png",
       "title": "abdullah-mutlaq-awad-al-mutairi",
-      "technology": ["react", "redux", "bootstrap", "Api"],
+      "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],
       "demo": "https://abdullah-mutlaq-awad-al-mutairi.vercel.app/",
       "github": "https://github.com/alihatem360/abdullah_mutlaq_awad_al-mutairi",
       "codeStatus": "PRIVATE"
@@ -80,7 +80,7 @@
     {
       "imeg": "images/greeting-card.png",
       "title": "greeting-card",
-      "technology": ["react", "Tailwind", "Vite"],
+      "technology": ["ReactJs", "Tailwind", "Vite"],
       "demo": "https://greeting-card-pied.vercel.app/",
       "github": "https://github.com/alihatem360/greeting-card",
       "video": "https://youtu.be/XDKyLS0QXpg",
@@ -97,7 +97,13 @@
     {
       "imeg": "images/MovieReactJs.webp",
       "title": "movieReactJs",
-      "technology": ["react", "contextApi", "Api", "react-hook", "bootstrap"],
+      "technology": [
+        "ReactJs",
+        "contextApi",
+        "Api",
+        "ReactJs-hook",
+        "Bootstrap"
+      ],
       "demo": "https://shoping-cart-redux-vite.pages.dev/",
       "github": "https://github.com/alihatem360/movieReactJs"
     },
@@ -114,7 +120,7 @@
     {
       "imeg": "images/2-4.webp",
       "title": "agrica",
-      "technology": ["html", "sass", "javascript", "bootstrap"],
+      "technology": ["HTML", "Sass", "JavaScript", "Bootstrap"],
       "demo": "https://alihatem360.github.io/agrica/",
       "github": "https://github.com/alihatem360/agrica",
       "video": "https://youtu.be/IkweYBUhlM4",
@@ -123,14 +129,14 @@
     {
       "imeg": "images/1-1.webp",
       "title": "Portfolio Website",
-      "technology": ["html", "css", "javascript", "bootstrap"],
+      "technology": ["HTML", "CSS", "JavaScript", "Bootstrap"],
       "demo": "https://alihatem360.github.io/Portfolio-Template/",
       "github": "https://github.com/alihatem360/Portfolio-Template"
     },
     {
       "imeg": "images/1-3.webp",
       "title": "Js Template",
-      "technology": ["html", "css", "javascript", "bootstrap"],
+      "technology": ["HTML", "CSS", "JavaScript", "Bootstrap"],
       "demo": "https://alihatem360.github.io/Js-Template/",
       "github": "https://github.com/alihatem360/Js-Template",
       "video": "https://youtu.be/IkweYBUhlM4",
@@ -139,7 +145,7 @@
     {
       "imeg": "images/BookDownloadPage.png",
       "title": "BookDownloadPage",
-      "technology": ["html", "css"],
+      "technology": ["HTML", "CSS"],
       "demo": "https://alihatem360.github.io/BookDownloadPage/",
       "github": "https://github.com/alihatem360/BookDownloadPage",
       "codeStatus": "PRIVATE"
@@ -148,14 +154,14 @@
     {
       "imeg": "images/movies-list-redux.webp",
       "title": "movies-list-redux",
-      "technology": ["react", "redux", "bootstrap", "Api"],
+      "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],
       "demo": "https://movies-list-redux.pages.dev/",
       "github": "https://github.com/alihatem360/movies-list-redux"
     },
     {
       "imeg": "images/NFT-Shop.webp",
       "title": "NFT-Shop",
-      "technology": ["react", "bootstrap", "Api"],
+      "technology": ["ReactJs", "Bootstrap", "Api"],
       "demo": "",
       "github": "https://github.com/alihatem360/NFT-Shop",
       "video": ""
@@ -163,35 +169,35 @@
     {
       "imeg": "images/1-2.webp",
       "title": "Restaurant Website",
-      "technology": ["html", "css", "javascript", "bootstrap"],
+      "technology": ["HTML", "CSS", "JavaScript", "Bootstrap"],
       "demo": "https://alihatem360.github.io/Restaurant-Template/",
       "github": "https://github.com/alihatem360/Restaurant-Template"
     },
     {
       "imeg": "images/2-1.webp",
       "title": "UdacityMyReadsProject",
-      "technology": ["react", "bootstrap", "Api"],
+      "technology": ["ReactJs", "Bootstrap", "Api"],
       "demo": "https://udacitymyreadsproject.pages.dev/",
       "github": "https://github.com/alihatem360/UdacityMyReadsProject"
     },
     {
       "imeg": "images/2-2.webp",
       "title": "SpeakersReactjs",
-      "technology": ["react", "bootstrap"],
+      "technology": ["ReactJs", "Bootstrap"],
       "demo": "https://speakersreactjs.pages.dev/",
       "github": "https://github.com/alihatem360/SpeakersReactjs"
     },
     {
       "imeg": "images/farooq-task.webp",
       "title": "farooq-task",
-      "technology": ["react", "reactbootstrap", "Api"],
+      "technology": ["ReactJs", "reactbootstrap", "Api"],
       "demo": "https://farooq-task.pages.dev/",
       "github": "https://github.com/alihatem360/farooq-task"
     },
     {
       "imeg": "images/2-3.webp",
       "title": "angularECommerceGradProj",
-      "technology": ["angular", "bootstrap", "Api"],
+      "technology": ["angular", "Bootstrap", "Api"],
       "demo": "https://21dfe692.angularecommercegradproj.pages.dev/login",
       "github": "https://github.com/alihatem360/angularECommerceGradProj"
     },
@@ -275,7 +281,7 @@
     },
     {
       "title": "Bootstrap",
-      "image": "images/bootstrap.png"
+      "image": "images/Bootstrap.png"
     },
     {
       "title": "NextJs",

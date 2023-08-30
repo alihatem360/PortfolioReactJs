@@ -8,6 +8,7 @@ import GetAllData from "../../data/projects";
 import GProject from "../Gproject/index";
 import SwiperSlideCom from "../Utilities/SwiperSlide/SwiperSlideCom";
 import FloatingWhatsAppCom from "../WhatsappChat/FloatingWhatsAppCom";
+import SkillComponent from "../Skills/index";
 import UppeCurve from "../Utilities/UppeCurve";
 import LowerCurve from "../Utilities/LowerCurve";
 const HomeProjectsContainer = () => {

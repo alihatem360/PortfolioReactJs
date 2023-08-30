@@ -1,51 +1,95 @@
-import React from "react";
-import projects from "../../data/projects";
-import { useEffect, useState } from "react";
-import PojectItem from "./components/projectItem";
-import "./style.css";
-import Footer from "../footer";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import "./style.css";
+// components
+import PojectItem from "./components/projectItem";
+import Footer from "../footer";
 import GetAllData from "../../data/projects";
+import LoaderCom from "../Utilities/LoaderCom";
+import LowerCurve from "../Utilities/LowerCurve";
+import { techSkills } from "../../data/index";
 const Projects = () => {
-  const { t, i18n } = useTranslation();
-
-  const { getProjects, getSocials, getAboutme, getSkills } = GetAllData();
+  const { getProjects } = GetAllData();
+  const [filteringItems, setFilteringItems] = useState([]);
   const [projectsDta, setProjectsData] = useState([]);
-  useEffect(() => {
+  const [filteredProjectsData, setFilteredProjectsData] = useState([]);
+  const getProjectsFromApi = () => {
     getProjects().then((data) => {
       setProjectsData(data[0]);
+      setFilteredProjectsData(data[0]);
     });
-  }, [i18n.language]);
+  };
+
+  useEffect(() => {
+    if (projectsDta.length === 0) {
+      getProjectsFromApi();
+    }
+  }, []);
+
+  const handelFilterClick = (name) => {
+    if (filteringItems.includes(name)) {
+      setFilteringItems(filteringItems.filter((item) => item !== name));
+    } else {
+      setFilteringItems([name]);
+    }
+  };
+
+  useEffect(() => {
+    filterItems();
+  }, [filteringItems]);
+
+  const filterItems = () => {
+    if (filteringItems.length > 0) {
+      const filteredProjects = projectsDta.filter((project) =>
+        project.technology.some((r) => filteringItems.includes(r))
+      );
+      setFilteredProjectsData(filteredProjects);
+    } else {
+      getProjectsFromApi();
+    }
+  };
 
   return (
     <React.Fragment>
       <div className="container pt-5">
-        <div className="projects row pt-5">
-          {projectsDta.map((project, index) => {
+        <div className="filter-buttons d-flex justify-content-center flex-wrap gap-3">
+          {techSkills.map((skill, index) => {
             return (
-              <div className="col-lg-4" key={index}>
-                <PojectItem project={project} />
-              </div>
+              <button
+                className={`btn btn-outline-warning btn-lg ${
+                  filteringItems.includes(skill) ? "active" : ""
+                }
+                `}
+                key={index}
+                onClick={() => handelFilterClick(skill)}
+              >
+                {skill}
+              </button>
             );
           })}
+          <button
+            className="btn btn-outline-warning btn-lg active"
+            onClick={() => setFilteringItems([])}
+          >
+            Clear
+          </button>
+        </div>
+        <div className="projects row pt-5">
+          {filteredProjectsData && filteredProjectsData.length > 0 ? (
+            filteredProjectsData.map((project, index) => {
+              return (
+                <div className="col-lg-4" key={index}>
+                  <PojectItem project={project} />
+                </div>
+              );
+            })
+          ) : (
+            <LoaderCom />
+          )}
         </div>
       </div>
-      <div className="lower__Curved position-relative">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1440 320"
-          className="position-absolute bottom-0"
-          style={{ zIndex: "-5" }}
-        >
-          <path
-            fill="#FFB84C"
-            fill-opacity="1"
-            d="M0,32L288,192L576,128L864,288L1152,64L1440,192L1440,320L1152,320L864,320L576,320L288,320L0,320Z"
-          ></path>
-        </svg>
-      </div>
-
+      <LowerCurve />
       <Footer />
     </React.Fragment>
   );
