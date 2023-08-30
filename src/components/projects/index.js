@@ -10,6 +10,7 @@ import LoaderCom from "../Utilities/LoaderCom";
 import LowerCurve from "../Utilities/LowerCurve";
 import { techSkills } from "../../data/index";
 const Projects = () => {
+  const { t, i18n } = useTranslation();
   const { getProjects } = GetAllData();
   const [filteringItems, setFilteringItems] = useState([]);
   const [projectsDta, setProjectsData] = useState([]);
@@ -25,7 +26,7 @@ const Projects = () => {
     if (projectsDta.length === 0) {
       getProjectsFromApi();
     }
-  }, []);
+  }, [i18n.language]);
 
   const handelFilterClick = (name) => {
     if (filteringItems.includes(name)) {
