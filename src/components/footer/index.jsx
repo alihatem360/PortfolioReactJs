@@ -5,7 +5,7 @@ import GetAllData from "../../data/projects";
 import { useTranslation } from "react-i18next";
 const Footer = () => {
   const { t, i18n } = useTranslation();
-  const { getProjects, getSocials, getAboutme, getSkills } = GetAllData();
+  const { getProjects, getSocials, getAboutme } = GetAllData();
   const [aboutmeData, setAboutmeData] = useState([]);
 
   useEffect(() => {

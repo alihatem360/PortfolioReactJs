@@ -256,36 +256,5 @@
       "name": "whatsapp",
       "link": "http://wa.me/+201026159353"
     }
-  ],
-
-  "skills": [
-    {
-      "title": "HTML",
-      "image": "images/skill (2).png"
-    },
-    {
-      "title": "CSS",
-      "image": "images/skill (1).png"
-    },
-    {
-      "title": "JavaScript",
-      "image": "images/skill (3).png"
-    },
-    {
-      "title": "ReactJs",
-      "image": "images/skill (5).png"
-    },
-    {
-      "title": "Redux",
-      "image": "images/skill (6).png"
-    },
-    {
-      "title": "Bootstrap",
-      "image": "images/Bootstrap.png"
-    },
-    {
-      "title": "NextJs",
-      "image": "images/skill (4).png"
-    }
   ]
 }

@@ -13,7 +13,7 @@ import LoaderCom from "../LoaderCom";
 import { useTranslation } from "react-i18next";
 import GetAllData from "../../../data/projects";
 const OurTeamCom = () => {
-  const { getProjects, getSocials, getAboutme, getSkills } = GetAllData();
+  const { getProjects, getSocials, getAboutme } = GetAllData();
   const [projectsDta, setProjectsData] = useState([]);
   const { t, i18n } = useTranslation();
 

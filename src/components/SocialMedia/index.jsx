@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import SocialData from "../../data/projects";
 import GetAllData from "../../data/projects";
 const SocialMedia = () => {
-  const { getProjects, getSocials, getAboutme, getSkills } = GetAllData();
+  const { getProjects, getSocials, getAboutme } = GetAllData();
 
   const [socialsData, setSocialsData] = useState([]);
   useEffect(() => {

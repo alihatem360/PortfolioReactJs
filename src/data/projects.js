@@ -23,13 +23,7 @@ const GetAllData = () => {
     );
   };
 
-  const getSkills = () => {
-    return Promise.resolve(
-      i18n.language === "en" ? [ProjectsApi.skills] : [ProjectsApiAR.skills]
-    );
-  };
-
-  return { getProjects, getSocials, getAboutme, getSkills };
+  return { getProjects, getSocials, getAboutme };
 };
 
 export default GetAllData;

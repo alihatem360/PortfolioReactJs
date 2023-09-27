@@ -14,7 +14,7 @@ import LowerCurve from "../Utilities/LowerCurve";
 const HomeProjectsContainer = () => {
   const { t, i18n } = useTranslation();
   const [projectsDta, setProjectsData] = useState([]);
-  const { getProjects, getSocials, getAboutme, getSkills } = GetAllData();
+  const { getProjects, getSocials, getAboutme } = GetAllData();
 
   useEffect(() => {
     getProjects().then((data) => {
@@ -30,6 +30,7 @@ const HomeProjectsContainer = () => {
         <GProject gproject={projectsDta[0]} />
         <FloatingWhatsAppCom />
         <div className="container">
+          <SkillComponent />
           <SwiperSlideCom />
           <div className="text-center ">
             <Link to="/projects" className="btn button1">

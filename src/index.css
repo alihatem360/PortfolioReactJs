@@ -6,9 +6,12 @@
   font-family: "Cairo", sans-serif;
   /* border: 1px solid red; */
 }
-
+:root {
+  --primary-color: #453c67;
+  --secondary-color: #ffb84c;
+}
 body {
-  background-color: #453c67;
+  background-color: var(--primary-color);
   zoom: 1.1;
 }
 

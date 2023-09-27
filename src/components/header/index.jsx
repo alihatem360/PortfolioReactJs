@@ -11,7 +11,7 @@ import HeaderBio from "./HeaderBio";
 import "./style.css";
 const Header = () => {
   const { t, i18n } = useTranslation();
-  const { getProjects, getSocials, getAboutme, getSkills } = GetAllData();
+  const { getProjects, getSocials, getAboutme } = GetAllData();
   const [aboutmeData, setAboutmeData] = useState([]);
   useEffect(() => {
     getAboutme().then((data) => {
