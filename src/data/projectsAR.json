@@ -68,6 +68,13 @@
       "codeStatus": "PRIVATE"
     },
     {
+      "imeg": "images/LaptopStore Contract.png",
+      "title": "فاتورة متجر الكمبيوتر",
+      "technology": ["ReactJs", "material-ui", "react-to-print"],
+      "demo": "https://laptop-store-contract-form.onrender.com/",
+      "github": "https://github.com/alihatem360/laptop_store"
+    },
+    {
       "imeg": "images/E-Learning.png",
       "title": "E-Learning باستخدام ReactJS",
       "technology": ["Tailwind", "React", "Vite"],
