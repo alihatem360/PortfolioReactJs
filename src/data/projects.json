@@ -42,6 +42,13 @@
       "demo": "https://basmatalnarjis-mc.com/dr-mayada-salah/",
       "github": "https://github.com/alihatem360/basmatalnarjis.git",
       "codeStatus": "PRIVATE"
+    },{
+      "imeg": "images/pest-sweepy Dashboard.png",
+      "title": "pest-sweepy Dashboard",
+      "technology": ["ReactJs", "Redux", "material-ui", "Api"],
+      "demo": "https://nifty-tendency.surge.sh/",
+      "github": "https://github.com/alihatem360/pest-sweepy-dashboard.git",
+      "codeStatus": "PRIVATE"
     },
     {
       "imeg": "images/mohammed-al-huwaila.png",
