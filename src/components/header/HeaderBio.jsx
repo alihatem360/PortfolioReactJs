@@ -8,20 +8,21 @@ const HeaderBio = ({ aboutmeData }) => {
   const { t, i18n } = useTranslation();
   return (
     <div className="header-text " data-aos="fade-up">
-      <div className="header-contant">
+      <div>
         <h4>{i18n.language === "en" ? "Hi👋" : "مرحبا 👋"}</h4>
         <h2>
           {i18n.language === "en" ? "I'm" : "أنا"} {aboutmeData.name} 👨‍💻
         </h2>
         <p>
-          {aboutmeData.bio?.map((item) => {
-            return (
-              <span>
-                {item}
-                <br />
-              </span>
-            );
-          })}
+          {aboutmeData.bio &&
+            aboutmeData.bio.map((item) => {
+              return (
+                <span>
+                  {item}
+                  <br />
+                </span>
+              );
+            })}
         </p>
 
         <div className="header-buttons d-flex justify-content-start gap-3">

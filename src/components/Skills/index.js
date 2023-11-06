@@ -12,6 +12,7 @@ import {
 import { TbBrandJavascript, TbBrandRedux, TbBrandNextjs } from "react-icons/tb";
 import { SiTailwindcss } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
+import { SiMui } from "react-icons/si";
 const SkillsComponent = () => {
   const skills = [
     {
@@ -34,6 +35,10 @@ const SkillsComponent = () => {
     {
       icon: FaNodeJs,
       name: "Nodejs",
+    },
+    {
+      icon: SiMui,
+      name: "Material UI",
     },
     {
       icon: DiMongodb,

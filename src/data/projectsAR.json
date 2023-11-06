@@ -36,6 +36,14 @@
       "codeStatus": "PRIVATE"
     },
     {
+      "imeg": "images/Dr. Mayada Salah.png",
+      "title": "د.ميادة صلاح",
+      "technology": ["HTML", "CSS", "JavaScript"],
+      "demo": "https://basmatalnarjis-mc.com/dr-mayada-salah/",
+      "github": "https://github.com/alihatem360/basmatalnarjis.git",
+      "codeStatus": "PRIVATE"
+  },
+    {
       "imeg": "images/mohammed-al-huwaila.png",
       "title": "محمد الحويلة",
       "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],

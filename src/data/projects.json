@@ -36,6 +36,14 @@
       "codeStatus": "PRIVATE"
     },
     {
+      "imeg": "images/Dr. Mayada Salah.png",
+      "title": "Dr. Mayada Salah",
+      "technology": ["HTML", "CSS", "JavaScript"],
+      "demo": "https://basmatalnarjis-mc.com/dr-mayada-salah/",
+      "github": "https://github.com/alihatem360/basmatalnarjis.git",
+      "codeStatus": "PRIVATE"
+    },
+    {
       "imeg": "images/mohammed-al-huwaila.png",
       "title": "mohammed-al-huwaila",
       "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],
@@ -130,8 +138,8 @@
       "technology": ["HTML", "Sass", "JavaScript", "Bootstrap"],
       "demo": "https://alihatem360.github.io/agrica/",
       "github": "https://github.com/alihatem360/agrica",
-      "video": "https://youtu.be/IkweYBUhlM4",
-      "videoKey": "IkweYBUhlM4"
+      "video": "https://youtu.be/ei4yh9LXXbU",
+      "videoKey": "ei4yh9LXXbU"
     },
     {
       "imeg": "images/1-1.webp",

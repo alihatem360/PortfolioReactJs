@@ -43,10 +43,6 @@
 .header .header-text {
   color: #fff;
   text-transform: capitalize;
-  /* background-color: rgba(255, 255, 255, 0.45);
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
-  padding: 20px;
-  border-radius: 10px; */
 }
 .header .header-text h4 {
   font-size: 38px;
@@ -83,6 +79,17 @@
 .header .header-text .header-buttons button a:focus {
   border: 1px #fff solid !important;
   outline: none !important;
+}
+
+@media screen and (max-width: 830px) {
+  .header .header-text .header-buttons {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+  }
+  .header .header-text .header-buttons button:first-child {
+    margin: 0 10px 0 0;
+  }
 }
 .header .header-text .list-unstyled {
   margin: 19px 0 0 0;
@@ -124,6 +131,13 @@
     font-size: 16px;
     line-height: 25px;
     padding: 0 10px;
+  }
+
+  @media screen and (max-width: 830px) {
+    .header .header-text p {
+      padding: 0 15px;
+      line-height: 30px;
+    }
   }
   .header .header-img {
     width: 100%;

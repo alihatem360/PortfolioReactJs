@@ -1,8 +1,6 @@
 import "./style.css";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import CV from "../../assets/Ali_Hatem_Ramadan_Resume.pdf";
-import { handleDownloadCv } from "../../helpers/index.js";
 // components
 import GetAllData from "../../data/projects.js";
 import LowerCurve from "../Utilities/LowerCurve";
@@ -10,7 +8,7 @@ import HeaderImage from "./HeaderImage";
 import HeaderBio from "./HeaderBio";
 import "./style.css";
 const Header = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const { getProjects, getSocials, getAboutme } = GetAllData();
   const [aboutmeData, setAboutmeData] = useState([]);
   useEffect(() => {
