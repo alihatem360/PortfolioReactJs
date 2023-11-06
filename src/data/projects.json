@@ -86,7 +86,7 @@
       "imeg": "images/LaptopStore Contract.png",
       "title": "LaptopStore Contract",
       "technology": ["ReactJs", "material-ui", "react-to-print"],
-      "demo": "https://laptop-store-contract-form.onrender.com/",
+      "demo": "https://tired-use.surge.sh/",
       "github": "https://github.com/alihatem360/laptop_store"
     },
 
