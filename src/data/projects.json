@@ -86,7 +86,7 @@
       "imeg": "images/LaptopStore Contract.png",
       "title": "LaptopStore Contract",
       "technology": ["ReactJs", "material-ui", "react-to-print", "PWA"],
-      "demo": "https://labtop-store.surge.sh/",
+      "demo": "https://laptop-store.surge.sh/",
       "github": "https://github.com/alihatem360/laptop_store.git",
       "codeStatus": "PRIVATE"
 
