@@ -34,6 +34,15 @@
       "video": "https://youtu.be/GBpBnKl0Rr8",
       "videoKey": "GBpBnKl0Rr8",
       "codeStatus": "PRIVATE"
+    },{
+      "imeg": "images/attendance recording.jpg",
+      "title": "Lecture management and attendance recording system",
+      "technology": ["ReactJs", "Material-ui", "Firebase"],
+      "demo": "",
+      "github": "",
+      "video": "https://youtu.be/12NFx9-F-IU",
+      "videoKey": "12NFx9-F-IU",
+      "codeStatus": "PRIVATE"
     },
     {
       "imeg": "images/Dr. Mayada Salah.png",
