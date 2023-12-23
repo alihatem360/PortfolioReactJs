@@ -102,7 +102,7 @@
       "github": "https://github.com/alihatem360/abdullah_mutlaq_awad_al-mutairi",
       "codeStatus": "PRIVATE"
     },{
-      "imeg": "images/CalorieBot.png",
+      "imeg": "images/CalorieBot.jpg",
       "title": "بوت تلجرام لحساب السعرات الحرارية",
       "technology": ["NodeJs", "ExpressJs", "TelegramBotApi", "NutritionixApi"],
       "demo": "",
