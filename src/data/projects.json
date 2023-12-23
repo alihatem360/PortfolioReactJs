@@ -52,7 +52,7 @@
       "github": "",
       "video": "https://youtu.be/lCVyxbbBXVM",
       "videoKey": "lCVyxbbBXVM"
-    },
+    },  
     {
       "imeg": "images/Dr. Mayada Salah.png",
       "title": "Dr. Mayada Salah",
@@ -98,6 +98,15 @@
       "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],
       "demo": "https://abdullah-mutlaq-awad-al-mutairi.vercel.app/",
       "github": "https://github.com/alihatem360/abdullah_mutlaq_awad_al-mutairi",
+      "codeStatus": "PRIVATE"
+    },{
+      "imeg": "images/CalorieBot.png",
+      "title": "Calorie Bot",
+      "technology": ["NodeJs", "ExpressJs", "TelegramBotApi", "NutritionixApi"],
+      "demo": "",
+      "github": "",
+      "vide": "https://youtu.be/XDYKVguRDUU",
+      "videoKey": "XDYKVguRDUU",
       "codeStatus": "PRIVATE"
     },
     {

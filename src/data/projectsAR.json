@@ -101,6 +101,15 @@
       "demo": "https://abdullah-mutlaq-awad-al-mutairi.vercel.app/",
       "github": "https://github.com/alihatem360/abdullah_mutlaq_awad_al-mutairi",
       "codeStatus": "PRIVATE"
+    },{
+      "imeg": "images/CalorieBot.png",
+      "title": "بوت تلجرام لحساب السعرات الحرارية",
+      "technology": ["NodeJs", "ExpressJs", "TelegramBotApi", "NutritionixApi"],
+      "demo": "",
+      "github": "",
+      "vide": "https://youtu.be/XDYKVguRDUU",
+      "videoKey": "XDYKVguRDUU",
+      "codeStatus": "PRIVATE"
     },
     {
       "imeg": "images/LaptopStore Contract.png",
