@@ -6,10 +6,20 @@
   font-family: "Cairo", sans-serif;
   /* border: 1px solid red; */
 }
-:root {
+/* :root {
   --primary-color: #453c67;
   --secondary-color: #ffb84c;
+} */
+
+:root {
+  --primary-color: #131313;
+  --secondary-color: #1e1e1e;
+  --tertiary-color: #3e3e3e;
+  --quaternary-color: #fafafa;
+  --danger-color: #bb2525;
+  --warning-color: #f0ad4e;
 }
+
 body {
   background-color: var(--primary-color);
   zoom: 1.1;
@@ -83,4 +93,26 @@ input[type="password"]:focus {
   outline: none !important;
   box-shadow: none !important;
   border: 1px solid #111 !important;
+}
+
+/* Offcanvas style close button */
+.btn-close {
+  z-index: 1;
+  padding: 1.25rem 1rem;
+  background-color: #fff !important;
+  font-size: 1.5rem;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.5;
+}
+
+.btn-close:hover,
+.btn-close:focus {
+  background-color: #fff !important;
+}
+
+/*  custom width for the offcanvas when it is in large screen */
+@media (min-width: 992px) {
+  .custom-offcanvas {
+    width: 550px !important;
+  }
 }

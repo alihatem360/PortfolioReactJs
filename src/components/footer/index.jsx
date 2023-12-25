@@ -43,7 +43,7 @@ const Footer = () => {
         style={{ zIndex: "-5" }}
       >
         <path
-          fill="#FFB84C"
+          fill="var(--tertiary-color)"
           fill-opacity="1"
           d="M0,32L288,192L576,128L864,288L1152,64L1440,192L1440,0L1152,0L864,0L576,0L288,0L0,0Z"
         ></path>

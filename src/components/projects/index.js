@@ -43,7 +43,11 @@ const Projects = () => {
   const filterItems = () => {
     if (filteringItems.length > 0) {
       const filteredProjects = projectsDta.filter((project) =>
-        project.technology.some((r) => filteringItems.includes(r))
+        project.technology.some((r) =>
+          filteringItems
+            .map((item) => item.toLowerCase())
+            .includes(r.toLowerCase())
+        )
       );
       setFilteredProjectsData(filteredProjects);
     } else {
@@ -58,12 +62,20 @@ const Projects = () => {
           {techSkills.map((skill, index) => {
             return (
               <button
-                className={`btn btn-outline-warning btn-lg ${
+                className={`btn btn-lg ${
                   filteringItems.includes(skill) ? "active" : ""
                 }
                 `}
                 key={index}
                 onClick={() => handelFilterClick(skill)}
+                style={{
+                  zIndex: "1",
+
+                  backgroundColor: filteringItems.includes(skill)
+                    ? "var(--warning-color)"
+                    : "var(--tertiary-color)",
+                  color: "white",
+                }}
               >
                 {skill}
               </button>

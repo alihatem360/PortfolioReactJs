@@ -49,7 +49,7 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
+  /* font-size: 1.6rem; */
 }
 
 .container {
@@ -66,8 +66,8 @@ body {
 
 .swiper_container {
   direction: ltr !important;
-  height: 52rem;
-  padding: 2rem 0;
+  /* height: 52rem; */
+  padding: 2rem 0 0 0 !important;
   position: relative;
 }
 
@@ -79,7 +79,7 @@ body {
 
 @media (max-width: 500px) {
   .swiper_container {
-    height: 51rem;
+    /* height: 51rem; */
   }
   .swiper-slide {
     width: 28rem !important;

@@ -109,14 +109,16 @@
       "github": "",
       "video": "https://youtu.be/XDYKVguRDUU",
       "videoKey": "XDYKVguRDUU",
-      "codeStatus": "PRIVATE"
+      "codeStatus": "PRIVATE",
+      "description" : "مرحبًا بك في Calorie Bot، وهو روبوت Telegram المفضل لديك للوصول السريع والسهل إلى المعلومات الغذائية حول الأطعمة المختلفة! 🍏🥦🍕"
     },
     {
       "imeg": "images/LaptopStore Contract.png",
       "title": "فاتورة متجر الكمبيوتر",
       "technology": ["ReactJs", "material-ui", "react-to-print" , "PWA"],
       "demo": "https://laptop-store.surge.sh/",
-      "github": "https://github.com/alihatem360/laptop_store.git"
+      "github": "https://github.com/alihatem360/laptop_store.git",
+      "description" : "مشروع مبيعات أجهزة الكمبيوتر المحمول هو تطبيق ويب تم إنشاؤه باستخدام React.js وMaterial-UI، وهو مصمم لتبسيط عملية بيع أجهزة الكمبيوتر المحمولة. تمكن الأفراد البيع من ملء نموذج العقد وطباعة العقد باستخدام Microsoft Print. يعمل هذا المشروع على تبسيط إنشاء عقود بيع أجهزة الكمبيوتر المحمول.💻📝🖨️"
     },
     {
       "imeg": "images/E-Learning.png",

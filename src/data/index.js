@@ -4,6 +4,7 @@ export const techSkills = [
   "JavaScript",
   "ReactJs",
   "Redux",
+  "NodeJs",
   "Bootstrap",
   "Tailwind",
   "Vite",

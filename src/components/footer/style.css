@@ -25,6 +25,13 @@
   padding: 8px;
 }
 
+@media (max-width: 768px) {
+  .footer__Sosials__imag img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
 .footer__Sosials__content {
   width: 100%;
   text-align: center;

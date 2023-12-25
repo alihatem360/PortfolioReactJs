@@ -140,10 +140,14 @@
     }
   }
   .header .header-img {
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 70%;
     -o-object-fit: cover;
     object-fit: cover;
+  }
+  .header .header-img-contant {
+    width: 100%;
+    justify-content: center;
   }
   .project-header {
     margin: 100px 0 0 0;

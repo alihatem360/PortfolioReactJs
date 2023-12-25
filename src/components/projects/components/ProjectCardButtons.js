@@ -1,7 +1,7 @@
 import React from "react";
 import VideoPopup from "./VideoPopup";
 
-const ProjectCardButtons = ({ project }) => {
+const ProjectCardButtons = ({ project, noVideo }) => {
   return (
     <React.Fragment>
       {" "}
@@ -28,7 +28,9 @@ const ProjectCardButtons = ({ project }) => {
           </a>
         )}
 
-        {project.video === "" || project.video === undefined ? null : (
+        {project.video === "" ||
+        project.video === undefined ||
+        noVideo ? null : (
           <VideoPopup videoKey={project.videoKey} />
         )}
       </div>

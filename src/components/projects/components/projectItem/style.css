@@ -5,7 +5,7 @@
 
 .card {
   margin: 1px 0 37px 0;
-  background-color: #29263a !important;
+  background-color: var(--secondary-color) !important;
   border: none;
   text-transform: capitalize;
   border-radius: 13px !important;
@@ -27,7 +27,7 @@
   height: 192px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 @media (max-width: 768px) {
@@ -39,6 +39,7 @@
   font-size: 22px;
   font-weight: 600;
   color: #fff;
+  text-align: center;
 }
 .card .card-text {
   display: flex;

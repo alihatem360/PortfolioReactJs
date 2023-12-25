@@ -22,7 +22,7 @@
   width: 100%;
 }
 .nav__bar ul li a {
-  background-color: #453c67;
+  background-color: var(--secondary-color);
   color: #fff;
   border-radius: 10px;
   padding: 0.5rem 1rem;
@@ -33,7 +33,7 @@
 }
 .nav__bar ul li a:hover,
 .nav__bar ul li a:focus {
-  color: #453c67;
+  color: var(--secondary-color);
   background-color: #fff;
   border: 1px solid #fff;
   outline: none !important;

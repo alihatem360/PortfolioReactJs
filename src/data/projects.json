@@ -107,7 +107,8 @@
       "github": "",
       "video": "https://youtu.be/XDYKVguRDUU",
       "videoKey": "XDYKVguRDUU",
-      "codeStatus": "PRIVATE"
+      "codeStatus": "PRIVATE",
+      "description": "Welcome to Calorie Bot, your go-to Telegram bot for quick and easy access to nutritional information about various foods! 🍏🥦🍕"
     },
     {
       "imeg": "images/LaptopStore Contract.png",
@@ -115,7 +116,8 @@
       "technology": ["ReactJs", "material-ui", "react-to-print", "PWA"],
       "demo": "https://laptop-store.surge.sh/",
       "github": "https://github.com/alihatem360/laptop_store.git",
-      "codeStatus": "PRIVATE"
+      "codeStatus": "PRIVATE",
+      "description": "The Laptop Sales Project is a web application built using React.js and Material-UI, designed to streamline the process of selling laptops. It enables selling individuals to fill out a contract form and print the contract using Microsoft Print. This project simplifies the creation of laptop sales contracts.💻📝🖨️"
 
     },
 

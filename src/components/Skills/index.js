@@ -13,6 +13,8 @@ import { TbBrandJavascript, TbBrandRedux, TbBrandNextjs } from "react-icons/tb";
 import { SiTailwindcss } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import { SiMui } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { IoLogoFirebase } from "react-icons/io5";
 const SkillsComponent = () => {
   const skills = [
     {
@@ -20,12 +22,12 @@ const SkillsComponent = () => {
       name: "React",
     },
     {
-      icon: TbBrandRedux,
-      name: "Redux",
-    },
-    {
       icon: TbBrandNextjs,
       name: "Nextjs",
+    },
+    {
+      icon: TbBrandRedux,
+      name: "Redux",
     },
 
     {
@@ -33,16 +35,24 @@ const SkillsComponent = () => {
       name: "Javascript",
     },
     {
+      icon: SiTypescript,
+      name: "Typescript",
+    },
+    {
       icon: FaNodeJs,
       name: "Nodejs",
     },
     {
-      icon: SiMui,
-      name: "Material UI",
-    },
-    {
       icon: DiMongodb,
       name: "MongoDB",
+    },
+    {
+      icon: IoLogoFirebase,
+      name: "Firebase",
+    },
+    {
+      icon: SiMui,
+      name: "Material UI",
     },
     {
       icon: FaHtml5,
