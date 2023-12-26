@@ -14,7 +14,6 @@ const Header = () => {
   useEffect(() => {
     getAboutme().then((data) => {
       setAboutmeData(data[0][0]);
-      // console.log(data[0][0]);
     });
   }, i18n.language);
 

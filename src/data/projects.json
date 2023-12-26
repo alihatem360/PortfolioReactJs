@@ -1,7 +1,7 @@
 {
   "aboutme": [
     {
-      "heaaderimag": "images/header-background2.webp",
+      "heaaderimag": "images/header-background2.jpeg",
       "name": "Ali Hatem",
       "bio": [
         "A software engineer with a strong focus on React and Next.js ⚛️.",
@@ -9,7 +9,7 @@
         "Let's collaborate and craft exceptional web experiences together! 🌟"
       ],      
       "cv": "https://drive.google.com/file/d/1dU6upNzlpnAvgxSFynd2X6sij8cemv8V/view?usp=share_link",
-      "footer": "images/footer.webp"
+      "footer": "images/footer.jpeg"
     }
   ],
 
@@ -59,14 +59,16 @@
       "technology": ["HTML", "CSS", "JavaScript"],
       "demo": "https://alihatem360.github.io/basmatalnarjis/",
       "github": "https://github.com/alihatem360/basmatalnarjis.git",
-      "codeStatus": "PRIVATE"
+      "codeStatus": "PRIVATE",
+      "loomVideo" : "https://www.loom.com/share/c17e174a3721453bbfb77ce2911fa553?sid=cb9b92d1-0401-4cdf-90c1-3be5b8342e5d"
     },{
       "imeg": "images/pest-sweepy Dashboard.png",
       "title": "pest-sweepy Dashboard",
       "technology": ["ReactJs", "Redux", "material-ui", "Api"],
       "demo": "https://nifty-tendency.surge.sh/",
       "github": "https://github.com/alihatem360/pest-sweepy-dashboard.git",
-      "codeStatus": "PRIVATE"
+      "codeStatus": "PRIVATE",
+      "loomVideo" : "https://www.loom.com/share/c701533416d94618a1bcdafa8713a405?sid=b71a4010-c8aa-4f27-a617-2a123dbad16a"
     },
     {
       "imeg": "images/mohammed-al-huwaila.png",
@@ -74,7 +76,8 @@
       "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],
       "demo": "https://mohammed-al-huwaila2.vercel.app/",
       "github": "https://github.com/alihatem360/Mohammed-Al-Huwaila2",
-      "codeStatus": "PRIVATE"
+      "codeStatus": "PRIVATE",
+      "loomVideo": "https://www.loom.com/share/fb99053bff5846338219c06e556ad8a2?sid=3c8e1162-0251-405f-83d7-3082772b7efb"
     },
     {
       "imeg": "images/thamer-al-suwait.png",

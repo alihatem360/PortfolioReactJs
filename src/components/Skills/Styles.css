@@ -35,6 +35,18 @@
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .skills-header {
+    font-size: 30px;
+  }
+  .skill-icon {
+    font-size: 50px;
+  }
+  .iconbox p {
+    font-size: 12px;
+  }
+}
+
 .iconbox {
   padding: 10px;
 }

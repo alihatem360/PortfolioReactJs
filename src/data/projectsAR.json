@@ -1,7 +1,7 @@
 {
   "aboutme": [
     {
-      "heaaderimag": "images/header-background2.webp",
+      "heaaderimag": "images/header-background2.jpeg",
       "name": "علي حاتم",
       "bio": [
         "مهندس برمجيات متخصص في React و Next.js ⚛️.",
@@ -9,7 +9,7 @@
         "لنتعاون ونصمم تجارب ويب استثنائية معًا! 🌟"
       ],      
       "cv": "https://drive.google.com/file/d/1dU6upNzlpnAvgxSFynd2X6sij8cemv8V/view?usp=share_link",
-      "footer": "images/footer.webp"
+      "footer": "images/footer.jpeg"
     }
   ],
 

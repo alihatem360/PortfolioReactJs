@@ -29,9 +29,13 @@ const ProjectCardButtons = ({ project, noVideo }) => {
         )}
 
         {project.video === "" ||
+        project.loomVideo === "" ||
         project.video === undefined ||
         noVideo ? null : (
-          <VideoPopup videoKey={project.videoKey} />
+          <VideoPopup videoKey={project.videoKey} project={project} />
+        )}
+        {project.loomVideo === "" || project.loomVideo === undefined ? null : (
+          <VideoPopup videoKey={project.videoKey} project={project} />
         )}
       </div>
     </React.Fragment>

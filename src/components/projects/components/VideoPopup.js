@@ -1,8 +1,12 @@
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import Form from "react-bootstrap/Form";
-function VideoPopup({ videoKey }) {
+
+import YoutubeVideo from "./YoutubeVideo";
+import LoomVideo from "./LoomVideo";
+import { SiLoom } from "react-icons/si";
+import { FaYoutube } from "react-icons/fa";
+function VideoPopup({ videoKey, project }) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -11,7 +15,18 @@ function VideoPopup({ videoKey }) {
   return (
     <>
       <a className="btn" rel="noreferrer" onClick={handleShow}>
-        <span>Vedio</span> <i class="fa-solid fa-video"></i>
+        <span>Vedio</span>
+        {project.loomVideo ? (
+          <SiLoom
+            className="me-2"
+            style={{ fontSize: "1.5rem", margin: "-5px 0 0 0.5rem " }}
+          />
+        ) : (
+          <FaYoutube
+            className="me-2"
+            style={{ fontSize: "1.5rem", margin: "-5px 0 0 0.5rem " }}
+          />
+        )}
       </a>
 
       <Modal
@@ -29,6 +44,7 @@ function VideoPopup({ videoKey }) {
             variant="secondary"
             onClick={handleClose}
             className="btn btn-danger p-2 "
+            style={{ zIndex: "999" }}
           >
             <i
               class="fa-solid fa-xmark"
@@ -36,16 +52,8 @@ function VideoPopup({ videoKey }) {
             ></i>
           </Button>
         </div>
-        <iframe
-          width="100%"
-          height="500px"
-          src={`https://www.youtube.com/embed/${videoKey}?mute=1&autoplay=1`}
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-          className=""
-        ></iframe>
+        {project.loomVideo ? <LoomVideo videoUrl={project.loomVideo} /> : null}
+        <YoutubeVideo project={project} />
       </Modal>
     </>
   );

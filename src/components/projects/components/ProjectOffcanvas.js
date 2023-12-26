@@ -7,6 +7,8 @@ import ProjectCardButtons from "./ProjectCardButtons";
 import { PiShootingStarBold } from "react-icons/pi";
 import { IoRocket } from "react-icons/io5";
 import { FaLock } from "react-icons/fa";
+import YoutubeVideo from "./YoutubeVideo";
+import LoomVideo from "./LoomVideo";
 const ProjectOffcanvas = ({ show, project, handleClose }) => {
   const { t, i18n } = useTranslation();
   console.log(" : project", project);
@@ -46,19 +48,11 @@ const ProjectOffcanvas = ({ show, project, handleClose }) => {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <div className="img-container w-100">
-            {project.videoKey ? (
-              <iframe
-                width="100%"
-                height="500px"
-                src={`https://www.youtube.com/embed/${project.videoKey}?mute=1&autoplay=1`}
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-                className=""
-              ></iframe>
+            {project.loomVideo ? (
+              <LoomVideo videoUrl={project.loomVideo} />
             ) : null}
-            {project.videoKey ? null : (
+            <YoutubeVideo project={project} />
+            {project.videoKey || project.loomVideo ? null : (
               <LazyLoadImage
                 src={project.imeg ? project.imeg : ""}
                 alt={project.title ? project.title : ""}
