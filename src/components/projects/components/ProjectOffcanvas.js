@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { useTranslation } from "react-i18next";
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -11,23 +10,7 @@ import YoutubeVideo from "./YoutubeVideo";
 import LoomVideo from "./LoomVideo";
 const ProjectOffcanvas = ({ show, project, handleClose }) => {
   const { t, i18n } = useTranslation();
-  console.log(" : project", project);
   const placement = i18n.language === "en" ? "start" : "end";
-
-  //   {
-  //     "imeg": "images/attendance recording.jpg",
-  //     "title": "Lecture management and attendance recording system",
-  //     "technology": [
-  //         "ReactJs",
-  //         "Material-ui",
-  //         "Firebase"
-  //     ],
-  //     "demo": "",
-  //     "github": "",
-  //     "video": "https://youtu.be/12NFx9-F-IU",
-  //     "videoKey": "12NFx9-F-IU",
-  //     "codeStatus": "PRIVATE"
-  // }
   return (
     <React.Fragment>
       <Offcanvas
