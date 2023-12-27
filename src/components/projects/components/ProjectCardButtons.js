@@ -34,7 +34,9 @@ const ProjectCardButtons = ({ project, noVideo }) => {
         noVideo ? null : (
           <VideoPopup videoKey={project.videoKey} project={project} />
         )}
-        {project.loomVideo === "" || project.loomVideo === undefined ? null : (
+        {project.loomVideo === "" ||
+        project.loomVideo === undefined ||
+        noVideo ? null : (
           <VideoPopup videoKey={project.videoKey} project={project} />
         )}
       </div>
