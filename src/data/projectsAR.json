@@ -7,7 +7,7 @@
         "مهندس برمجيات متخصص في React و Next.js ⚛️.",
         "ملتزم بإنشاء واجهات مستخدم رائعة باستخدام HTML و CSS و JavaScript 💻.",
         "لنتعاون ونصمم تجارب ويب استثنائية معًا! 🌟"
-      ],      
+      ],
       "cv": "https://drive.google.com/file/d/1dU6upNzlpnAvgxSFynd2X6sij8cemv8V/view?usp=share_link",
       "footer": "images/footer.jpeg"
     }
@@ -26,6 +26,15 @@
       "codeStatus": "PRIVATE"
     },
     {
+      "imeg": "images/makhabrash.png",
+      "title": "Makhabrash",
+      "description": "(مخبارش) هو تطبيق ويب يتيح للمستخدمين إرسال رسائل إلى أي شخص بشكل مجهول. تم تصميمه باستخدام React للواجهة الأمامية وFirebase لخدمات الواجهة الخلفية.",
+      "technology": ["ReactJs", "Tailwind", "Firebase"],
+      "demo": "https://makhabrash.vercel.app/",
+      "github": "https://github.com/alihatem360/Makhabrash",
+      "codeStatus": "PRIVATE"
+    },
+    {
       "imeg": "images/EcommerceWebsite.webp",
       "title": "التجارة الإلكترونية باستخدام ReactJs",
       "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],
@@ -34,7 +43,8 @@
       "video": "https://youtu.be/GBpBnKl0Rr8",
       "videoKey": "GBpBnKl0Rr8",
       "codeStatus": "PRIVATE"
-    },{
+    },
+    {
       "imeg": "images/attendance recording.jpg",
       "title": "إدارة المحاضرات ونظام تسجيل الحضور",
       "technology": ["ReactJs", "Material-ui", "Firebase"],
@@ -45,10 +55,15 @@
       "codeStatus": "PRIVATE"
     },
     {
-      
       "imeg": "images/pdfEcommerce.png",
       "title": "Preisliste-ecommerce (Full Stack)",
-      "technology": ["ReactJs", "material-ui", "nodeJs", "expressJs", "firebase"],
+      "technology": [
+        "ReactJs",
+        "material-ui",
+        "nodeJs",
+        "expressJs",
+        "firebase"
+      ],
       "demo": "",
       "github": "",
       "video": "https://youtu.be/lCVyxbbBXVM",
@@ -61,15 +76,15 @@
       "demo": "https://alihatem360.github.io/basmatalnarjis/",
       "github": "https://github.com/alihatem360/basmatalnarjis.git",
       "codeStatus": "PRIVATE"
-  },
-  {
-    "imeg": "images/pest-sweepy Dashboard.png",
-    "title": "pest-sweepy Dashboard",
-    "technology": ["ReactJs", "Redux", "material-ui", "Api"],
-    "demo": "https://nifty-tendency.surge.sh/",
-    "github": "https://github.com/alihatem360/pest-sweepy-dashboard.git",
-    "codeStatus": "PRIVATE"
-  },
+    },
+    {
+      "imeg": "images/pest-sweepy Dashboard.png",
+      "title": "pest-sweepy Dashboard",
+      "technology": ["ReactJs", "Redux", "material-ui", "Api"],
+      "demo": "https://nifty-tendency.surge.sh/",
+      "github": "https://github.com/alihatem360/pest-sweepy-dashboard.git",
+      "codeStatus": "PRIVATE"
+    },
     {
       "imeg": "images/mohammed-al-huwaila.png",
       "title": "محمد الحويلة",
@@ -101,7 +116,8 @@
       "demo": "https://abdullah-mutlaq-awad-al-mutairi.vercel.app/",
       "github": "https://github.com/alihatem360/abdullah_mutlaq_awad_al-mutairi",
       "codeStatus": "PRIVATE"
-    },{
+    },
+    {
       "imeg": "images/CalorieBot.jpg",
       "title": "بوت تلجرام لحساب السعرات الحرارية",
       "technology": ["NodeJs", "ExpressJs", "TelegramBotApi", "NutritionixApi"],
@@ -110,15 +126,15 @@
       "video": "https://youtu.be/XDYKVguRDUU",
       "videoKey": "XDYKVguRDUU",
       "codeStatus": "PRIVATE",
-      "description" : "مرحبًا بك في Calorie Bot، وهو روبوت Telegram المفضل لديك للوصول السريع والسهل إلى المعلومات الغذائية حول الأطعمة المختلفة! 🍏🥦🍕"
+      "description": "مرحبًا بك في Calorie Bot، وهو روبوت Telegram المفضل لديك للوصول السريع والسهل إلى المعلومات الغذائية حول الأطعمة المختلفة! 🍏🥦🍕"
     },
     {
       "imeg": "images/LaptopStore Contract.png",
       "title": "فاتورة متجر الكمبيوتر",
-      "technology": ["ReactJs", "material-ui", "react-to-print" , "PWA"],
+      "technology": ["ReactJs", "material-ui", "react-to-print", "PWA"],
       "demo": "https://laptop-store.surge.sh/",
       "github": "https://github.com/alihatem360/laptop_store.git",
-      "description" : "مشروع مبيعات أجهزة الكمبيوتر المحمول هو تطبيق ويب تم إنشاؤه باستخدام React.js وMaterial-UI، وهو مصمم لتبسيط عملية بيع أجهزة الكمبيوتر المحمولة. تمكن الأفراد البيع من ملء نموذج العقد وطباعة العقد باستخدام Microsoft Print. يعمل هذا المشروع على تبسيط إنشاء عقود بيع أجهزة الكمبيوتر المحمول.💻📝🖨️"
+      "description": "مشروع مبيعات أجهزة الكمبيوتر المحمول هو تطبيق ويب تم إنشاؤه باستخدام React.js وMaterial-UI، وهو مصمم لتبسيط عملية بيع أجهزة الكمبيوتر المحمولة. تمكن الأفراد البيع من ملء نموذج العقد وطباعة العقد باستخدام Microsoft Print. يعمل هذا المشروع على تبسيط إنشاء عقود بيع أجهزة الكمبيوتر المحمول.💻📝🖨️"
     },
     {
       "imeg": "images/E-Learning.png",

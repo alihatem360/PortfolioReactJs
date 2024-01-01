@@ -24,6 +24,14 @@
       "video": "https://youtu.be/BDsHi7dYvxc",
       "videoKey": "BDsHi7dYvxc",
       "codeStatus": "PRIVATE"
+    },{
+      "imeg": "images/makhabrash.png",
+      "title": "Makhabrash",
+      "description": "(Makhabrash) is a web application that allows users to send messages to anyone anonymously. It is built using React for the frontend and Firebase for backend services.",
+      "technology": ["ReactJs", "Tailwind", "Firebase"],
+      "demo": "https://makhabrash.vercel.app/",
+      "github": "https://github.com/alihatem360/Makhabrash",
+      "codeStatus": "PRIVATE"
     },
     {
       "imeg": "images/EcommerceWebsite.webp",
