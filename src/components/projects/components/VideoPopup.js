@@ -15,7 +15,7 @@ function VideoPopup({ videoKey, project }) {
   return (
     <>
       <a className="btn" rel="noreferrer" onClick={handleShow}>
-        <span>Vedio</span>
+        <span>Video</span>
         {project.loomVideo ? (
           <SiLoom
             className="me-2"
