@@ -26,6 +26,24 @@
       "codeStatus": "PRIVATE"
     },
     {
+      "imeg": "images/finalFawriElmaliiik_cover.png",
+      "title": "فوري الماليك",
+      "description": "هذا المشروع هو نظام متكامل لإدارة العملاء مخصص لمكاتب توكيل فوري، تم تطويره باستخدام تقنيات حديثة لضمان الأداء العالي وسهولة الاستخدام. يهدف النظام إلى تبسيط وتحسين عملية إدارة العملاء، مما يسمح بإضافة، حذف، تعديل، والبحث عن العملاء بكفاءة وسهولة.",
+      "technology": [
+        "ReactJs",
+        "Redux",
+        "material-ui",
+        "Api",
+        "Firebase",
+        "NodeJs"
+      ],
+      "demo": "",
+      "github": "",
+      "video": "https://youtu.be/Zw9_UgIOrGg",
+      "videoKey": "Zw9_UgIOrGg",
+      "codeStatus": "PRIVATE"
+    },
+    {
       "imeg": "images/makhabrash.png",
       "title": "Makhabrash",
       "description": "(مخبارش) هو تطبيق ويب يتيح للمستخدمين إرسال رسائل إلى أي شخص بشكل مجهول. تم تصميمه باستخدام React للواجهة الأمامية وFirebase لخدمات الواجهة الخلفية.",

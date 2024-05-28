@@ -7,7 +7,7 @@
         "A software engineer with a strong focus on React and Next.js ⚛️.",
         "Passionate about creating visually stunning user interfaces using HTML, CSS, and JavaScript 💻.",
         "Let's collaborate and craft exceptional web experiences together! 🌟"
-      ],      
+      ],
       "cv": "https://drive.google.com/file/d/1dU6upNzlpnAvgxSFynd2X6sij8cemv8V/view?usp=share_link",
       "footer": "images/footer.jpeg"
     }
@@ -24,7 +24,27 @@
       "video": "https://youtu.be/BDsHi7dYvxc",
       "videoKey": "BDsHi7dYvxc",
       "codeStatus": "PRIVATE"
-    },{
+    },
+    {
+      "imeg": "images/finalFawriElmaliiik_cover.png",
+      "title": "Fawri Elmaliiik",
+      "description": "This project is a comprehensive system for managing customers tailored for express agency offices, developed using modern technologies to ensure high performance and user-friendliness. The system aims to simplify and improve the process of managing customers, allowing for easy and efficient addition, deletion, modification, and search of customers.",
+      "technology": [
+        "ReactJs",
+        "Redux",
+        "material-ui",
+        "Api",
+        "Firebase",
+        "NodeJs"
+      ],
+      "demo": "",
+      "github": "",
+      "video": "https://youtu.be/Zw9_UgIOrGg",
+      "videoKey": "Zw9_UgIOrGg",
+      "codeStatus": "PRIVATE"
+    },
+
+    {
       "imeg": "images/makhabrash.png",
       "title": "Makhabrash",
       "description": "(Makhabrash) is a web application that allows users to send messages to anyone anonymously. It is built using React for the frontend and Firebase for backend services.",
@@ -42,7 +62,8 @@
       "video": "https://youtu.be/GBpBnKl0Rr8",
       "videoKey": "GBpBnKl0Rr8",
       "codeStatus": "PRIVATE"
-    },{
+    },
+    {
       "imeg": "images/attendance recording.jpg",
       "title": "Lecture management and attendance recording system",
       "technology": ["ReactJs", "Material-ui", "Firebase"],
@@ -51,16 +72,22 @@
       "video": "https://youtu.be/12NFx9-F-IU",
       "videoKey": "12NFx9-F-IU",
       "codeStatus": "PRIVATE"
-    },{
-      
+    },
+    {
       "imeg": "images/pdfEcommerce.png",
       "title": "Preisliste-ecommerce (Full Stack)",
-      "technology": ["ReactJs", "material-ui", "nodeJs", "expressJs", "firebase"],
+      "technology": [
+        "ReactJs",
+        "material-ui",
+        "nodeJs",
+        "expressJs",
+        "firebase"
+      ],
       "demo": "",
       "github": "",
       "video": "https://youtu.be/lCVyxbbBXVM",
       "videoKey": "lCVyxbbBXVM"
-    },  
+    },
     {
       "imeg": "images/Dr. Mayada Salah.png",
       "title": "Dr. Mayada Salah",
@@ -68,15 +95,16 @@
       "demo": "https://alihatem360.github.io/basmatalnarjis/",
       "github": "https://github.com/alihatem360/basmatalnarjis.git",
       "codeStatus": "PRIVATE",
-      "loomVideo" : "https://www.loom.com/share/c17e174a3721453bbfb77ce2911fa553?sid=cb9b92d1-0401-4cdf-90c1-3be5b8342e5d"
-    },{
+      "loomVideo": "https://www.loom.com/share/c17e174a3721453bbfb77ce2911fa553?sid=cb9b92d1-0401-4cdf-90c1-3be5b8342e5d"
+    },
+    {
       "imeg": "images/pest-sweepy Dashboard.png",
       "title": "pest-sweepy Dashboard",
       "technology": ["ReactJs", "Redux", "material-ui", "Api"],
       "demo": "https://nifty-tendency.surge.sh/",
       "github": "https://github.com/alihatem360/pest-sweepy-dashboard.git",
       "codeStatus": "PRIVATE",
-      "loomVideo" : "https://www.loom.com/share/c701533416d94618a1bcdafa8713a405?sid=b71a4010-c8aa-4f27-a617-2a123dbad16a"
+      "loomVideo": "https://www.loom.com/share/c701533416d94618a1bcdafa8713a405?sid=b71a4010-c8aa-4f27-a617-2a123dbad16a"
     },
     {
       "imeg": "images/mohammed-al-huwaila.png",
@@ -110,7 +138,8 @@
       "demo": "https://abdullah-mutlaq-awad-al-mutairi.vercel.app/",
       "github": "https://github.com/alihatem360/abdullah_mutlaq_awad_al-mutairi",
       "codeStatus": "PRIVATE"
-    },{
+    },
+    {
       "imeg": "images/CalorieBot.jpg",
       "title": "Calorie Bot",
       "technology": ["NodeJs", "ExpressJs", "TelegramBotApi", "NutritionixApi"],
@@ -129,7 +158,6 @@
       "github": "https://github.com/alihatem360/laptop_store.git",
       "codeStatus": "PRIVATE",
       "description": "The Laptop Sales Project is a web application built using React.js and Material-UI, designed to streamline the process of selling laptops. It enables selling individuals to fill out a contract form and print the contract using Microsoft Print. This project simplifies the creation of laptop sales contracts.💻📝🖨️"
-
     },
 
     {
