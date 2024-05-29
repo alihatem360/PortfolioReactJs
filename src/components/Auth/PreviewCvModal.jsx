@@ -25,7 +25,7 @@ function PreviewCvModal() {
 
         <Modal.Body className="login__modal__container">
           <iframe
-            src="https://drive.google.com/file/d/1ltgOltH7w5Ja3Ks-Li6iqIja8QT8UigD/preview"
+            src="https://drive.google.com/file/d/16dErkGdVQ3KYI61fOjozsfKfx8KU0FyY/preview"
             allow="autoplay"
             width="100%"
             height="100%"
