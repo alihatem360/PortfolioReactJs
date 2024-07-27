@@ -46,7 +46,7 @@ function index({ gproject }) {
                   )}
                 </p>
               }
-              <div className="card-buttons w-100">
+              <div className="card-buttons w-100 justify-content-start gap-5">
                 {gproject === undefined ||
                 gproject.github === undefined ? null : (
                   <a
