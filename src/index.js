@@ -17,6 +17,7 @@ root.render(
     <BrowserRouter>
       <Provider store={store}>
         <App />
+        <SpeedInsights />
       </Provider>
     </BrowserRouter>
   </StrictMode>
