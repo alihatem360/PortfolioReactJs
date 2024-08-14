@@ -9,7 +9,7 @@ import store from "./store/index";
 import { BrowserRouter } from "react-router-dom";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-
+import { SpeedInsights } from "@vercel/speed-insights/react";
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 root.render(
