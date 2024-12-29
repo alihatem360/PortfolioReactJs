@@ -6,6 +6,8 @@ import YoutubeVideo from "./YoutubeVideo";
 import LoomVideo from "./LoomVideo";
 import { SiLoom } from "react-icons/si";
 import { FaYoutube } from "react-icons/fa";
+import { IoClose } from "react-icons/io5";
+
 function VideoPopup({ videoKey, project }) {
   const [show, setShow] = useState(false);
 
@@ -14,19 +16,8 @@ function VideoPopup({ videoKey, project }) {
 
   return (
     <>
-      <a className="btn" rel="noreferrer" onClick={handleShow}>
-        <span>Video</span>
-        {project.loomVideo ? (
-          <SiLoom
-            className="me-2"
-            style={{ fontSize: "1.5rem", margin: "-5px 0 0 0.5rem " }}
-          />
-        ) : (
-          <FaYoutube
-            className="me-2"
-            style={{ fontSize: "1.5rem", margin: "-5px 0 0 0.5rem " }}
-          />
-        )}
+      <a className="btn" onClick={handleShow}>
+        {project.loomVideo ? <SiLoom /> : <FaYoutube />}
       </a>
 
       <Modal
@@ -43,13 +34,10 @@ function VideoPopup({ videoKey, project }) {
           <Button
             variant="secondary"
             onClick={handleClose}
-            className="btn btn-danger p-2 "
+            className="btn btn-danger p-2"
             style={{ zIndex: "999" }}
           >
-            <i
-              class="fa-solid fa-xmark"
-              style={{ fontSize: "2rem", color: "white" }}
-            ></i>
+            <IoClose size={32} color="white" />
           </Button>
         </div>
         {project.loomVideo ? <LoomVideo videoUrl={project.loomVideo} /> : null}

@@ -10,6 +10,9 @@ import { BrowserRouter } from "react-router-dom";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 root.render(
@@ -22,3 +25,9 @@ root.render(
     </BrowserRouter>
   </StrictMode>
 );
+
+AOS.init({
+  duration: 1000,
+  once: true,
+  offset: 100,
+});

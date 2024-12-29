@@ -1,6 +1,8 @@
 import React from "react";
+import { FaRocket, FaGithub, FaGlobe, FaPlay } from "react-icons/fa";
 import "./style.css";
-function index({ gproject }) {
+
+function Gproject({ gproject }) {
   const getVideoId = (url) => {
     const regExp =
       /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
@@ -8,79 +10,67 @@ function index({ gproject }) {
 
     return match && match[2].length === 11 ? match[2] : null;
   };
-  // console.log(gproject, "gproject in gproject card");
+
+  if (!gproject) return null;
+
+  const { title, video, description, github, demo, codeStatus } = gproject;
+
+  const renderButton = (link, text, icon) => {
+    if (!link) return null;
+
+    return (
+      <a
+        className={
+          text === "GitHub" && codeStatus === "PRIVATE" ? "btn disabled" : "btn"
+        }
+        href={link}
+        target="_blank"
+        rel="noreferrer"
+      >
+        <span>{text}</span> {icon}
+      </a>
+    );
+  };
+
   return (
-    <div className="gproject_card_container">
+    <div className="gproject_card_container" data-aos="fade-up">
       <div className="gproject_card">
-        <h3>
-          <i className="fa-solid fa-rocket"></i>{" "}
-          {gproject === undefined || gproject.title === ""
-            ? null
-            : gproject.title}
+        <h3 data-aos="fade-right" data-aos-delay="200">
+          <FaRocket />
+          {title || ""}
         </h3>
         <div className="gproject_card_body">
-          <div className="gproject_card_video" data-aos="fade-up">
-            <iframe
-              src={
-                gproject === undefined || gproject.video === ""
-                  ? null
-                  : `https://www.youtube.com/embed/${getVideoId(
-                      gproject.video
-                    )}`
-              }
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen="true"
-              title="YouTube video player"
-              width="100%"
-            ></iframe>
-          </div>
-          <div className="gproject_card_content" data-aos="fade-up">
-            {
-              <p>
-                {gproject === undefined || gproject.description === "" ? (
-                  <p>no description</p>
-                ) : (
-                  gproject.description
-                )}
-              </p>
-            }
-            <div className="card-buttons w-100 justify-content-start gap-5">
-              {gproject === undefined ||
-              gproject.github === undefined ? null : (
-                <a
-                  className={
-                    gproject.codeStatus === "PRIVATE" ? "btn disabled" : "btn"
-                  }
-                  href={gproject.github}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span>GitHub</span> <i className="fa-brands fa-github"></i>
-                </a>
-              )}
-
-              {gproject === undefined || gproject.demo === undefined ? null : (
-                <a
-                  className="btn"
-                  href={gproject.demo}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span>Demo</span> <i className="fa-solid fa-globe"></i>
-                </a>
-              )}
-
-              {gproject === undefined || gproject.video === undefined ? null : (
-                <a
-                  className="btn"
-                  href={gproject.video}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span>video</span> <i className="fa-solid fa-play"></i>
-                </a>
-              )}
+          {video && (
+            <div
+              className="gproject_card_video"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <iframe
+                src={`https://www.youtube.com/embed/${getVideoId(video)}`}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="YouTube video player"
+                width="100%"
+                height="315"
+              />
+            </div>
+          )}
+          <div
+            className="gproject_card_content"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
+            <p>{description || "No description available"}</p>
+            <div
+              className="card-buttons w-100 justify-content-start gap-5"
+              data-aos="fade-up"
+              data-aos-delay="800"
+            >
+              {renderButton(github, "GitHub", <FaGithub />)}
+              {renderButton(demo, "Demo", <FaGlobe />)}
+              {renderButton(video, "Video", <FaPlay />)}
             </div>
           </div>
         </div>
@@ -89,4 +79,4 @@ function index({ gproject }) {
   );
 }
 
-export default index;
+export default Gproject;

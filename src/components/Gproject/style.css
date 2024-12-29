@@ -22,6 +22,8 @@
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
 
   backdrop-filter: blur(15px);
+
+  transition: transform 0.3s ease-in-out;
 }
 
 @media (max-width: 768px) {
@@ -78,4 +80,25 @@
     font-size: 1.2rem;
     line-height: 20px;
   }
+}
+
+.gproject_card:hover {
+  transform: translateY(-5px);
+}
+
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.gproject_card h3 svg {
+  transition: transform 0.3s ease;
+}
+
+.gproject_card:hover h3 svg {
+  transform: rotate(45deg);
 }
