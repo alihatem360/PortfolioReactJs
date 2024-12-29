@@ -10,3 +10,87 @@
 .modal-header {
   border-bottom: 0px solid #e5e5e5 !important;
 }
+
+.filter-buttons {
+  position: sticky;
+  top: 20px;
+  padding: 15px;
+  background: rgba(26, 26, 26, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  margin-bottom: 30px;
+  z-index: 100;
+}
+
+.filter-buttons .btn {
+  transition: all 0.3s ease;
+  border-radius: 25px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 8px 20px;
+}
+
+.filter-buttons .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.filter-buttons .btn.active {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(255, 193, 7, 0.3);
+}
+
+.projects {
+  gap: 25px;
+}
+
+/* تحسين المظهر في الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .filter-buttons {
+    top: 10px;
+    padding: 10px;
+  }
+
+  .filter-buttons .btn {
+    padding: 6px 15px;
+    font-size: 14px;
+  }
+}
+
+.custom-offcanvas {
+  border-radius: 20px 0 0 20px;
+  border-right: 2px solid var(--warning-color);
+}
+
+.custom-offcanvas .offcanvas-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px;
+}
+
+.custom-offcanvas .offcanvas-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  background: linear-gradient(45deg, #fff, var(--warning-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-offcanvas .offcanvas-body {
+  padding: 20px;
+}
+
+.custom-offcanvas .badge {
+  transition: all 0.3s ease;
+}
+
+.custom-offcanvas .badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* تحسين المظهر في الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .custom-offcanvas {
+    width: 100% !important;
+  }
+}

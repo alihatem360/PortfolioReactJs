@@ -88,14 +88,10 @@ const Projects = () => {
             Clear
           </button>
         </div>
-        <div className="projects row pt-5">
+        <div className="projects">
           {filteredProjectsData && filteredProjectsData.length > 0 ? (
             filteredProjectsData.map((project, index) => {
-              return (
-                <div className="col-lg-4" key={index}>
-                  <PojectItem project={project} />
-                </div>
-              );
+              return <PojectItem project={project} key={index} />;
             })
           ) : (
             <LoaderCom />

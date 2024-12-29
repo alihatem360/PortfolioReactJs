@@ -1,42 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Almarai:wght@300;400;700;800&family=Amatic+SC:wght@400;700&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Chakra+Petch:ital,wght@0,300;0,500;0,700;1,400&family=El+Messiri:wght@400;500;600;700&family=Finlandica:ital,wght@0,400;0,600;0,700;1,500&family=Kufam:ital,wght@0,500;0,700;1,400;1,500;1,600;1,700;1,800&family=Nanum+Myeongjo:wght@400;700;800&family=Poppins:ital@0;1&family=Readex+Pro:wght@200;300;400;500;600;700&family=Tajawal:wght@400;500;700;800&family=Titillium+Web:ital,wght@0,200;0,400;1,200;1,300&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Cairo", sans-serif;
-  /* border: 1px solid red; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-/* :root {
-  --primary-color: #453c67;
-  --secondary-color: #ffb84c;
-} */
 
 :root {
-  --primary-color: #131313;
-  --secondary-color: #1e1e1e;
-  --tertiary-color: #3e3e3e;
-  --quaternary-color: #fafafa;
-  --danger-color: #bb2525;
-  --warning-color: #f0ad4e;
+  --primary-color: #0a0a0a;
+  --secondary-color: #1a1a1a;
+  --tertiary-color: #2a2a2a;
+  --quaternary-color: #ffffff;
+  --accent-color: #007bff;
+  --danger-color: #dc3545;
+  --warning-color: #ffc107;
+  --text-color: #ffffff;
+  --text-secondary: #a0a0a0;
+  --transition: all 0.3s ease-in-out;
 }
 
 body {
   background-color: var(--primary-color);
-  zoom: 1.1;
+  color: var(--text-color);
+  line-height: 1.6;
+  font-size: 16px;
 }
 
 .button1 {
-  color: #fff;
-  margin: 16px 0;
-  outline: none !important;
-  font-size: 18px;
-  padding: 9px;
-  /* background-color: #453c67; */
-  border-radius: 10px;
-  border: 1px solid #fff;
-  transition: all 0.5s ease-in-out;
-  background-color: rgba(255, 255, 255, 0.45);
-  box-shadow: 0 0 10px 1px rgba(249, 244, 244, 0.25);
+  color: var(--text-color);
+  margin: 1rem 0;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: 1px solid var(--quaternary-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  transition: var(--transition);
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -46,8 +49,9 @@ body {
 }
 
 .button1:hover {
-  background-color: #fff;
-  color: #453c67;
+  background-color: var(--quaternary-color);
+  color: var(--primary-color);
+  transform: translateY(-2px);
 }
 
 .button1:active,
@@ -64,9 +68,6 @@ body {
   font-size: 50px;
   font-weight: 900;
 }
-/* 
-  width: 100% for the lazy loading images to work properly
-*/
 
 .lazy-load-image-loaded {
   width: 100%;
@@ -76,26 +77,24 @@ input[type="text"],
 input[type="email"],
 input[type="password"] {
   width: 100%;
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid #111;
-  outline: none !important;
-  background-color: rgba(255, 255, 255, 0.45) !important;
-  box-shadow: 0 0 10px 1px rgba(249, 244, 244, 0.25) !important;
-  color: #fff;
-  font-size: 18px;
-  margin: 16px 0;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--tertiary-color);
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(5px);
+  color: var(--text-color);
+  font-size: 1rem;
+  margin: 1rem 0;
+  transition: var(--transition);
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus {
-  outline: none !important;
-  box-shadow: none !important;
-  border: 1px solid #111 !important;
+  border-color: var(--accent-color) !important;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25) !important;
 }
 
-/* Offcanvas style close button */
 .btn-close {
   z-index: 1;
   padding: 1.25rem 1rem;
@@ -110,7 +109,6 @@ input[type="password"]:focus {
   background-color: #fff !important;
 }
 
-/*  custom width for the offcanvas when it is in large screen */
 @media (min-width: 992px) {
   .custom-offcanvas {
     width: 550px !important;
@@ -118,11 +116,11 @@ input[type="password"]:focus {
 }
 
 .header-text {
-  padding: 2rem;
-  border-radius: 15px;
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  padding: 2.5rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 }
 
 .greeting {
@@ -137,15 +135,16 @@ input[type="password"]:focus {
 }
 
 .highlight {
-  display: inline-block;
   background: linear-gradient(
     120deg,
-    var(--highlight-color) 0%,
+    var(--accent-color) 0%,
     var(--secondary-color) 100%
   );
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 0 0.5rem;
+  position: relative;
 }
 
 .bio p {
@@ -159,7 +158,7 @@ input[type="password"]:focus {
   color: white;
   padding: 0.8rem 1.5rem;
   border-radius: 30px;
-  transition: all 0.3s ease;
+  transition: var(--transition);
 }
 
 .download-cv:hover {
@@ -169,9 +168,10 @@ input[type="password"]:focus {
 
 .header-img {
   position: relative;
-  border-radius: 30px;
+  border-radius: 20px;
   overflow: hidden;
-  transition: transform 0.3s ease;
+  transition: var(--transition);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .header-img.hover-effect:hover {
@@ -182,9 +182,9 @@ input[type="password"]:focus {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.5s ease;
+  transition: var(--transition);
 }
 
 .header-img:hover .profile-image {
-  transform: scale(1.05);
+  transform: scale(1.08);
 }
