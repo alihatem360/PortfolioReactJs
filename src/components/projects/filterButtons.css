@@ -1,0 +1,66 @@
+.filter-buttons-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.filter-btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  border: none;
+  background-color: var(--tertiary-color);
+  color: white;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.filter-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-btn.active {
+  background-color: var(--warning-color);
+  transform: translateY(-2px);
+}
+
+.clear-btn {
+  background-color: transparent !important;
+  border: 2px solid var(--warning-color) !important;
+  color: var(--warning-color) !important;
+}
+
+.clear-btn:hover {
+  background-color: var(--warning-color) !important;
+  color: white !important;
+}
+
+@media (max-width: 768px) {
+  .filter-buttons {
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .filter-buttons-container {
+    margin-bottom: 1rem;
+  }
+
+  .filter-btn {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
+}

@@ -18,7 +18,7 @@
   background: rgba(26, 26, 26, 0.8);
   backdrop-filter: blur(10px);
   border-radius: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
   z-index: 100;
 }
 
@@ -92,5 +92,28 @@
 @media (max-width: 768px) {
   .custom-offcanvas {
     width: 100% !important;
+  }
+}
+
+.filter-btn {
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .filter-btn {
+    font-size: 0.8rem !important;
+    padding: 6px 12px !important;
+  }
+
+  .filter-buttons {
+    gap: 0.5rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .filter-btn {
+    font-size: 0.7rem !important;
+    padding: 4px 8px !important;
   }
 }

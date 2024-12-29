@@ -62,19 +62,19 @@ const Projects = () => {
           {techSkills.map((skill, index) => {
             return (
               <button
-                className={`btn btn-lg ${
+                className={`btn filter-btn ${
                   filteringItems.includes(skill) ? "active" : ""
-                }
-                `}
+                }`}
                 key={index}
                 onClick={() => handelFilterClick(skill)}
                 style={{
                   zIndex: "1",
-
                   backgroundColor: filteringItems.includes(skill)
                     ? "var(--warning-color)"
                     : "var(--tertiary-color)",
                   color: "white",
+                  fontSize: "0.9rem",
+                  padding: "8px 16px",
                 }}
               >
                 {skill}
@@ -82,7 +82,7 @@ const Projects = () => {
             );
           })}
           <button
-            className="btn btn-outline-warning btn-lg active"
+            className="btn btn-outline-warning filter-btn"
             onClick={() => setFilteringItems([])}
           >
             Clear
