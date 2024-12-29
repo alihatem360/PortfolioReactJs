@@ -30,7 +30,7 @@
 
 1. استنسخ المستودع:
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/alihatem360/PortfolioReactJs.git
    ```
 
 2. انتقل إلى مجلد المشروع:
@@ -73,6 +73,5 @@
 
 ## 📞 تواصل معي
 
-- البريد الإلكتروني: your.email@example.com
-- LinkedIn: [صفحتي على LinkedIn](https://linkedin.com/in/your-profile)
-- Twitter: [@your_handle](https://twitter.com/your_handle)
+- LinkedIn: [صفحتي على LinkedIn](https://www.linkedin.com/in/aliihatem-753025203/)
+- Twitter: [@your_handle](https://twitter.com/AliHate21071474)
