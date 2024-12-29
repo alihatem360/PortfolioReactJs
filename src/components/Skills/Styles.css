@@ -24,9 +24,30 @@
 .skills {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 20px 0;
+}
+
+.skills-track {
+  display: flex;
+  animation: scroll 30s linear infinite;
+  white-space: nowrap;
+}
+
+.skills-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .skill-icon {
@@ -48,5 +69,6 @@
 }
 
 .iconbox {
-  padding: 10px;
+  padding: 10px 20px;
+  flex-shrink: 0;
 }

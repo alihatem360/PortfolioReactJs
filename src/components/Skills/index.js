@@ -87,16 +87,18 @@ const SkillsComponent = () => {
         <p>My technical level</p>
       </div>
       <div className="skills">
-        {skills.map((skill, index) => {
-          return (
-            <div className="iconbox" key={index}>
-              <div className="skill-icon">
-                <skill.icon />
+        <div className="skills-track">
+          {[...skills, ...skills].map((skill, index) => {
+            return (
+              <div className="iconbox" key={index}>
+                <div className="skill-icon">
+                  <skill.icon />
+                </div>
+                <p>{skill.name}</p>
               </div>
-              <p>{skill.name}</p>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </div>
   );

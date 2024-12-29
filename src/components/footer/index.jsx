@@ -7,12 +7,17 @@ const Footer = () => {
   const { t, i18n } = useTranslation();
   const { getProjects, getSocials, getAboutme } = GetAllData();
   const [aboutmeData, setAboutmeData] = useState([]);
+  const [socialsData, setSocialsData] = useState([]);
 
   useEffect(() => {
     getAboutme().then((data) => {
       setAboutmeData(data[0][0]);
     });
-  }, i18n.language);
+
+    getSocials().then((data) => {
+      setSocialsData(data);
+    });
+  }, [i18n.language]);
 
   return (
     <div className="position-relative">
@@ -28,7 +33,7 @@ const Footer = () => {
                   <h2>{t("footer.footerName")} </h2>
                   <h6>{t("footer.footerTitle")}</h6>
                   <div className="footer__Sosials__icons">
-                    <SocialMedia />
+                    <SocialMedia socials={socialsData} />
                   </div>
                 </div>
               </div>
