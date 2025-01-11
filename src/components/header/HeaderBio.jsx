@@ -4,6 +4,7 @@ import SocialMedia from "../SocialMedia/index";
 import CV from "../../assets/Ali_Hatem_Ramadan_Resume.pdf";
 import { handleDownloadCv } from "../../helpers/index.js";
 import PreviewCvModal from "../Auth/PreviewCvModal";
+import { FaFileDownload } from "react-icons/fa";
 const HeaderBio = ({ aboutmeData }) => {
   const { t, i18n } = useTranslation();
   return (
@@ -30,7 +31,10 @@ const HeaderBio = ({ aboutmeData }) => {
             className="btn"
             onClick={() => handleDownloadCv(CV, "Ali_Hatem_Ramadan_Resume")}
           >
-            CV <i class="fa-solid fa-file-arrow-down"></i>
+            CV{" "}
+            <FaFileDownload
+              style={{ fontSize: "1.5rem", marginBottom: "0.2rem" }}
+            />
           </button>
           <PreviewCvModal />
         </div>
