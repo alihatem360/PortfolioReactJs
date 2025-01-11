@@ -30,17 +30,13 @@ function App() {
 
   return (
     <div className="App">
-      {loading ? (
-        <AnimationLoader />
-      ) : (
-        <Fragment>
-          <Nav />
-          <Routes>
-            <Route path="projects" element={<Projects />} />
-            <Route path="/" element={<HomePage />} />
-          </Routes>
-        </Fragment>
-      )}
+      <Fragment>
+        <Nav />
+        <Routes>
+          <Route path="projects" element={<Projects />} />
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+      </Fragment>
     </div>
   );
 }
