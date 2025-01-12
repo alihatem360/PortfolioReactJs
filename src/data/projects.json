@@ -26,6 +26,17 @@
       "codeStatus": "PRIVATE"
     },
     {
+      "imeg": "images/alshaatir-academy.png",
+      "title": "Alshaatir Academy",
+      "description": "Al Shater Platform is an innovative educational application that helps students improve their skills and organize their time through interactive lessons, tests, and customized tools. Enjoy a smart and easy learning experience anytime, anywhere!.",
+      "technology": ["NextJs", "Tailwind"],
+      "demo": "https://alshaatir-academy.vercel.app/",
+      "github": "",
+      "video": "https://youtu.be/40jQddkcsg8",
+      "videoKey": "40jQddkcsg8",
+      "codeStatus": "PRIVATE"
+    },
+    {
       "imeg": "images/finalFawriElmaliiik_cover.png",
       "title": "Fawri Elmaliiik",
       "description": "This project is a comprehensive system for managing customers tailored for express agency offices, developed using modern technologies to ensure high performance and user-friendliness. The system aims to simplify and improve the process of managing customers, allowing for easy and efficient addition, deletion, modification, and search of customers.",

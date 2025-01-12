@@ -26,6 +26,17 @@
       "codeStatus": "PRIVATE"
     },
     {
+      "imeg": "images/alshaatir-academy.png",
+      "title": "منصة الشاطر التعليمية",
+      "description": "منصة الشاطر هي تطبيق تعليمي مبتكر يساعد الطلاب على تحسين مهاراتهم وتنظيم وقتهم من خلال دروس تفاعلية، اختبارات، وأدوات مخصصة.",
+      "technology": ["NextJs", "Tailwind"],
+      "demo": "https://alshaatir-academy.vercel.app/",
+      "github": "",
+      "video": "https://youtu.be/40jQddkcsg8",
+      "videoKey": "40jQddkcsg8",
+      "codeStatus": "PRIVATE"
+    },
+    {
       "imeg": "images/finalFawriElmaliiik_cover.png",
       "title": "فوري الماليك",
       "description": "هذا المشروع هو نظام متكامل لإدارة العملاء مخصص لمكاتب توكيل فوري، تم تطويره باستخدام تقنيات حديثة لضمان الأداء العالي وسهولة الاستخدام. يهدف النظام إلى تبسيط وتحسين عملية إدارة العملاء، مما يسمح بإضافة، حذف، تعديل، والبحث عن العملاء بكفاءة وسهولة.",
